@@ -50,6 +50,13 @@ chflags nohidden ~/Library
 #Store screenshots in subfolder in Dropbox
 mkdir ~/Dropbox/Screenshots
 defaults write com.apple.screencapture location ~/Desktop/Screenshots
+
+#Delete Recent Items for VLC:
+defaults delete org.videolan.vlc.LSSharedFileList RecentDocuments
+
+#Disable listing recent items for VLC in the future:
+defaults write org.videolan.vlc NSRecentDocumentsLimit 0
+defaults write org.videolan.vlc.LSSharedFileList RecentDocuments -dict-add MaxAmount 0
 ```
 
 # Sublime Text
