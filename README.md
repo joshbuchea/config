@@ -19,22 +19,22 @@ The software selected is software that is "tried and true" --- software I need a
 ### Install from Third-Party Websites
 
 * Browsers
-	* Chrome (installed via Cask)
-	* [Firefox](http://firefox.com)
-	* Opera (installed via App Store)
+  * Chrome (installed via Cask)
+  * [Firefox](http://firefox.com)
+  * Opera (installed via App Store)
 
 * Development
   * [Atom](https://atom.io/download/mac)
-	* [GitHub Desktop](http://mac.github.com)
+  * [GitHub Desktop](http://mac.github.com)
   * [Sip](https://itunes.apple.com/us/app/sip/id507257563?mt=12)
   * [SourceTree](https://www.sourcetreeapp.com/download)
-	* [Sublime Text 3](http://www.sublimetext.com/3)
+  * [Sublime Text 3](http://www.sublimetext.com/3)
 
 * Utilities
-	* [Dropbox](https://www.dropbox.com/install2)
-	* [Skype](http://www.skype.com/en/download-skype/skype-for-computer/)
-	* [Spotify](https://www.spotify.com/us/download/mac/)
-	* [XtraFinder](https://www.trankynam.com/xtrafinder/)
+  * [Dropbox](https://www.dropbox.com/install2)
+  * [Skype](http://www.skype.com/en/download-skype/skype-for-computer/)
+  * [Spotify](https://www.spotify.com/us/download/mac/)
+  * [XtraFinder](https://www.trankynam.com/xtrafinder/)
 
 # Xcode Command Line Tools
 
@@ -71,16 +71,16 @@ Settings
 
 ```json
 {
-	"bold_folder_labels": true,
-	"close_windows_when_empty": true,
-	"color_scheme": "Packages/User/SublimeLinter/Flatland Dark (SL).tmTheme",
-	"fade_fold_buttons": false,
-	"font_size": 12,
-	"highlight_line": true,
-	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	]
+  "bold_folder_labels": true,
+  "close_windows_when_empty": true,
+  "color_scheme": "Packages/User/SublimeLinter/Flatland Dark (SL).tmTheme",
+  "fade_fold_buttons": false,
+  "font_size": 12,
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "ignored_packages":
+  [
+    "Vintage"
+  ]
 }
 ```
