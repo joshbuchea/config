@@ -12,6 +12,7 @@ The software selected is software that is "tried and true" --- software I need a
 
 * [1Password](https://itunes.apple.com/app/1password-password-manager/id443987910?mt=12)
 * [Fantastical](https://itunes.apple.com/app/fantastical-2-calendar-reminders/id975937182?mt=12)
+* [Sip](https://itunes.apple.com/us/app/sip/id507257563?mt=12)
 * [Slack](https://itunes.apple.com/app/slack/id803453959?mt=12)
 * [The Unarchiver](https://itunes.apple.com/app/the-unarchiver/id425424353?mt=12)
 * [Xcode](https://itunes.apple.com/app/xcode/id497799835?mt=12)
@@ -26,7 +27,6 @@ The software selected is software that is "tried and true" --- software I need a
 * Development
   * [Atom](https://atom.io/download/mac)
   * [GitHub Desktop](http://mac.github.com)
-  * [Sip](https://itunes.apple.com/us/app/sip/id507257563?mt=12)
   * [SourceTree](https://www.sourcetreeapp.com/download)
   * [Sublime Text 3](http://www.sublimetext.com/3)
 
