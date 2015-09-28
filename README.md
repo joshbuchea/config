@@ -24,7 +24,10 @@ The software selected is software that is "tried and true" --- software I need a
 	* Opera (installed via App Store)
 
 * Development
+  * [Atom](https://atom.io/download/mac)
 	* [GitHub Desktop](http://mac.github.com)
+  * [Sip](https://itunes.apple.com/us/app/sip/id507257563?mt=12)
+  * [SourceTree](https://www.sourcetreeapp.com/download)
 	* [Sublime Text 3](http://www.sublimetext.com/3)
 
 * Utilities
