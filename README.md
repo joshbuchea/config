@@ -27,6 +27,7 @@ The software selected is software that is "tried and true" --- software I need a
 * Development
   * [Atom](https://atom.io/download/mac)
   * [GitHub Desktop](http://mac.github.com)
+  * [MAMP](https://www.mamp.info/en/downloads/)
   * [SourceTree](https://www.sourcetreeapp.com/download)
   * [Sublime Text 3](http://www.sublimetext.com/3)
 
