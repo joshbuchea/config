@@ -33,6 +33,7 @@ The software selected is software that is "tried and true" --- software I need a
 
 * Utilities
   * [Dropbox](https://www.dropbox.com/install2)
+  * [FileZilla](https://filezilla-project.org/download.php?type=client)
   * [Skype](http://www.skype.com/en/download-skype/skype-for-computer/)
   * [Spotify](https://www.spotify.com/us/download/mac/)
   * [XtraFinder](https://www.trankynam.com/xtrafinder/)
