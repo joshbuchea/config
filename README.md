@@ -29,6 +29,7 @@ The software selected is software that is "tried and true" --- software I need a
   * [GitHub Desktop](http://mac.github.com)
   * [ImageOptim](https://imageoptim.com/ImageOptim.tbz2)
   * [MAMP](https://www.mamp.info/en/downloads/)
+  * [Postman](https://www.getpostman.com)
   * [Sequel Pro](http://www.sequelpro.com/download)
   * [SourceTree](https://www.sourcetreeapp.com/download)
   * [Sublime Text 3](http://www.sublimetext.com/3)
