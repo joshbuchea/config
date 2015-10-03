@@ -27,6 +27,7 @@ The software selected is software that is "tried and true" --- software I need a
 * Development
   * [Atom](https://atom.io/download/mac)
   * [GitHub Desktop](http://mac.github.com)
+  * [ImageOptim](https://imageoptim.com/ImageOptim.tbz2)
   * [MAMP](https://www.mamp.info/en/downloads/)
   * [Sequel Pro](http://www.sequelpro.com/download)
   * [SourceTree](https://www.sourcetreeapp.com/download)
