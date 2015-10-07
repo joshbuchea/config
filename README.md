@@ -33,6 +33,7 @@ The software selected is software that is "tried and true" --- software I need a
   * [Sequel Pro](http://www.sequelpro.com/download)
   * [SourceTree](https://www.sourcetreeapp.com/download)
   * [Sublime Text 3](http://www.sublimetext.com/3)
+  * [Unity](https://unity3d.com/get-unity)
 
 * Utilities
   * [Dropbox](https://www.dropbox.com/install2)
