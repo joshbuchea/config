@@ -42,11 +42,11 @@ The software selected is software that is "tried and true" --- software I need a
   * [Spotify](https://www.spotify.com/us/download/mac/)
   * [XtraFinder](https://www.trankynam.com/xtrafinder/)
 
-# Xcode Command Line Tools
+## Xcode Command Line Tools
 
 `Xcode > Preferences > Downloads > Command Line Tools`
 
-# OS X Preferences
+## OS X Preferences
 
 ```bash
 
@@ -68,10 +68,9 @@ defaults write org.videolan.vlc NSRecentDocumentsLimit 0
 defaults write org.videolan.vlc.LSSharedFileList RecentDocuments -dict-add MaxAmount 0
 ```
 
-# Sublime Text
+## Sublime Text
 
-Settings
---------
+### Settings
 
 **Sublime Text > Preferences > Settings - User**
 
@@ -91,7 +90,7 @@ Settings
 }
 ```
 
-# Dropbox
+## Dropbox
 
-## Use black & white menu bar icons
+### Use black & white menu bar icons
 `Preferences > General > Use black and white menu bar icons`
