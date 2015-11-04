@@ -43,7 +43,7 @@ The software selected is software that is "tried and true" --- software I need a
   * [VLC media player](http://www.videolan.org/vlc/download-macosx.html)
   * [XtraFinder](https://www.trankynam.com/xtrafinder/)
 
-## Xcode Command Line Tools
+### Xcode Command Line Tools
 
 `Xcode > Preferences > Downloads > Command Line Tools`
 
