@@ -73,23 +73,7 @@ defaults write org.videolan.vlc.LSSharedFileList RecentDocuments -dict-add MaxAm
 
 ### Settings
 
-**Sublime Text > Preferences > Settings - User**
-
-```json
-{
-  "bold_folder_labels": true,
-  "close_windows_when_empty": true,
-  "color_scheme": "Packages/User/SublimeLinter/Flatland Dark (SL).tmTheme",
-  "fade_fold_buttons": false,
-  "font_size": 12,
-  "highlight_line": true,
-  "highlight_modified_tabs": true,
-  "ignored_packages":
-  [
-    "Vintage"
-  ]
-}
-```
+* Load user settings from [`Preferences.sublime-settings`](/Preferences.sublime-settings)
 
 ## BBEdit
 
