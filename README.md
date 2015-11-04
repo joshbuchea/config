@@ -90,3 +90,8 @@ Settings
   ]
 }
 ```
+
+# Dropbox
+
+## Use black & white menu bar icons
+`Preferences > General > Use black and white menu bar icons`
