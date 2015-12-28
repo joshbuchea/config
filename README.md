@@ -48,11 +48,14 @@ The software selected is software that is "tried and true" --- software I need a
 
 ```bash
 
+# Show hidden files in Finder
+defaults write com.apple.finder AppleShowAllFiles YES
+
+# Show the ~/Library folder in Finder
+chflags nohidden ~/Library
+
 # Add a context menu item for showing the Web Inspector in web views
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
-
-# Show the ~/Library folder
-chflags nohidden ~/Library
 
 # Store screenshots in subfolder in Dropbox
 mkdir ~/Dropbox/Screenshots
