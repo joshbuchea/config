@@ -40,6 +40,7 @@ The software selected is software that is "tried and true" --- software I need a
   * [FileZilla](https://filezilla-project.org/download.php?type=client)
   * [Skype](http://www.skype.com/en/download-skype/skype-for-computer/)
   * [Spotify](https://www.spotify.com/us/download/mac/)
+  * [SuperDuper!](http://www.shirt-pocket.com/downloads/SuperDuper!.dmg)
   * [VLC media player](http://www.videolan.org/vlc/download-macosx.html)
   * [XtraFinder](https://www.trankynam.com/xtrafinder/)
 
