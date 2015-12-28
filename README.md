@@ -26,6 +26,7 @@ The software selected is software that is "tried and true" --- software I need a
   * Opera (installed via App Store)
 
 * Development
+  * [Anvil](http://anvilformac.com/)
   * [Atom](https://atom.io/download/mac)
   * [ImageOptim](https://imageoptim.com/ImageOptim.tbz2)
   * [MAMP](https://www.mamp.info/en/downloads/)
@@ -36,6 +37,7 @@ The software selected is software that is "tried and true" --- software I need a
   * [Unity](https://unity3d.com/get-unity)
 
 * Utilities
+  * [Audacity](http://audacityteam.org/)
   * [Dropbox](https://www.dropbox.com/install2)
   * [FileZilla](https://filezilla-project.org/download.php?type=client)
   * [Skype](http://www.skype.com/en/download-skype/skype-for-computer/)
