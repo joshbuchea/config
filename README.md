@@ -79,9 +79,3 @@ defaults write org.videolan.vlc.LSSharedFileList RecentDocuments -dict-add MaxAm
 `Preferences > Keyboard > "Home" and "End" key behavior > Move cursor to beginning and end of current line`
 
 `Preferences > Keyboard > tab highlighted block of code`
-
-## Dropbox
-
-### Use black & white menu bar icons
-
-`Preferences > General > Use black and white menu bar icons`
