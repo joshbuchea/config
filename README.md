@@ -21,7 +21,7 @@ The software selected is software that is "tried and true" --- software I need a
 ### Install from Third-Party Websites
 
 * Browsers
-  * Chrome (installed via Cask)
+  * [Chrome](https://www.google.com/chrome/browser/desktop/) (installed via Cask)
   * [Firefox](http://firefox.com)
   * Opera (installed via App Store)
 
