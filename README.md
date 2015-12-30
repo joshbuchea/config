@@ -4,6 +4,21 @@
 
 You are encouraged to fork this and modify it to your heart's content to match your own needs. **Please be sure to change your `.gitconfig` name and email address!**
 
+## Dev Config
+
+* Install [Xcode](https://itunes.apple.com/app/xcode/id497799835?mt=12) from the App Store
+* Install [Homebrew](http://brew.sh/) (ruby command line command install method) `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+* Install [rvm](https://rvm.io/rvm/install#quick-guided-install) (option #2 - Install RVM stable with ruby)
+  * Install [GnuPG](https://www.gnupg.org/) `brew install gnupg gnupg2`
+  * Install [rvm](https://rvm.io/rvm/install#quick-guided-install) stable with ruby: `\curl -sSL https://get.rvm.io | bash -s stable --ruby`
+* Install [nvm](https://github.com/creationix/nvm#user-content-install-script)
+
+* Install [React Native](https://facebook.github.io/react-native/docs/getting-started.html)
+* [React Native Playground CLI](https://github.com/rnplay/rnplay-cli) `npm install -g rnplay-cli`
+
+* Install [Ionic](http://ionicframework.com/getting-started/) & [Cordova](https://cordova.apache.org/#getstarted) `npm install -g cordova ionic`
+* Install [Composer](https://getcomposer.org/doc/00-intro.md#globally)
+
 ## Install Software
 
 The software selected is software that is "tried and true" --- software I need after any fresh install. I often install other software not listed here, but is handled in a case-by-case basis.
@@ -16,14 +31,13 @@ The software selected is software that is "tried and true" --- software I need a
 * [Sip](https://itunes.apple.com/us/app/sip/id507257563?mt=12)
 * [Slack](https://itunes.apple.com/app/slack/id803453959?mt=12)
 * [The Unarchiver](https://itunes.apple.com/app/the-unarchiver/id425424353?mt=12)
-* [Xcode](https://itunes.apple.com/app/xcode/id497799835?mt=12)
 
 ### Install from Third-Party Websites
 
 * Browsers
-  * [Chrome](https://www.google.com/chrome/browser/desktop/) (installed via Cask)
+  * [Chrome](https://www.google.com/chrome/browser/desktop/)
   * [Firefox](http://firefox.com)
-  * Opera (installed via App Store)
+  * [Opera](http://www.opera.com/)
 
 * Development
   * [Anvil](http://anvilformac.com/)
@@ -61,7 +75,7 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
 # Store screenshots in subfolder in Dropbox
 mkdir ~/Dropbox/Screenshots
-defaults write com.apple.screencapture location ~/Desktop/Screenshots
+defaults write com.apple.screencapture location ~/Dropbox/Screenshots
 
 # Delete Recent Items for VLC (will fail if no recent items):
 defaults delete org.videolan.vlc.LSSharedFileList RecentDocuments
@@ -73,8 +87,12 @@ defaults write org.videolan.vlc.LSSharedFileList RecentDocuments -dict-add MaxAm
 
 ## Sublime Text
 
-### Settings
-
+* [Install Package Control](https://packagecontrol.io/installation)
+* Install Packages
+  * [Oceanic Next Color Scheme](https://github.com/voronianski/oceanic-next-color-scheme)
+  * [GitGutter](https://github.com/jisaacks/GitGutter)
+  * [HTML-CSS-JS Prettify](https://github.com/victorporof/Sublime-HTMLPrettify)
+  * [Sass](https://packagecontrol.io/packages/Sass)
 * Load user settings from [`Preferences.sublime-settings`](/Preferences.sublime-settings)
 
 ## BBEdit
