@@ -88,7 +88,7 @@ defaults write org.videolan.vlc.LSSharedFileList RecentDocuments -dict-add MaxAm
 ## Sublime Text
 
 * [Install Package Control](https://packagecontrol.io/installation)
-* Install Packages
+* Install Packages (Command-Shift-P)
   * [Oceanic Next Color Scheme](https://github.com/voronianski/oceanic-next-color-scheme)
   * [GitGutter](https://github.com/jisaacks/GitGutter)
   * [HTML-CSS-JS Prettify](https://github.com/victorporof/Sublime-HTMLPrettify)
