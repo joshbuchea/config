@@ -99,6 +99,14 @@ defaults write org.videolan.vlc.LSSharedFileList RecentDocuments -dict-add MaxAm
 
 ### Preferences
 
+`Preferences > Appearance > List display font > System Font Regular - 12`
+
+`Preferences > Editor Defaults > Soft wrap text to > Page guide`
+
+`Preferences > Editor Defaults > Default font > Consolas for BBEdit - 13`
+
+`Preferences > Editor Defaults > Tab width > 2`
+
 `Preferences > Keyboard > "Home" and "End" key behavior > Move cursor to beginning and end of current line`
 
-`Preferences > Keyboard > tab highlighted block of code`
+`Preferences > Keyboard > Allow Tab key to indent text blocks`
