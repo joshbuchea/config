@@ -154,7 +154,24 @@ defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool
 ## Atom
 
 * Install packages
-  * First package
+  * atom-beautify
+  * badass-react-snippets
+  * file-icons
+  * git-time-machine
+  * highlight-selected
+  * html-head-snippets
+  * language-babel
+  * language-javascript-jsx
+  * linter
+  * linter-eslint
+  * merge-conflicts
+  * minimap
+  * open-recent
+  * php-debug
+  * pigments
+  * tab-control
+  * tabs-to-spaces
+  * todo-show
 
 ## Sublime Text
 
