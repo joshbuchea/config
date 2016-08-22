@@ -17,6 +17,7 @@ You are encouraged to fork this and modify it to your heart's content to match y
   * Install [rvm](https://rvm.io/rvm/install#quick-guided-install) stable with ruby: `\curl -sSL https://get.rvm.io | bash -s stable --ruby`
 * Install [nvm](https://github.com/creationix/nvm#user-content-install-script)
 * Install [HyperTerm](https://hyperterm.org/)
+ * Install extensions via npm in `~/.hyperterm_plugins`
 
 * Install [React Native](https://facebook.github.io/react-native/docs/getting-started.html)
 * [React Native Playground CLI](https://github.com/rnplay/rnplay-cli) `npm install -g rnplay-cli`
