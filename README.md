@@ -7,23 +7,52 @@ You are encouraged to fork this and modify it to your heart's content to match y
 ## Dev Config
 
 * Install [Xcode](https://itunes.apple.com/app/xcode/id497799835?mt=12) from the App Store
-* Install [Oh My Zsh](http://ohmyz.sh/)
- * `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
- * `plugins=(git extract z)`
-* Install [Homebrew](http://brew.sh/)
- * `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+* Install [Homebrew](http://brew.sh/): `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
+### Oh My Zsh
+
+* Install: `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+* Plugins (add to `~/.zshrc`): `plugins=(git extract z)`
+
+### HyperTerm
+
+* Install [HyperTerm](https://hyperterm.org/)
+* Install extensions via npm in `~/.hyperterm_plugins`
+
+### RVM
+
 * Install [rvm](https://rvm.io/rvm/install#quick-guided-install) (option #2 - Install RVM stable with ruby)
   * Install [GnuPG](https://www.gnupg.org/) `brew install gnupg gnupg2`
   * Install [rvm](https://rvm.io/rvm/install#quick-guided-install) stable with ruby: `\curl -sSL https://get.rvm.io | bash -s stable --ruby`
-* Install [nvm](https://github.com/creationix/nvm#user-content-install-script)
-* Install [HyperTerm](https://hyperterm.org/)
- * Install extensions via npm in `~/.hyperterm_plugins`
 
-* Install [React Native](https://facebook.github.io/react-native/docs/getting-started.html)
-* [React Native Playground CLI](https://github.com/rnplay/rnplay-cli) `npm install -g rnplay-cli`
+### NVM
+
+* Install [nvm](https://github.com/creationix/nvm#user-content-install-script)
+* Add nvm export entry to .zshrc file:
+
+```
+export NVM_DIR="/Users/joshbuchea/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+```
+
+### Other Package Managers
+
+* Install [Bower](https://bower.io/): `npm install -g bower`
+* Install [Composer](https://getcomposer.org/doc/00-intro.md#globally)
+
+## Task Runners / Build Tools
+
+* Install [Gulp](http://gulpjs.com/): `npm install --global gulp-cli`
+* Install [Grunt](http://gruntjs.com/): `npm install -g grunt-cli`
+
+### React Native
+
+* Install [React Native](https://facebook.github.io/react-native/docs/getting-started.html): `npm install -g react-native-cli`
+* Install [React Native Playground CLI](https://github.com/rnplay/rnplay-cli) `npm install -g rnplay-cli`
+
+### Ionic/Cordova
 
 * Install [Ionic](http://ionicframework.com/getting-started/) & [Cordova](https://cordova.apache.org/#getstarted) `npm install -g cordova ionic`
-* Install [Composer](https://getcomposer.org/doc/00-intro.md#globally)
 
 ## Install Software
 
@@ -178,6 +207,11 @@ defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool
   * tab-control
   * tabs-to-spaces
   * todo-show
+* Atom Config
+  * Make tabs wider
+    You should go to the themes tab in the settings view. Scroll all the way down until you see 'core themes' and the one dark ui theme. It should have a settings button that takes you to the theme's settings.
+  * Remove page rule guide/line
+  * Recents: Closed Files
 
 ## Sublime Text
 
@@ -193,14 +227,9 @@ defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool
 
 ### Preferences
 
-`Preferences > Appearance > List display font > System Font Regular - 12`
-
-`Preferences > Editor Defaults > Soft wrap text to > Page guide`
-
-`Preferences > Editor Defaults > Default font > Consolas for BBEdit - 13`
-
-`Preferences > Editor Defaults > Tab width > 2`
-
-`Preferences > Keyboard > "Home" and "End" key behavior > Move cursor to beginning and end of current line`
-
-`Preferences > Keyboard > Allow Tab key to indent text blocks`
+- `Appearance > List display font > System Font Regular - 12`
+- `Editor Defaults > Soft wrap text to > Page guide`
+- `Editor Defaults > Default font > Consolas for BBEdit - 13`
+- `Editor Defaults > Tab width > 2`
+- `Keyboard > "Home" and "End" key behavior > Move cursor to beginning and end of current line`
+- `Keyboard > Allow Tab key to indent text blocks`
