@@ -9,6 +9,7 @@ You are encouraged to fork this and modify it to your heart's content to match y
 * Install [Xcode](https://itunes.apple.com/app/xcode/id497799835?mt=12) from the App Store
 * Install [Oh My Zsh](http://ohmyz.sh/)
  * `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+ * `plugins=(git extract z)`
 * Install [Homebrew](http://brew.sh/)
  * `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 * Install [rvm](https://rvm.io/rvm/install#quick-guided-install) (option #2 - Install RVM stable with ruby)
