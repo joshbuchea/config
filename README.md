@@ -18,6 +18,7 @@ You are encouraged to fork this and modify it to your heart's content to match y
 
 * Install [HyperTerm](https://hyperterm.org/)
 * Install extensions via npm in `~/.hyperterm_plugins`
+  * [hypercwd](https://github.com/hharnisc/hypercwd)
 
 ### RVM
 
@@ -28,11 +29,18 @@ You are encouraged to fork this and modify it to your heart's content to match y
 ### NVM
 
 * Install [nvm](https://github.com/creationix/nvm#user-content-install-script)
-* Add nvm export entry to .zshrc file:
+* Add nvm export entry to `.zshrc` file:
 
 ```
 export NVM_DIR="/Users/joshbuchea/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+```
+
+or
+
+```
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 ```
 
 ### Other Package Managers
@@ -71,6 +79,7 @@ The software selected is software that is "tried and true" --- software I need a
 
 * Browsers
   * [Chrome](https://www.google.com/chrome/browser/desktop/)
+  * [Chromium](https://download-chromium.appspot.com/) or `brew cask install chromium`
   * [Firefox](http://firefox.com)
   * [Opera](http://www.opera.com/)
 
@@ -186,6 +195,17 @@ defaults write org.videolan.vlc.LSSharedFileList RecentDocuments -dict-add MaxAm
 defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool FALSE
 ```
 
+## Dropbox
+
+- `Preferences > Network > Bandwidth: Change Settings... > Upload rate > Don't limit`
+
+## Chrome
+
+### DevTools
+
+- Enable Dark Theme: `DevTools > Settings > Preferences > Appearance > Theme > Select Dark`
+- Disable cache: `DevTools > Settings > Preferences > Network > Check Disable cache (while DevTools is open)`
+
 ## Atom
 
 * Install packages
@@ -210,8 +230,8 @@ defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool
 * Atom Config
   * Make tabs wider
     You should go to the themes tab in the settings view. Scroll all the way down until you see 'core themes' and the one dark ui theme. It should have a settings button that takes you to the theme's settings.
-  * Remove page rule guide/line
-  * Recents: Closed Files
+  * Remove page rule guide/line: `Disable the Wrap Guide package` `Settings > Packages > Search "wrap guide" > Disable`
+  * Recents (Closed Files): `Settings > Packages > Open Recent > List Directories Added to Project`
 
 ## Sublime Text
 
