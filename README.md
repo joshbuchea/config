@@ -50,7 +50,7 @@ export NVM_DIR="$HOME/.nvm"
 
 ## Task Runners / Build Tools
 
-* Install [Gulp](http://gulpjs.com/): `npm install --global gulp-cli`
+* Install [Gulp](http://gulpjs.com/): `npm install -g gulp-cli`
 * Install [Grunt](http://gruntjs.com/): `npm install -g grunt-cli`
 
 ### React Native
