@@ -32,13 +32,6 @@ You are encouraged to fork this and modify it to your heart's content to match y
 * Add nvm export entry to `.zshrc` file:
 
 ```
-export NVM_DIR="/Users/joshbuchea/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-```
-
-or
-
-```
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 ```
