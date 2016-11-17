@@ -14,11 +14,12 @@ You are encouraged to fork this and modify it to your heart's content to match y
 * Install: `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 * Plugins (add to `~/.zshrc`): `plugins=(git docker extract z)`
 
-### HyperTerm
+### Hyper.app
 
-* Install [HyperTerm](https://hyperterm.org/)
-* Install extensions via npm in `~/.hyperterm_plugins`
-  * [hypercwd](https://github.com/hharnisc/hypercwd)
+* Install [Hyper.app](https://hyper.is/)
+* Install extensions by adding extension name to `plugins` list in `~/.hyper.js` (extensions live in `~/.hyper_plugins`):
+  * [hypercwd](https://github.com/hharnisc/hypercwd): `npm install --save`
+  * [hyperterm-material](https://github.com/dperrera/hyperterm-material)
 
 ### RVM
 
