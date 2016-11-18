@@ -92,6 +92,8 @@ The software selected is software that is "tried and true" --- software I need a
   * [Audacity](http://audacityteam.org/)
   * [Dropbox](https://www.dropbox.com/install2)
   * [FileZilla](https://filezilla-project.org/download.php?type=client)
+  * [Franz](http://meetfranz.com/#download)
+  * [GIMP](https://www.gimp.org/downloads/)
   * [Skype](http://www.skype.com/en/download-skype/skype-for-computer/)
   * [Spotify](https://www.spotify.com/us/download/mac/)
   * [SuperDuper!](http://www.shirt-pocket.com/downloads/SuperDuper!.dmg)
