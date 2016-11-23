@@ -17,6 +17,9 @@ alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 # Docker
 alias dc="docker-compose"
 
+# Gource
+alias gourceit="gource --hide dirnames,filenames --seconds-per-day 0.1 --auto-skip-seconds 1 -1280x720 -o - | ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i - -vcodec libx264 -preset ultrafast -pix_fmt yuv420p -crf 1 -threads 0 -bf 0 gource.mp4"
+
 # MAMP
 
 ## MAMP: Clear logs
@@ -39,4 +42,3 @@ alias rnios="react-native run-ios"
 alias rnandroid="react-native run-android"
 alias rnreset="watchman watch-del-all && rm -rf node_modules && npm install && npm start -- --reset-cache"
 alias lintreact="npm install --save-dev babel-eslint eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react && echo '{ "extends": ["airbnb"], "plugins": ["jsx-a11y"], }' > .eslintrc"
-alias gourceit="gource --hide dirnames,filenames --seconds-per-day 0.1 --auto-skip-seconds 1 -1280x720 -o - | ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i - -vcodec libx264 -preset ultrafast -pix_fmt yuv420p -crf 1 -threads 0 -bf 0 gource.mp4"
