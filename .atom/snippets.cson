@@ -29,7 +29,7 @@
 '.text.html.basic, .text.html.php':
 
   'PHP pre_dump':
-    'prefix': 'php_pre_dump'
+    'prefix': 'php_predump'
     'body': """
       echo '<pre>';
       var_dump(${1:$variable});
@@ -37,7 +37,7 @@
     """
 
   'PHP js_dump':
-    'prefix': 'php_js_dump'
+    'prefix': 'php_jsdump'
     'body': """
       ?>
       <script>
@@ -49,7 +49,7 @@
 '.source.css':
 
   'CSS Media Query':
-    'prefix': 'css_media_query'
+    'prefix': 'css_mediaquery'
     'body': """
       @media screen and (min-width: ${1:480px}) {${2:}}
     """
