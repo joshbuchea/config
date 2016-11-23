@@ -20,10 +20,16 @@
 # Atom Flight Manual:
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
 
+'*':
+
+  'CLI SCP':
+    'prefix': 'cli_scp'
+    'body': 'scp ${1:username}@${2:host}:${3:/path/to/hosts/file/host_file.txt} ${4:~/desktop}'
+
 '.text.html.basic, .text.html.php':
 
   'PHP pre_dump':
-    'prefix': 'pre_dump'
+    'prefix': 'php_pre_dump'
     'body': """
       echo '<pre>';
       var_dump(${1:$variable});
@@ -31,7 +37,7 @@
     """
 
   'PHP js_dump':
-    'prefix': 'js_dump'
+    'prefix': 'php_js_dump'
     'body': """
       ?>
       <script>
