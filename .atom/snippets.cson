@@ -45,3 +45,22 @@
       </script>
       <?php
     """
+
+'.source.css':
+
+  'CSS Media Query':
+    'prefix': 'css_media_query'
+    'body': """
+      @media screen and (min-width: ${1:480px}) {${2:}}
+    """
+
+'.source.js':
+
+  'JS IIFE':
+    'prefix': 'js_iife'
+    'body': """
+      (function() {
+        ${1:'use strict'}
+
+      })();
+    """
