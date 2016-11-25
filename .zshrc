@@ -1,11 +1,11 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/joshbuchea/.oh-my-zsh
+export ZSH=/Users/josh/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+ZSH_THEME="cobalt2"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -49,17 +49,24 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git docker extract z)
+plugins=(git node npm bower sublime brew osx extract z)
 
 # User configuration
 
-# export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
+#export PATH="/Users/josh/.rvm/gems/ruby-2.2.1/bin:/Users/josh/.rvm/gems/ruby-2.2.1@global/bin:/Users/josh/.rvm/rubies/ruby-2.2.1/bin:/Users/josh/.nvm/versions/node/v4.2.2/bin:/Users/josh/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/josh/.rvm/bin"
+export PATH="/Users/josh/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
+source $ZSH/oh-my-zsh.sh
+
+# Load NVM
 export NVM_DIR="$HOME/.nvm"
+#source "$NVM_DIR/nvm.sh"
+#. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
-source $ZSH/oh-my-zsh.sh
+# Android SDK
+export ANDROID_HOME=/usr/local/opt/android-sdk
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
