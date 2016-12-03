@@ -28,14 +28,6 @@
 
 '.text.html.basic, .text.html.php':
 
-  'PHP pre_dump':
-    'prefix': 'php_predump'
-    'body': """
-      echo '<pre>';
-      var_dump(${1:$variable});
-      echo '</pre>';
-    """
-
   'PHP js_dump':
     'prefix': 'php_jsdump'
     'body': """
@@ -46,12 +38,63 @@
       <?php
     """
 
+  'PHP pre_dump':
+    'prefix': 'php_predump'
+    'body': """
+      echo '<pre>';
+      var_dump(${1:$variable});
+      echo '</pre>';
+    """
+
+  'CDN: Angular 1':
+    'prefix': 'cdn_angular1'
+    'body': """
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    """
+
+  'CDN: jQuery 1':
+    'prefix': 'cdn_jquery1'
+    'body': """
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    """
+
+  'CDN: jQuery 2':
+    'prefix': 'cdn_jquery2'
+    'body': """
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    """
+
+  'CDN: jQuery 3':
+    'prefix': 'cdn_jquery3'
+    'body': """
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    """
+
+  'CDN: jQuery UI':
+    'prefix': 'cdn_jqueryui'
+    'body': """
+      <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    """
+
+  'CDN: three.js':
+    'prefix': 'cdn_threejs'
+    'body': """
+      <script src="https://ajax.googleapis.com/ajax/libs/threejs/r76/three.min.js"></script>
+    """
+
 '.source.css':
 
   'CSS Media Query':
     'prefix': 'css_mediaquery'
     'body': """
-      @media screen and (min-width: ${1:480px}) {${2:}}
+      @media screen and (min-width: ${1:320px}) {${2:}}
+    """
+
+  'CSS System Font Stack':
+    'prefix': 'css_systemfontstack'
+    'body': """
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     """
 
 '.source.js':
@@ -63,4 +106,10 @@
         ${1:'use strict'}
 
       })();
+    """
+
+  'JS Use Strict':
+    'prefix': 'js_usestrict'
+    'body': """
+      'use strict';
     """
