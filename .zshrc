@@ -131,6 +131,15 @@ alias rnandroid="react-native run-android"
 alias rnreset="watchman watch-del-all && rm -rf node_modules && npm install && npm start -- --reset-cache"
 alias lintreact="npm install --save-dev babel-eslint eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react && echo '{ "extends": ["airbnb"], "plugins": ["jsx-a11y"], }' > .eslintrc"
 
+# SSH
+alias sshgen="echo ssh-keygen -t rsa -b 4096 -C \"your_email@example.com\""
+alias sshagent="echo ssh-add -K ~/.ssh/key_name"
+
+## SSH: Pro Q
+alias pqhosting="ssh root@72.10.52.144"
+alias pqmonitor="ssh root@monitor.proqsolutions.com"
+alias pqstaging="ssh proq@192.168.1.5"
+
 #
 # Custom Functions
 #
@@ -140,4 +149,3 @@ function mov2gif() {
   ffmpeg -i "$1" -vf scale=${width}:-1 -r 10 -f image2pipe -vcodec ppm - |\
   convert -delay 5 -layers Optimize -loop 0 - "${1%.*}.gif"
 }
-
