@@ -80,6 +80,7 @@ The software selected is software that is "tried and true" --- software I need a
 * Development
   * [Anvil](http://anvilformac.com/)
   * [Atom](https://atom.io/download/mac)
+  * [Docker](https://docs.docker.com/docker-for-mac/)
   * [ImageOptim](https://imageoptim.com/ImageOptim.tbz2)
   * [MAMP](https://www.mamp.info/en/downloads/)
   * [Postman](https://www.getpostman.com)
