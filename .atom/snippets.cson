@@ -46,6 +46,23 @@
       echo '</pre>';
     """
 
+  'PHP var_error_log':
+    'prefix': 'php_varerrorlog'
+    'body': """
+      ob_start();                       // start buffer capture
+      var_dump( ${1:$object} );              // dump the values
+      $contents = ob_get_contents();    // put the buffer into a variable
+      ob_end_clean();                   // end capture
+      error_log( $contents );           // log contents of the result of var_dump( $object )
+    """
+
+  'WP site_url':
+    'prefix': 'wp_siteurl'
+    'body': """
+      define('WP_HOME','http://example.com');
+      define('WP_SITEURL','http://example.com');
+    """
+
   'CDN: Angular 1':
     'prefix': 'cdn_angular1'
     'body': """
