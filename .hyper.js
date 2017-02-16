@@ -92,7 +92,7 @@ module.exports = {
     'hyperterm-material',
     'hypercwd',
     'hyperpower',
-    'hyperterm-overlay',
+    // 'hyperterm-overlay',
   ],
 
   // in development, you can create a directory under
