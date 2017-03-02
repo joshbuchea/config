@@ -54,11 +54,11 @@ module.exports = {
 
     // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
     // if left empty, your system's login shell will be used by default
-    shell: '',
+    shell: 'zsh',
 
     // Window Size
     // windowSize: [875, 450],
-    windowSize: [1050, 420],
+    windowSize: [1295, 380],
 
     // termCSS: '::selection { background-color: rgba(233, 44, 108, 0.8); color: #fcfcfc; }',
 
