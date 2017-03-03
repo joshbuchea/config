@@ -230,7 +230,7 @@ defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool
     You should go to the themes tab in the settings view. Scroll all the way down until you see 'core themes' and the one dark ui theme. It should have a settings button that takes you to the theme's settings.
   * Remove page rule guide/line: `Disable the Wrap Guide package` `Settings > Packages > Search "wrap guide" > Disable`
   * Recents (Closed Files): `Settings > Packages > Open Recent > List Directories Added to Project`
-  * Two-line code folding - Add below code to `config.cson`:
+  * Show closing brace/tag when folding code blocks - Add below code to `config.cson`:
 
     ```
     ".css.source":
