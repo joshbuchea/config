@@ -6,31 +6,31 @@ You are encouraged to fork this and modify it to your heart's content to match y
 
 ## Dev Config
 
-* Install [Xcode](https://itunes.apple.com/app/xcode/id497799835?mt=12) from the App Store
-* Install [Homebrew](http://brew.sh/): `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- Install [Xcode](https://itunes.apple.com/app/xcode/id497799835?mt=12) from the App Store
+- Install [Homebrew](http://brew.sh/): `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 ### Oh My Zsh
 
-* Install: `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
-* Plugins (add to `~/.zshrc`): `plugins=(git docker extract z)`
+- Install: `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+- Plugins (add to `~/.zshrc`): `plugins=(git docker extract z)`
 
 ### Hyper.app
 
-* Install [Hyper.app](https://hyper.is/)
-* Install extensions by adding extension name to `plugins` list in `~/.hyper.js` (extensions live in `~/.hyper_plugins`):
-  * [hypercwd](https://github.com/hharnisc/hypercwd): `npm install --save`
-  * [hyperterm-material](https://github.com/dperrera/hyperterm-material)
+- Install [Hyper.app](https://hyper.is/)
+- Install extensions by adding extension name to `plugins` list in `~/.hyper.js` (extensions live in `~/.hyper_plugins`):
+  - [hypercwd](https://github.com/hharnisc/hypercwd): `npm install --save`
+  - [hyperterm-material](https://github.com/dperrera/hyperterm-material)
 
 ### RVM
 
-* Install [rvm](https://rvm.io/rvm/install#quick-guided-install) (option #2 - Install RVM stable with ruby)
-  * Install [GnuPG](https://www.gnupg.org/) `brew install gnupg gnupg2`
-  * Install [rvm](https://rvm.io/rvm/install#quick-guided-install) stable with ruby: `\curl -sSL https://get.rvm.io | bash -s stable --ruby`
+- Install [rvm](https://rvm.io/rvm/install#quick-guided-install) (option #2 - Install RVM stable with ruby)
+  - Install [GnuPG](https://www.gnupg.org/) `brew install gnupg gnupg2`
+  - Install [rvm](https://rvm.io/rvm/install#quick-guided-install) stable with ruby: `\curl -sSL https://get.rvm.io | bash -s stable --ruby`
 
 ### NVM
 
-* Install [nvm](https://github.com/creationix/nvm#user-content-install-script)
-* Add nvm export entry to `.zshrc` file:
+- Install [nvm](https://github.com/creationix/nvm#user-content-install-script)
+- Add nvm export entry to `.zshrc` file:
 
 ```
 export NVM_DIR="$HOME/.nvm"
@@ -39,22 +39,22 @@ export NVM_DIR="$HOME/.nvm"
 
 ### Other Package Managers
 
-* Install [Bower](https://bower.io/): `npm install -g bower`
-* Install [Composer](https://getcomposer.org/doc/00-intro.md#globally)
+- Install [Bower](https://bower.io/): `npm install -g bower`
+- Install [Composer](https://getcomposer.org/doc/00-intro.md#globally)
 
 ## Task Runners / Build Tools
 
-* Install [Gulp](http://gulpjs.com/): `npm install -g gulp-cli`
-* Install [Grunt](http://gruntjs.com/): `npm install -g grunt-cli`
+- Install [Gulp](http://gulpjs.com/): `npm install -g gulp-cli`
+- Install [Grunt](http://gruntjs.com/): `npm install -g grunt-cli`
 
 ### React Native
 
-* Install [React Native](https://facebook.github.io/react-native/docs/getting-started.html): `npm install -g react-native-cli`
-* Install [React Native Playground CLI](https://github.com/rnplay/rnplay-cli) `npm install -g rnplay-cli`
+- Install [React Native](https://facebook.github.io/react-native/docs/getting-started.html): `npm install -g react-native-cli`
+- Install [React Native Playground CLI](https://github.com/rnplay/rnplay-cli) `npm install -g rnplay-cli`
 
 ### Ionic/Cordova
 
-* Install [Ionic](http://ionicframework.com/getting-started/) & [Cordova](https://cordova.apache.org/#getstarted) `npm install -g cordova ionic`
+- Install [Ionic](http://ionicframework.com/getting-started/) & [Cordova](https://cordova.apache.org/#getstarted) `npm install -g cordova ionic`
 
 ## Install Software
 
@@ -62,45 +62,45 @@ The software selected is software that is "tried and true" --- software I need a
 
 ### Install from App Store
 
-* [1Password](https://itunes.apple.com/app/1password-password-manager/id443987910?mt=12)
-* [Caffeine](https://itunes.apple.com/app/caffeine/id411246225?mt=12)
-* [Fantastical](https://itunes.apple.com/app/fantastical-2-calendar-reminders/id975937182?mt=12)
-* [Sip](https://itunes.apple.com/us/app/sip/id507257563?mt=12)
-* [Slack](https://itunes.apple.com/app/slack/id803453959?mt=12)
-* [The Unarchiver](https://itunes.apple.com/app/the-unarchiver/id425424353?mt=12)
+- [1Password](https://itunes.apple.com/app/1password-password-manager/id443987910?mt=12)
+- [Caffeine](https://itunes.apple.com/app/caffeine/id411246225?mt=12)
+- [Fantastical](https://itunes.apple.com/app/fantastical-2-calendar-reminders/id975937182?mt=12)
+- [Sip](https://itunes.apple.com/us/app/sip/id507257563?mt=12)
+- [Slack](https://itunes.apple.com/app/slack/id803453959?mt=12)
+- [The Unarchiver](https://itunes.apple.com/app/the-unarchiver/id425424353?mt=12)
 
 ### Install from Third-Party Websites
 
-* Browsers
-  * [Chrome](https://www.google.com/chrome/browser/desktop/)
-  * [Chromium](https://download-chromium.appspot.com/) or `brew cask install chromium`
-  * [Firefox](http://firefox.com)
-  * [Opera](http://www.opera.com/)
+- Browsers
+  - [Chrome](https://www.google.com/chrome/browser/desktop/)
+  - [Chromium](https://download-chromium.appspot.com/) or `brew cask install chromium`
+  - [Firefox](http://firefox.com)
+  - [Opera](http://www.opera.com/)
 
-* Development
-  * [Anvil](http://anvilformac.com/)
-  * [Atom](https://atom.io/download/mac)
-  * [Docker](https://docs.docker.com/docker-for-mac/)
-  * [ImageOptim](https://imageoptim.com/ImageOptim.tbz2)
-  * [MAMP](https://www.mamp.info/en/downloads/)
-  * [Postman](https://www.getpostman.com)
-  * [Sequel Pro](http://www.sequelpro.com/download)
-  * [SourceTree](https://www.sourcetreeapp.com/download)
-  * [Sublime Text 3](http://www.sublimetext.com/3)
-  * [Unity](https://unity3d.com/get-unity)
+- Development
+  - [Anvil](http://anvilformac.com/)
+  - [Atom](https://atom.io/download/mac)
+  - [Docker](https://docs.docker.com/docker-for-mac/)
+  - [ImageOptim](https://imageoptim.com/ImageOptim.tbz2)
+  - [MAMP](https://www.mamp.info/en/downloads/)
+  - [Postman](https://www.getpostman.com)
+  - [Sequel Pro](http://www.sequelpro.com/download)
+  - [SourceTree](https://www.sourcetreeapp.com/download)
+  - [Sublime Text 3](http://www.sublimetext.com/3)
+  - [Unity](https://unity3d.com/get-unity)
 
-* Utilities
-  * [Audacity](http://audacityteam.org/)
-  * [Dropbox](https://www.dropbox.com/install2)
-  * [f.lux](https://justgetflux.com/)
-  * [FileZilla](https://filezilla-project.org/download.php?type=client)
-  * [Franz](http://meetfranz.com/#download)
-  * [GIMP](https://www.gimp.org/downloads/)
-  * [Skype](http://www.skype.com/en/download-skype/skype-for-computer/)
-  * [Spotify](https://www.spotify.com/us/download/mac/)
-  * [SuperDuper!](http://www.shirt-pocket.com/downloads/SuperDuper!.dmg)
-  * [VLC media player](http://www.videolan.org/vlc/download-macosx.html)
-  * [XtraFinder](https://www.trankynam.com/xtrafinder/)
+- Utilities
+  - [Audacity](http://audacityteam.org/)
+  - [Dropbox](https://www.dropbox.com/install2)
+  - [f.lux](https://justgetflux.com/)
+  - [FileZilla](https://filezilla-project.org/download.php?type=client)
+  - [Franz](http://meetfranz.com/#download)
+  - [GIMP](https://www.gimp.org/downloads/)
+  - [Skype](http://www.skype.com/en/download-skype/skype-for-computer/)
+  - [Spotify](https://www.spotify.com/us/download/mac/)
+  - [SuperDuper!](http://www.shirt-pocket.com/downloads/SuperDuper!.dmg)
+  - [VLC media player](http://www.videolan.org/vlc/download-macosx.html)
+  - [XtraFinder](https://www.trankynam.com/xtrafinder/)
 
 ## OS X Preferences
 
@@ -206,31 +206,31 @@ defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool
 
 ## Atom
 
-* Install packages
-  * atom-beautify
-  * badass-react-snippets
-  * file-icons
-  * git-time-machine
-  * highlight-selected
-  * html-head-snippets
-  * language-babel
-  * language-javascript-jsx
-  * linter
-  * linter-eslint
-  * merge-conflicts
-  * minimap
-  * open-recent
-  * php-debug
-  * pigments
-  * tab-control
-  * tabs-to-spaces
-  * todo-show
-* Atom Config
-  * Make tabs wider
+- Install packages
+  - atom-beautify
+  - badass-react-snippets
+  - file-icons
+  - git-time-machine
+  - highlight-selected
+  - html-head-snippets
+  - language-babel
+  - language-javascript-jsx
+  - linter
+  - linter-eslint
+  - merge-conflicts
+  - minimap
+  - open-recent
+  - php-debug
+  - pigments
+  - tab-control
+  - tabs-to-spaces
+  - todo-show
+- Atom Config
+  - Make tabs wider
     You should go to the themes tab in the settings view. Scroll all the way down until you see 'core themes' and the one dark ui theme. It should have a settings button that takes you to the theme's settings.
-  * Remove page rule guide/line: `Disable the Wrap Guide package` `Settings > Packages > Search "wrap guide" > Disable`
-  * Recents (Closed Files): `Settings > Packages > Open Recent > List Directories Added to Project`
-  * Show closing brace/tag when folding code blocks - Add below code to `config.cson`:
+  - Remove page rule guide/line: `Disable the Wrap Guide package` `Settings > Packages > Search "wrap guide" > Disable`
+  - Recents (Closed Files): `Settings > Packages > Open Recent > List Directories Added to Project`
+  - Show closing brace/tag when folding code blocks - Add below code to `config.cson`:
 
     ```
     ".css.source":
@@ -252,13 +252,13 @@ defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool
 
 ## Sublime Text
 
-* [Install Package Control](https://packagecontrol.io/installation)
-* Install Packages (Command-Shift-P)
-  * [Oceanic Next Color Scheme](https://github.com/voronianski/oceanic-next-color-scheme)
-  * [GitGutter](https://github.com/jisaacks/GitGutter)
-  * [HTML-CSS-JS Prettify](https://github.com/victorporof/Sublime-HTMLPrettify)
-  * [Sass](https://packagecontrol.io/packages/Sass)
-* Load user settings from [`Preferences.sublime-settings`](/Preferences.sublime-settings)
+- [Install Package Control](https://packagecontrol.io/installation)
+- Install Packages (Command-Shift-P)
+  - [Oceanic Next Color Scheme](https://github.com/voronianski/oceanic-next-color-scheme)
+  - [GitGutter](https://github.com/jisaacks/GitGutter)
+  - [HTML-CSS-JS Prettify](https://github.com/victorporof/Sublime-HTMLPrettify)
+  - [Sass](https://packagecontrol.io/packages/Sass)
+- Load user settings from [`Preferences.sublime-settings`](/Preferences.sublime-settings)
 
 ## BBEdit
 
