@@ -60,6 +60,10 @@ export NVM_DIR="$HOME/.nvm"
 
 The software selected is software that is "tried and true" --- software I need after any fresh install. I often install other software not listed here, but is handled in a case-by-case basis.
 
+## Install with Homebrew
+
+- [ImageMagick](https://www.imagemagick.org/script/): `brew install imagemagick`
+
 ### Install from App Store
 
 - [1Password](https://itunes.apple.com/app/1password-password-manager/id443987910?mt=12)
