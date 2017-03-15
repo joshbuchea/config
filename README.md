@@ -92,6 +92,7 @@ The software selected is software that is "tried and true" --- software I need a
   - [SourceTree](https://www.sourcetreeapp.com/download)
   - [Sublime Text 3](http://www.sublimetext.com/3)
   - [Unity](https://unity3d.com/get-unity)
+  - [Visual Studio Code](https://code.visualstudio.com/download)
 
 - Utilities
   - [Audacity](http://audacityteam.org/)
