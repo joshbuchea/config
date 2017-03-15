@@ -40,7 +40,7 @@ export NVM_DIR="$HOME/.nvm"
 ### Other Package Managers
 
 - Install [Bower](https://bower.io/): `npm install -g bower`
-- Install [Composer](https://getcomposer.org/doc/00-intro.md#globally)
+- Install [Composer](https://getcomposer.org/doc/00-intro.md#globally): `brew install homebrew/php/composer`
 
 ## Task Runners / Build Tools
 
