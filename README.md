@@ -255,6 +255,29 @@ defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool
         foldEndPattern: ""
     ```
 
+## Visual Studio Code
+
+`settings.json`:
+
+```json
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontSize": 14,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.renderIndentGuides": true,
+    "editor.trimAutoWhitespace": true,
+    "editor.minimap.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "window.reopenFolders": "all",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "workbench.colorTheme": "Material Theme",
+    "workbench.iconTheme": "vs-seti",
+}
+```
+
 ## Sublime Text
 
 - [Install Package Control](https://packagecontrol.io/installation)
