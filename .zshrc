@@ -102,6 +102,9 @@ alias p="cd ~/projects"
 # Recursively delete `.DS_Store` files
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 
+# Display current active screen resolution(s)
+alias screenres="system_profiler SPDisplaysDataType | grep Resolution"
+
 # Composer
 alias composer="php /usr/local/bin/composer.phar"
 
