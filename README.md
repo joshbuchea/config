@@ -228,6 +228,7 @@ defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool
 - open-recent
 - php-debug
 - pigments
+- prettier-atom
 - tab-control
 - tabs-to-spaces
 - todo-show
