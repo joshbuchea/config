@@ -51,7 +51,6 @@ export NVM_DIR="$HOME/.nvm"
 
 - Install [React Native](https://facebook.github.io/react-native/docs/getting-started.html): `npm install -g react-native-cli`
 - Install [Create React Native App](https://github.com/react-community/create-react-native-app): `npm install -g create-react-native-app`
-- Install [React Native Playground CLI](https://github.com/rnplay/rnplay-cli) `npm install -g rnplay-cli`
 
 ### Ionic/Cordova
 
