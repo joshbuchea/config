@@ -211,49 +211,55 @@ defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool
 
 ## Atom
 
-- Install packages
-  - atom-beautify
-  - badass-react-snippets
-  - file-icons
-  - git-time-machine
-  - highlight-selected
-  - html-head-snippets
-  - language-babel
-  - language-javascript-jsx
-  - linter
-  - linter-eslint
-  - merge-conflicts
-  - minimap
-  - open-recent
-  - php-debug
-  - pigments
-  - tab-control
-  - tabs-to-spaces
-  - todo-show
-- Atom Config
-  - Make tabs wider
-    You should go to the themes tab in the settings view. Scroll all the way down until you see 'core themes' and the one dark ui theme. It should have a settings button that takes you to the theme's settings.
-  - Remove page rule guide/line: `Disable the Wrap Guide package` `Settings > Packages > Search "wrap guide" > Disable`
-  - Recents (Closed Files): `Settings > Packages > Open Recent > List Directories Added to Project`
-  - Show closing brace/tag when folding code blocks - Add below code to `config.cson`:
+### Packages
 
-    ```
-    ".css.source":
-      editor:
-        foldEndPattern: ""
-    ".js.jsx.source":
-      editor:
-        foldEndPattern: ""
-    ".js.source":
-      editor:
-        foldEndPattern: ""
-    ".php.source":
-      editor:
-        foldEndPattern: ""
-    ".text.html.basic":
-      editor:
-        foldEndPattern: ""
-    ```
+- atom-beautify
+- badass-react-snippets
+- file-icons
+- git-time-machine
+- highlight-selected
+- html-head-snippets
+- language-babel
+- language-javascript-jsx
+- linter
+- linter-eslint
+- merge-conflicts
+- minimap
+- open-recent
+- php-debug
+- pigments
+- tab-control
+- tabs-to-spaces
+- todo-show
+
+### Config
+
+- Make tabs wider
+  You should go to the themes tab in the settings view. Scroll all the way down until you see 'core themes' and the one dark ui theme. It should have a settings button that takes you to the theme's settings.
+- Remove page rule guide/line: `Disable the Wrap Guide package` `Settings > Packages > Search "wrap guide" > Disable`
+- Recents (Closed Files): `Settings > Packages > Open Recent > List Directories Added to Project`
+
+#### Show closing brace/tag when folding code blocks
+
+Add below code to `config.cson`:
+
+```cson
+".css.source":
+  editor:
+    foldEndPattern: ""
+".js.jsx.source":
+  editor:
+    foldEndPattern: ""
+".js.source":
+  editor:
+    foldEndPattern: ""
+".php.source":
+  editor:
+    foldEndPattern: ""
+".text.html.basic":
+  editor:
+    foldEndPattern: ""
+```
 
 ## Visual Studio Code
 
