@@ -396,7 +396,7 @@ Add below code to `~/.atom/config.cson`:
   "editor.minimap.enabled": true,
   "editor.formatOnSave": true,
   "prettier.singleQuote": true,
-  "prettier.trailingComma": true,
+  "prettier.trailingComma": "es5",
   "diffEditor.ignoreTrimWhitespace": true,
   "window.reopenFolders": "all",
   "files.trimTrailingWhitespace": true,
