@@ -242,7 +242,7 @@ defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool
 
 #### Show closing brace/tag when folding code blocks
 
-Add below code to `config.cson`:
+Add below code to `~/.atom/config.cson`:
 
 ```cson
 ".css.source":
