@@ -106,7 +106,7 @@ alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 alias screenres="system_profiler SPDisplaysDataType | grep Resolution"
 
 # Composer
-alias composer="php /usr/local/bin/composer.phar"
+# alias composer="php /usr/local/bin/composer.phar"
 
 # Docker
 alias dc="docker-compose"
