@@ -63,6 +63,7 @@ The software selected is software that is "tried and true" --- software I need a
 ## Install with Homebrew
 
 - [ImageMagick](https://www.imagemagick.org/script/): `brew install imagemagick`
+- [Wget](https://www.gnu.org/software/wget/): `brew install wget`
 
 ### Install from App Store
 
