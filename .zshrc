@@ -159,3 +159,35 @@ function mov2gif() {
   ffmpeg -i "$1" -vf scale=${width}:-1 -r 10 -f image2pipe -vcodec ppm - |\
   convert -delay 5 -layers Optimize -loop 0 - "${1%.*}.gif"
 }
+
+# Convert video to GIF
+#
+# Usage: vid2gif in.mov [width] [fps]
+#
+# typical gif framerates seem to be between 10–20
+#
+# possibly run through gif optimization tool
+#
+# ffmpeg options explained:
+#
+# -i    input
+# -y    overwrite output files without confirmation
+# -t    duration
+# -ss   position
+#
+function vid2gif() {
+  local width=${2:-600}
+  local rate=${3:-20}
+  local filters="fps=$rate,scale=$width:-1:flags=lanczos"
+
+  # generate a palette
+  #
+  # not sure if palette needs scale or flags (or all of $filters?)...
+	ffmpeg -i "$1" -vf "$filters,palettegen" -y palette.png
+
+  # then generate gif with palette
+  ffmpeg -i "$1" -i palette.png -filter_complex "$filters,paletteuse" "${1%.*}.gif"
+
+  # remove palette image file
+  rm palette.png
+}
