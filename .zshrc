@@ -103,7 +103,7 @@ alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
 
 # Recursively delete `.DS_Store` files
-alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
+alias cleanup="find . -name '*.DS_Store' -type f -ls -delete"
 
 # Display current active screen resolution(s)
 alias screenres="system_profiler SPDisplaysDataType | grep Resolution"
