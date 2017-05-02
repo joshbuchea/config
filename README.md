@@ -224,6 +224,7 @@ defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool
 - language-javascript-jsx
 - linter
 - linter-eslint
+- linter-jscs
 - merge-conflicts
 - minimap
 - open-recent
