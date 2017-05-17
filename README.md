@@ -268,6 +268,30 @@ Add below code to `~/.atom/config.cson`:
     foldEndPattern: ""
 ```
 
+### Styles
+
+`~/.atom/styles.less`:
+
+```less
+// increase vertical spacing for tabs (greatly reduced in atom v1.17)
+.theme-one-dark-ui {
+  .tab-bar {
+    height: 3em;
+    .tab {
+      line-height: 3em;
+      .close-icon {
+        top: 0.7em;
+      }
+    }
+  }
+}
+
+// increase spacing between tab icons & tab titles
+.tab-bar .tab .title.title:before {
+  margin-right: .5em;
+}
+```
+
 ### Snippets
 
 `~/.atom/snippets.cson`:
