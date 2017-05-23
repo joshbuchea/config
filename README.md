@@ -251,19 +251,19 @@ defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool
 Add below code to `~/.atom/config.cson`:
 
 ```cson
+".basic.html.text":
+  editor:
+    foldEndPattern: ""
 ".css.source":
+  editor:
+    foldEndPattern: ""
+".html.php.text":
   editor:
     foldEndPattern: ""
 ".js.jsx.source":
   editor:
     foldEndPattern: ""
 ".js.source":
-  editor:
-    foldEndPattern: ""
-".php.source":
-  editor:
-    foldEndPattern: ""
-".text.html.basic":
   editor:
     foldEndPattern: ""
 ```
