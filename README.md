@@ -105,6 +105,7 @@ The software selected is software that is "tried and true" --- software I need a
   - [FileZilla](https://filezilla-project.org/download.php?type=client)
   - [Franz](http://meetfranz.com/#download)
   - [GIMP](https://www.gimp.org/downloads/)
+  - [Junecloud Automator Actions](http://junecloud.com/software/mac/junecloud-automator-actions.html)
   - [Skype](http://www.skype.com/en/download-skype/skype-for-computer/)
   - [Spotify](https://www.spotify.com/us/download/mac/)
   - [SuperDuper!](http://www.shirt-pocket.com/downloads/SuperDuper!.dmg)
