@@ -1,9 +1,11 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by file type specific settings.
 {
 	"bold_folder_labels": true,
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/User/SublimeLinter/Oceanic Next (SL).tmTheme",
+	// "color_scheme": "Packages/User/SublimeLinter/Oceanic Next (SL).tmTheme",
 	"fade_fold_buttons": false,
-	"font_size": 12,
+	"font_size": 14,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
