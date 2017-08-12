@@ -413,7 +413,12 @@ Add below code to `~/.atom/config.cson`:
 
 ## Visual Studio Code
 
-`settings.json`:
+- Install Extensions:
+  - EditorConfig for VS Code
+  - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- Config user settings:
+
+`settings.json`
 
 ```json
 // Place your settings in this file to overwrite the default settings
