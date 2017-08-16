@@ -423,6 +423,9 @@ Add below code to `~/.atom/config.cson`:
 ```json
 // Place your settings in this file to overwrite the default settings
 {
+  "atomKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": true,
   "editor.fontSize": 14,
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
@@ -431,14 +434,18 @@ Add below code to `~/.atom/config.cson`:
   "editor.trimAutoWhitespace": true,
   "editor.minimap.enabled": true,
   "editor.formatOnSave": true,
+  "gitlens.codeLens.locations.document": false,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "es5",
   "diffEditor.ignoreTrimWhitespace": true,
   "window.reopenFolders": "all",
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
-  "workbench.colorTheme": "Material Theme",
+  "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "vs-seti",
+  "typescript.check.npmIsInstalled": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.activityBar.visible": true
 }
 ```
 
