@@ -435,6 +435,7 @@ Add below code to `~/.atom/config.cson`:
   "editor.minimap.enabled": true,
   "editor.formatOnSave": true,
   "gitlens.codeLens.locations.document": false,
+  "gitlens.codeLens.recentChange.enabled": false,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "es5",
   "diffEditor.ignoreTrimWhitespace": true,
