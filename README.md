@@ -274,17 +274,17 @@ Add below code to `~/.atom/config.cson`:
 `~/.atom/styles.less`:
 
 ```less
-// increase vertical spacing for tabs after v1.17 greatly reduced
+// One Dark UI Theme Tweaks
 .theme-one-dark-ui {
   .tab-bar {
     height: 3.4em;
     .tab {
       line-height: 3.4em;
       .title {
-        margin: 0 1.6em;
+        margin: 0 2.4em 0 1.6em
       }
       .close-icon {
-        top: 0.7em;
+        top: 0.9em;
       }
     }
   }
