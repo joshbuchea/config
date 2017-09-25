@@ -214,6 +214,10 @@ defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool
 - Enable Dark Theme: `DevTools > Settings > Preferences > Appearance > Theme > Select Dark`
 - Disable cache: `DevTools > Settings > Preferences > Network > Check Disable cache (while DevTools is open)`
 
+## SourceTree
+
+- Enable Dark Theme: `View > Theme > Dark`
+
 ## Atom
 
 ### Packages
