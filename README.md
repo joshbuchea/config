@@ -116,6 +116,7 @@ The software selected is software that is "tried and true" --- software I need a
   - [FileZilla](https://filezilla-project.org/download.php?type=client) or `brew cask install filezilla`
   - [Franz](http://meetfranz.com/#download) or `brew cask install franz`
   - [GIMP](https://www.gimp.org/downloads/) or `brew cask install gimp`
+  - [Google Backup and Sync](https://www.google.com/drive/download/backup-and-sync/) or `brew cask install google-backup-and-sync`
   - [HandBrake](https://handbrake.fr/downloads.php) or `brew cask install handbrake`
   - [Junecloud Automator Actions](http://junecloud.com/software/mac/junecloud-automator-actions.html)
   - [Kap](https://getkap.co/) or `brew cask install kap`
