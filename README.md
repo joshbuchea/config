@@ -71,7 +71,7 @@ The software selected is software that is "tried and true" --- software I need a
 ### Install from App Store
 
 - [1Password](https://itunes.apple.com/app/1password-password-manager/id443987910?mt=12)
-- [Caffeine](https://itunes.apple.com/app/caffeine/id411246225?mt=12)
+- [Amphetamine](https://itunes.apple.com/app/amphetamine/id937984704?mt=12)
 - [Fantastical](https://itunes.apple.com/app/fantastical-2-calendar-reminders/id975937182?mt=12)
 - [Sip](https://itunes.apple.com/us/app/sip/id507257563?mt=12)
 - [Slack](https://itunes.apple.com/app/slack/id803453959?mt=12)
