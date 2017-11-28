@@ -46,10 +46,12 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 ```
 
-### Other Package Managers
+### Package Managers
 
-- Install [Bower](https://bower.io/): `npm install -g bower`
+NPM is installed with Node and Bower's dead baby. Optionally install the package managers below:
+
 - Install [Composer](https://getcomposer.org/doc/00-intro.md#globally): `brew install homebrew/php/composer`
+- Install [Yarn](https://yarnpkg.com/lang/en/docs/install/#mac) (without node): `brew install yarn --without-node`
 
 ### Task Runners / Build Tools
 
