@@ -115,10 +115,12 @@ The software selected is software that is "tried and true" --- software I need a
   - [Franz](http://meetfranz.com/#download) or `brew cask install franz`
   - [GIMP](https://www.gimp.org/downloads/) or `brew cask install gimp`
   - [Junecloud Automator Actions](http://junecloud.com/software/mac/junecloud-automator-actions.html)
+  - [Kap](https://getkap.co/) or `brew cask install kap`
   - [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake/releases) or `brew cask install keepingyouawake`
   - [Skype](http://www.skype.com/en/download-skype/skype-for-computer/) or `brew cask install skype`
   - [Spotify](https://www.spotify.com/us/download/mac/) or `brew cask install spotify`
   - [SuperDuper!](http://www.shirt-pocket.com/downloads/SuperDuper!.dmg) or `brew cask install superduper`
+  - [Transmission](https://transmissionbt.com/download/) or `brew cask install transmission`
   - [VLC media player](http://www.videolan.org/vlc/download-macosx.html) or `brew cask install vlc`
 
 ## OS X Preferences
