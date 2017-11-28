@@ -96,7 +96,7 @@ The software selected is software that is "tried and true" --- software I need a
 
 - Development
   - [Anvil](http://anvilformac.com/)
-  - [Atom](https://atom.io/download/mac) or `brew cast install atom`
+  - [Atom](https://atom.io/download/mac) or `brew cask install atom`
   - [Captain](https://getcaptain.co/) or `brew cask install captain`
   - [Docker](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac) or `brew cask install docker`
   - [ImageOptim](https://imageoptim.com/ImageOptim.tbz2) or `brew cask install imageoptim`
