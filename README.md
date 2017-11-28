@@ -112,7 +112,7 @@ The software selected is software that is "tried and true" --- software I need a
   - [Dropbox](https://www.dropbox.com/install2)
   - [FileZilla](https://filezilla-project.org/download.php?type=client)
   - [Franz](http://meetfranz.com/#download)
-  - [GIMP](https://www.gimp.org/downloads/)
+  - [GIMP](https://www.gimp.org/downloads/) or `brew cask install gimp`
   - [Junecloud Automator Actions](http://junecloud.com/software/mac/junecloud-automator-actions.html)
   - [Skype](http://www.skype.com/en/download-skype/skype-for-computer/)
   - [Spotify](https://www.spotify.com/us/download/mac/)
