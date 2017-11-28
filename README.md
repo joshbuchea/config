@@ -51,7 +51,7 @@ export NVM_DIR="$HOME/.nvm"
 NPM is installed with Node and Bower's dead baby 💀 Optionally install the package managers below:
 
 - Install [Composer](https://getcomposer.org/doc/00-intro.md#globally): `brew install homebrew/php/composer`
-- Install [Yarn](https://yarnpkg.com/lang/en/docs/install/#mac-tab) (without node): `brew install yarn --without-node`
+- Install [Yarn](https://yarnpkg.com/lang/en/docs/install/#mac-tab) (without Node.js): `brew install yarn --without-node`
 
 ### Task Runners / Build Tools
 
