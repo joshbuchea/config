@@ -50,8 +50,8 @@ You are encouraged to fork this and modify it to your heart's content to match y
 
 NPM is installed with Node and Bower's dead baby 💀 Optionally install the package managers below:
 
-- Install [Composer](https://getcomposer.org/doc/00-intro.md#globally): `brew install homebrew/php/composer`
 - Install [Yarn](https://yarnpkg.com/lang/en/docs/install/#mac-tab) (without Node.js): `brew install yarn --without-node`
+- Install [Composer](https://getcomposer.org/doc/00-intro.md#globally): `brew install homebrew/php/composer`
 
 ### Task Runners / Build Tools
 
