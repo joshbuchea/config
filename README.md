@@ -117,7 +117,6 @@ The software selected is software that is "tried and true" --- software I need a
   - [Spotify](https://www.spotify.com/us/download/mac/)
   - [SuperDuper!](http://www.shirt-pocket.com/downloads/SuperDuper!.dmg)
   - [VLC media player](http://www.videolan.org/vlc/download-macosx.html)
-  - [XtraFinder](https://www.trankynam.com/xtrafinder/)
 
 ## OS X Preferences
 
