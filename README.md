@@ -97,6 +97,7 @@ The software selected is software that is "tried and true" --- software I need a
 - Development
   - [Anvil](http://anvilformac.com/)
   - [Atom](https://atom.io/download/mac) or `brew cast install atom`
+  - [Captain](https://getcaptain.co/) or `brew cask install captain`
   - [Docker](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac) or `brew cask install docker`
   - [ImageOptim](https://imageoptim.com/ImageOptim.tbz2) or `brew cask install imageoptim`
   - [MAMP](https://www.mamp.info/en/downloads/) or `brew cask install mamp`
@@ -109,11 +110,13 @@ The software selected is software that is "tried and true" --- software I need a
   - [Visual Studio Code](https://code.visualstudio.com/download) or `brew cask install visual-studio-code`
 
 - Utilities
+  - [1Clipboard](http://1clipboard.io/) or `brew cask install 1clipboard`
   - [Audacity](http://audacityteam.org/)
   - [Dropbox](https://www.dropbox.com/install2) or `brew cask install dropbox`
   - [FileZilla](https://filezilla-project.org/download.php?type=client) or `brew cask install filezilla`
   - [Franz](http://meetfranz.com/#download) or `brew cask install franz`
   - [GIMP](https://www.gimp.org/downloads/) or `brew cask install gimp`
+  - [HandBrake](https://handbrake.fr/downloads.php) or `brew cask install handbrake`
   - [Junecloud Automator Actions](http://junecloud.com/software/mac/junecloud-automator-actions.html)
   - [Kap](https://getkap.co/) or `brew cask install kap`
   - [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake/releases) or `brew cask install keepingyouawake`
