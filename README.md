@@ -7,7 +7,7 @@ You are encouraged to fork this and modify it to your heart's content to match y
 ## Dev Config
 
 - Install [Xcode](https://itunes.apple.com/app/xcode/id497799835?mt=12) from the App Store
-- Install [Homebrew](http://brew.sh/): `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- Install [Homebrew](http://brew.sh/): `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 ### Oh My Zsh
 
