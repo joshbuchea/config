@@ -18,7 +18,7 @@ You are encouraged to fork this and modify it to your heart's content to match y
 
 ### iTerm2
 
-- Install [iTerm2](https://www.iterm2.com/downloads.html)
+- Install [iTerm2](https://www.iterm2.com/downloads.html) or `brew cask install iterm2`
 
 ### Hyper.app
 
