@@ -51,7 +51,7 @@ export NVM_DIR="$HOME/.nvm"
 - Install [Bower](https://bower.io/): `npm install -g bower`
 - Install [Composer](https://getcomposer.org/doc/00-intro.md#globally): `brew install homebrew/php/composer`
 
-## Task Runners / Build Tools
+### Task Runners / Build Tools
 
 - Install [Gulp](http://gulpjs.com/): `npm install -g gulp-cli`
 - Install [Grunt](http://gruntjs.com/): `npm install -g grunt-cli`
