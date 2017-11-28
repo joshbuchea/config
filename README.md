@@ -22,7 +22,7 @@ You are encouraged to fork this and modify it to your heart's content to match y
 
 ### Hyper.app
 
-- Install [Hyper.app](https://hyper.is/)
+- Install [Hyper.app](https://hyper.is/) or `brew cask install hyper`
 - Install [hpm-cli](https://www.npmjs.com/package/hpm-cli): `npm install -g hpm-cli`
 - Install extensions by adding extension name to `plugins` list in `~/.hyper.js` (extensions live in `~/.hyper_plugins`):
   - [hyperterm-material](https://github.com/dperrera/hyperterm-material): `hpm install hyperterm-material`
