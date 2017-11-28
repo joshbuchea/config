@@ -114,7 +114,7 @@ The software selected is software that is "tried and true" --- software I need a
   - [Audacity](http://audacityteam.org/)
   - [Dropbox](https://www.dropbox.com/install2) or `brew cask install dropbox`
   - [FileZilla](https://filezilla-project.org/download.php?type=client) or `brew cask install filezilla`
-  - [Franz](http://meetfranz.com/#download) or `brew cask install franz`
+  - [Franz 4](https://github.com/meetfranz/franz-app-legacy/releases)
   - [GIMP](https://www.gimp.org/downloads/) or `brew cask install gimp`
   - [Google Backup and Sync](https://www.google.com/drive/download/backup-and-sync/) or `brew cask install google-backup-and-sync`
   - [HandBrake](https://handbrake.fr/downloads.php) or `brew cask install handbrake`
