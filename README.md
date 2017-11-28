@@ -101,6 +101,7 @@ The software selected is software that is "tried and true" --- software I need a
   - [ImageOptim](https://imageoptim.com/ImageOptim.tbz2) or `brew cask install imageoptim`
   - [MAMP](https://www.mamp.info/en/downloads/) or `brew cask install mamp`
   - [Postman](https://www.getpostman.com) or `brew cask install postman`
+  - [Screaming Frog SEO Spider](https://www.screamingfrog.co.uk/seo-spider/) or `brew cask install screaming-frog-seo-spider`
   - [Sequel Pro](http://www.sequelpro.com/download) or `brew cask install sequel-pro`
   - [SourceTree](https://www.sourcetreeapp.com/download) or `brew cask install sourcetree`
   - [Sublime Text 3](http://www.sublimetext.com/3) or `brew cask install sublime-text`
