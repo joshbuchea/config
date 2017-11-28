@@ -101,7 +101,6 @@ The software selected is software that is "tried and true" --- software I need a
 - Utilities
   - [Audacity](http://audacityteam.org/)
   - [Dropbox](https://www.dropbox.com/install2)
-  - [f.lux](https://justgetflux.com/)
   - [FileZilla](https://filezilla-project.org/download.php?type=client)
   - [Franz](http://meetfranz.com/#download)
   - [GIMP](https://www.gimp.org/downloads/)
