@@ -89,35 +89,36 @@ The software selected is software that is "tried and true" --- software I need a
 ### Install from Third-Party Websites
 
 - Browsers
-  - [Chrome](https://www.google.com/chrome/browser/desktop/)
+  - [Chrome](https://www.google.com/chrome/browser/desktop/) or `brew cask install google-chrome`
   - [Chromium](https://download-chromium.appspot.com/) or `brew cask install chromium`
-  - [Firefox](http://firefox.com)
+  - [Firefox](http://firefox.com) or `brew cask install firefox`
   - [Opera](http://www.opera.com/)
 
 - Development
   - [Anvil](http://anvilformac.com/)
-  - [Atom](https://atom.io/download/mac)
-  - [Docker](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac)
-  - [ImageOptim](https://imageoptim.com/ImageOptim.tbz2)
-  - [MAMP](https://www.mamp.info/en/downloads/)
-  - [Postman](https://www.getpostman.com)
-  - [Sequel Pro](http://www.sequelpro.com/download)
-  - [SourceTree](https://www.sourcetreeapp.com/download)
-  - [Sublime Text 3](http://www.sublimetext.com/3)
-  - [Unity](https://unity3d.com/get-unity)
-  - [Visual Studio Code](https://code.visualstudio.com/download)
+  - [Atom](https://atom.io/download/mac) or `brew cast install atom`
+  - [Docker](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac) or `brew cask install docker`
+  - [ImageOptim](https://imageoptim.com/ImageOptim.tbz2) or `brew cask install imageoptim`
+  - [MAMP](https://www.mamp.info/en/downloads/) or `brew cask install mamp`
+  - [Postman](https://www.getpostman.com) or `brew cask install postman`
+  - [Sequel Pro](http://www.sequelpro.com/download) or `brew cask install sequel-pro`
+  - [SourceTree](https://www.sourcetreeapp.com/download) or `brew cask install sourcetree`
+  - [Sublime Text 3](http://www.sublimetext.com/3) or `brew cask install sublime-text`
+  - [Unity](https://unity3d.com/get-unity) or `brew cask install unity`
+  - [Visual Studio Code](https://code.visualstudio.com/download) or `brew cask install visual-studio-code`
 
 - Utilities
   - [Audacity](http://audacityteam.org/)
-  - [Dropbox](https://www.dropbox.com/install2)
-  - [FileZilla](https://filezilla-project.org/download.php?type=client)
-  - [Franz](http://meetfranz.com/#download)
+  - [Dropbox](https://www.dropbox.com/install2) or `brew cask install dropbox`
+  - [FileZilla](https://filezilla-project.org/download.php?type=client) or `brew cask install filezilla`
+  - [Franz](http://meetfranz.com/#download) or `brew cask install franz`
   - [GIMP](https://www.gimp.org/downloads/) or `brew cask install gimp`
   - [Junecloud Automator Actions](http://junecloud.com/software/mac/junecloud-automator-actions.html)
-  - [Skype](http://www.skype.com/en/download-skype/skype-for-computer/)
-  - [Spotify](https://www.spotify.com/us/download/mac/)
-  - [SuperDuper!](http://www.shirt-pocket.com/downloads/SuperDuper!.dmg)
-  - [VLC media player](http://www.videolan.org/vlc/download-macosx.html)
+  - [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake/releases) or `brew cask install keepingyouawake`
+  - [Skype](http://www.skype.com/en/download-skype/skype-for-computer/) or `brew cask install skype`
+  - [Spotify](https://www.spotify.com/us/download/mac/) or `brew cask install spotify`
+  - [SuperDuper!](http://www.shirt-pocket.com/downloads/SuperDuper!.dmg) or `brew cask install superduper`
+  - [VLC media player](http://www.videolan.org/vlc/download-macosx.html) or `brew cask install vlc`
 
 ## OS X Preferences
 
