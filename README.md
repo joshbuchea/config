@@ -40,12 +40,10 @@ You are encouraged to fork this and modify it to your heart's content to match y
 
 - Install [nvm](https://github.com/creationix/nvm#user-content-install-script)
 - Add nvm export entry to `.zshrc` file:
-
   ```sh
   export NVM_DIR="$HOME/.nvm"
   [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
   ```
-
 - Install latest stable version of Node.js: `nvm install stable`
 
 ### Package Managers
