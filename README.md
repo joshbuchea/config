@@ -15,6 +15,10 @@ You are encouraged to fork this and modify it to your heart's content to match y
 - Install: `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 - Plugins (add to `~/.zshrc`): `plugins=(git docker extract z)`
 
+### iTerm2
+
+- Install [iTerm2](https://www.iterm2.com/downloads.html)
+
 ### Hyper.app
 
 - Install [Hyper.app](https://hyper.is/)
