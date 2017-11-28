@@ -71,7 +71,7 @@ NPM is installed with Node and Bower's dead baby 💀 Optionally install the pac
 
 The software selected is software that is "tried and true" --- software I need after any fresh install. I often install other software not listed here, but is handled in a case-by-case basis.
 
-## Install with Homebrew
+### Install with Homebrew
 
 - [ImageMagick](https://www.imagemagick.org/script/): `brew install imagemagick`
 - [Wget](https://www.gnu.org/software/wget/): `brew install wget`
