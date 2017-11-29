@@ -83,8 +83,8 @@ The software selected is software that is "tried and true" --- software I need a
 - [Amphetamine](https://itunes.apple.com/app/amphetamine/id937984704?mt=12)
 - [Fantastical](https://flexibits.com/fantastical) (from Purchased tab)
 - [Sip](https://itunes.apple.com/us/app/sip/id507257563?mt=12) (from Purchased tab)
-- [Slack](https://itunes.apple.com/app/slack/id803453959?mt=12)
-- [The Unarchiver](https://itunes.apple.com/app/the-unarchiver/id425424353?mt=12)
+- [Slack](https://itunes.apple.com/app/slack/id803453959?mt=12) or `brew cask install slack`
+- [The Unarchiver](https://itunes.apple.com/app/the-unarchiver/id425424353?mt=12) or `brew cask install the-unarchiver`
 
 ### Install from Third-Party Websites
 
