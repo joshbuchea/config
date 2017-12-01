@@ -93,6 +93,16 @@ NPM is installed with Node and Bower's dead baby 💀 Optionally install the pac
 
 - Install [Ionic](http://ionicframework.com/getting-started/) & [Cordova](https://cordova.apache.org/#getstarted) `npm install -g cordova ionic`
 
+### Jekyll
+
+- Check whether you have Ruby 2.1.0 or higher installed:
+    ```sh
+    $ ruby --version
+    ruby 2.X.X
+    ```
+- Install Bundler: `gem install bundler`
+- Install Jekyll: `gem install jekyll`
+
 ## Install Software
 
 The software selected is software that is "tried and true" --- software I need after any fresh install. I often install other software not listed here, but is handled in a case-by-case basis.
