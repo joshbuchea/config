@@ -49,17 +49,17 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git docker extract z)
+plugins=(brew docker extract git node npm osx z)
+
+source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-# export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
+# nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-
-source $ZSH/oh-my-zsh.sh
 
 # Android SDK
 # export ANDROID_HOME=/usr/local/opt/android-sdk
@@ -94,7 +94,7 @@ source $ZSH/oh-my-zsh.sh
 #
 
 # Shortcuts
-alias db="cd ~/Documents/Dropbox"
+alias db="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 #alias g="git"
@@ -149,11 +149,6 @@ alias lintreact="npm install --save-dev babel-eslint eslint eslint-config-airbnb
 # SSH
 alias sshgen="echo ssh-keygen -t rsa -b 4096 -C \"your_email@example.com\""
 alias sshagent="echo ssh-add -K ~/.ssh/key_name"
-
-## SSH: Pro Q
-alias pqhosting="ssh root@72.10.52.144"
-alias pqmonitor="ssh root@monitor.proqsolutions.com"
-alias pqstaging="ssh proq@192.168.1.5"
 
 #
 # Custom Functions
