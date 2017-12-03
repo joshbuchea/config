@@ -518,7 +518,7 @@ Add below code to `~/.atom/config.cson`:
   - [GitGutter](https://github.com/jisaacks/GitGutter)
   - [HTML-CSS-JS Prettify](https://github.com/victorporof/Sublime-HTMLPrettify)
   - [Sass](https://packagecontrol.io/packages/Sass)
-- Load user settings from [`Preferences.sublime-settings`](/Preferences.sublime-settings)
+- Load user settings from [`Preferences.sublime-settings`](/sublime-text/Preferences.sublime-settings)
 
 ## BBEdit
 
