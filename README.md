@@ -338,6 +338,8 @@ defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool
 
 ### Config
 
+- Snippets (`~/.atom/snippets.cson`): [`snippets.cson`](/atom/snippets.cson)
+
 - Make tabs wider
   You should go to the themes tab in the settings view. Scroll all the way down until you see 'core themes' and the one dark ui theme. It should have a settings button that takes you to the theme's settings.
 - Remove page rule guide/line: `Disable the Wrap Guide package` `Settings > Packages > Search "wrap guide" > Disable`
@@ -390,124 +392,6 @@ Add below code to `~/.atom/config.cson`:
 .tab-bar .tab .title.title:before {
   margin-right: .5em;
 }
-```
-
-### Snippets
-
-`~/.atom/snippets.cson`:
-
-```cson
-'*':
-
-  'CLI SCP':
-    'prefix': 'cli_scp'
-    'body': 'scp ${1:username}@${2:host}:${3:/path/to/hosts/file/host_file.txt} ${4:~/desktop}'
-
-'.text.html.basic, .text.html.php':
-
-  'PHP js_dump':
-    'prefix': 'php_jsdump'
-    'body': """
-      ?>
-      <script>
-        console.log( <?php json_encode( ${1:$variable} ) ?> );
-      </script>
-      <?php
-    """
-
-  'PHP pre_dump':
-    'prefix': 'php_predump'
-    'body': """
-      echo '<pre>';
-      var_dump(${1:$variable});
-      echo '</pre>';
-    """
-
-  'PHP var_error_log':
-    'prefix': 'php_varerrorlog'
-    'body': """
-      ob_start();                       // start buffer capture
-      var_dump( ${1:$object} );              // dump the values
-      $contents = ob_get_contents();    // put the buffer into a variable
-      ob_end_clean();                   // end capture
-      error_log( $contents );           // log contents of the result of var_dump( $object )
-    """
-
-  'WP site_url':
-    'prefix': 'wp_siteurl'
-    'body': """
-      define('WP_HOME','http://example.com');
-      define('WP_SITEURL','http://example.com');
-    """
-
-  'CDN: Angular 1':
-    'prefix': 'cdn_angular1'
-    'body': """
-      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
-    """
-
-  'CDN: jQuery 1':
-    'prefix': 'cdn_jquery1'
-    'body': """
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    """
-
-  'CDN: jQuery 2':
-    'prefix': 'cdn_jquery2'
-    'body': """
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    """
-
-  'CDN: jQuery 3':
-    'prefix': 'cdn_jquery3'
-    'body': """
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    """
-
-  'CDN: jQuery UI':
-    'prefix': 'cdn_jqueryui'
-    'body': """
-      <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    """
-
-  'CDN: three.js':
-    'prefix': 'cdn_threejs'
-    'body': """
-      <script src="https://ajax.googleapis.com/ajax/libs/threejs/r76/three.min.js"></script>
-    """
-
-'.source.css':
-
-  'CSS Media Query':
-    'prefix': 'css_mediaquery'
-    'body': """
-      @media screen and (min-width: ${1:320px}) {${2:}}
-    """
-
-  'CSS System Font Stack':
-    'prefix': 'css_systemfontstack'
-    'body': """
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-    """
-
-'.source.js':
-
-  'JS IIFE':
-    'prefix': 'js_iife'
-    'body': """
-      (function() {
-        ${1:'use strict'}
-
-      })();
-    """
-
-  'JS Use Strict':
-    'prefix': 'js_usestrict'
-    'body': """
-      'use strict';
-    """
-
 ```
 
 ## Sublime Text
