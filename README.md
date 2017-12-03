@@ -268,6 +268,48 @@ defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool
 
 - Enable Dark Theme: `View > Theme > Dark`
 
+## Visual Studio Code
+
+- Install Extensions:
+  - EditorConfig for VS Code
+  - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- Config user settings:
+
+`settings.json`
+
+```json
+// Place your settings in this file to overwrite the default settings
+{
+  "atomKeymap.promptV3Features": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "editor.detectIndentation": false,
+  "editor.fontSize": 14,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.minimap.enabled": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.renderIndentGuides": true,
+  "editor.tabSize": 2,
+  "editor.trimAutoWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "gitlens.codeLens.locations.document": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "typescript.check.npmIsInstalled": false,
+  "window.reopenFolders": "all",
+  "window.restoreFullscreen": true,
+  "window.restoreWindows": "all",
+  "workbench.activityBar.visible": true,
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "vs-seti",
+  "workbench.startupEditor": "newUntitledFile"
+}
+```
+
 ## Atom
 
 ### Packages
@@ -466,48 +508,6 @@ Add below code to `~/.atom/config.cson`:
       'use strict';
     """
 
-```
-
-## Visual Studio Code
-
-- Install Extensions:
-  - EditorConfig for VS Code
-  - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-- Config user settings:
-
-`settings.json`
-
-```json
-// Place your settings in this file to overwrite the default settings
-{
-  "atomKeymap.promptV3Features": true,
-  "diffEditor.ignoreTrimWhitespace": true,
-  "editor.detectIndentation": false,
-  "editor.fontSize": 14,
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "editor.insertSpaces": true,
-  "editor.minimap.enabled": true,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.renderIndentGuides": true,
-  "editor.tabSize": 2,
-  "editor.trimAutoWhitespace": true,
-  "files.insertFinalNewline": true,
-  "files.trimFinalNewlines": true,
-  "files.trimTrailingWhitespace": true,
-  "gitlens.codeLens.locations.document": false,
-  "gitlens.codeLens.recentChange.enabled": false,
-  "prettier.singleQuote": true,
-  "prettier.trailingComma": "es5",
-  "typescript.check.npmIsInstalled": false,
-  "window.reopenFolders": "all",
-  "window.restoreFullscreen": true,
-  "window.restoreWindows": "all",
-  "workbench.activityBar.visible": true,
-  "workbench.colorTheme": "One Dark Pro",
-  "workbench.iconTheme": "vs-seti",
-  "workbench.startupEditor": "newUntitledFile"
-}
 ```
 
 ## Sublime Text
