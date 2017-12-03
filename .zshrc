@@ -61,9 +61,6 @@ source $ZSH/oh-my-zsh.sh
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
-# Android SDK
-# export ANDROID_HOME=/usr/local/opt/android-sdk
-
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
