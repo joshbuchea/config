@@ -482,17 +482,18 @@ Add below code to `~/.atom/config.cson`:
 {
   "atomKeymap.promptV3Features": true,
   "diffEditor.ignoreTrimWhitespace": true,
-  "editor.multiCursorModifier": "ctrlCmd",
   "editor.detectIndentation": false,
-  "editor.insertSpaces": true,
   "editor.fontSize": 14,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
   "editor.minimap.enabled": true,
+  "editor.multiCursorModifier": "ctrlCmd",
   "editor.renderIndentGuides": true,
   "editor.tabSize": 2,
   "editor.trimAutoWhitespace": true,
   "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "gitlens.codeLens.locations.document": false,
   "gitlens.codeLens.recentChange.enabled": false,
@@ -500,10 +501,12 @@ Add below code to `~/.atom/config.cson`:
   "prettier.trailingComma": "es5",
   "typescript.check.npmIsInstalled": false,
   "window.reopenFolders": "all",
+  "window.restoreFullscreen": true,
+  "window.restoreWindows": "all",
+  "workbench.activityBar.visible": true,
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "vs-seti",
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.activityBar.visible": true
+  "workbench.startupEditor": "newUntitledFile"
 }
 ```
 
