@@ -116,8 +116,8 @@ The software selected is software that is "tried and true" --- software I need a
 
 - [1Password](https://itunes.apple.com/app/1password-password-manager/id443987910?mt=12) (after Dropbox)
 - [Amphetamine](https://itunes.apple.com/app/amphetamine/id937984704?mt=12)
-- [Fantastical](https://flexibits.com/fantastical) (from Purchased tab)
-- [Sip](https://itunes.apple.com/us/app/sip/id507257563?mt=12) (from Purchased tab)
+- [Fantastical](https://flexibits.com/fantastical) (from [Purchased tab](macappstore://showPurchasesPage))
+- [Sip](https://itunes.apple.com/us/app/sip/id507257563?mt=12) (from [Purchased tab](macappstore://showPurchasesPage))
 - [Slack](https://itunes.apple.com/app/slack/id803453959?mt=12) or `brew cask install slack`
 - [The Unarchiver](https://itunes.apple.com/app/the-unarchiver/id425424353?mt=12) or `brew cask install the-unarchiver`
 
