@@ -50,3 +50,8 @@ Thumbs.db
 # Private #
 ###################
 *.keystore
+
+# Ignore Folder(s) #
+####################
+# added this rule to enable personal "ignore" folders in any repo
+.ignore/
