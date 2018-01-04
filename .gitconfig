@@ -14,4 +14,4 @@
 	smudge = git lfs smudge %f
 	required = true
 [commit]
-	template = /Users/josh/.stCommitMsg
+	template = /Users/josh/.git-commit-msg
