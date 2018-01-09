@@ -95,7 +95,7 @@ NPM is installed with Node and Bower's dead baby 💀 Optionally install the pac
 
 ### Jekyll
 
-- Check whether you have Ruby 2.1.0 or higher installed:
+- Check whether you have Ruby `2.1.0` or higher installed:
     ```sh
     $ ruby --version
     ruby 2.X.X
