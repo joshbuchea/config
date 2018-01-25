@@ -142,6 +142,7 @@ The software selected is software that is "tried and true" --- software I need a
   - [SourceTree](https://www.sourcetreeapp.com/download) or `brew cask install sourcetree`
   - [Sublime Text 3](http://www.sublimetext.com/3) or `brew cask install sublime-text`
   - [Unity](https://unity3d.com/get-unity) or `brew cask install unity`
+  - [VirtualBox](https://www.virtualbox.org/wiki/Downloads) or `brew cask install virtualbox`
   - [Visual Studio Code](https://code.visualstudio.com/download) or `brew cask install visual-studio-code`
 
 - Utilities
