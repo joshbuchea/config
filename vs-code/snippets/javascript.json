@@ -15,29 +15,19 @@
 	
 	"IIFE": {
 		"prefix": "iife",
-		"body": [
-			"(function() {",
-			"\t${1:'use strict';}",
-			"",
-			"\t$0",
-			"})();"
-		],
+		"body": "(function() {\n\t${1:'use strict';}\n\t\t\n\t$0\n})();",
 		"description": "JS IIFE"
 	},
 	
 	"Log var to the console": {
 		"prefix": "log",
-		"body": [
-			"console.log('${1:var}: ', ${1:var});$0"
-		],
+		"body": "console.log('${1:var}: ', ${1:var});$0",
 		"description": "Log variable to the console"
 	},
 	
 	"Use strict": {
 		"prefix": "strict",
-		"body": [
-			"'use strict';$0"
-		],
+		"body": "'use strict';$0",
 		"description": "JS Use Strict"
 	}
 }
