@@ -88,6 +88,7 @@ NPM is installed with Node and Bower's dead baby 💀 Optionally install the pac
 
 - Install [React Native](https://facebook.github.io/react-native/docs/getting-started.html): `npm install -g react-native-cli`
 - Install [Create React Native App](https://github.com/react-community/create-react-native-app): `npm install -g create-react-native-app`
+- Install [Expo](https://expo.io/): `npm install -g exp`
 
 ### Ionic & Cordova
 
