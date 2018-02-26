@@ -369,33 +369,6 @@ Add below code to `~/.atom/config.cson`:
     foldEndPattern: ""
 ```
 
-### Styles
-
-`~/.atom/styles.less`:
-
-```less
-// One Dark UI Theme Tweaks
-.theme-one-dark-ui {
-  .tab-bar {
-    height: 3.4em;
-    .tab {
-      line-height: 3.4em;
-      .title {
-        margin: 0 2.4em 0 1.6em
-      }
-      .close-icon {
-        top: 0.9em;
-      }
-    }
-  }
-}
-
-// increase spacing between tab icons & tab titles
-.tab-bar .tab .title.title:before {
-  margin-right: .5em;
-}
-```
-
 ## Sublime Text
 
 - [Install Package Control](https://packagecontrol.io/installation)
