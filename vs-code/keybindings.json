@@ -1,0 +1,12 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+	{
+		"key": "cmd+k 1",
+		"command": "editor.action.insertSnippet",
+		"when": "editorTextFocus",
+		"args": {
+			"langId": "javascript",
+			"name": "Log var to the console"
+		}
+	}
+]
