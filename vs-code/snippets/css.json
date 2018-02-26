@@ -12,4 +12,20 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+	
+	"Media Query": {
+		"prefix": "@media",
+		"body": [
+			"@media screen and (min-width: ${1:320px}) {${0}}"
+		],
+		"description": "CSS Media Query"
+	},
+	
+	"System Font Stack": {
+		"prefix": "font-system",
+		"body": [
+			"font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif;"
+		],
+		"description": "CSS System Font Stack"
+	},
 }

@@ -19,9 +19,9 @@
 			"\"${1:User Snippet}\": {",
 			"\t\"prefix\": \"${2:prefix}\",",
 			"\t\"body\": [",
-			"\t\t\"${4}\"",
+			"\t\t\"${0}\"",
 			"\t],",
-			"\t\"description\": \"${3:'Description of snippet'}\"",
+			"\t\"description\": \"${3:Description of snippet}\"",
 			"},"
 		],
 		"description": "Code User Snippet"
