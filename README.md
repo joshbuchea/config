@@ -255,41 +255,44 @@ defaults write org.videolan.vlc.LSSharedFileList RecentDocuments -dict-add MaxAm
 defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool FALSE
 ```
 
-## Dropbox
+## Config Software
+
+- [Config BBEdit](BBEdit.md)
+
+### Dropbox
 
 - `Preferences > Network > Bandwidth: Change Settings... > Upload rate > Don't limit`
 
-## Chrome
+### Chrome
 
-### DevTools
+#### DevTools
 
 - Enable Dark Theme: `DevTools > Settings > Preferences > Appearance > Theme > Select Dark`
 - Show user agent shadow DOM: `DevTools > Settings > Preferences > Elements > Show user agent shadow DOM`
 - Disable cache (while DevTools is open): `DevTools > Settings > Preferences > Network > Check Disable cache (while DevTools is open)`
 
-## SourceTree
+### SourceTree
 
 - Enable Dark Theme: `View > Theme > Dark`
 
-## Visual Studio Code
+### Visual Studio Code
 
 - Load user settings from [`settings.json`](/vs-code/settings.json) to `~/Library/Application Support/Code/User/settings.json`
 - Install Extensions:
   - EditorConfig for VS Code
   - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-## Atom
+### Atom
 
-### Config
+#### Config
 
 - Load user snippets from [`snippets.cson`](/atom/snippets.cson) to `~/.atom/snippets.cson`
-
 - Make tabs wider
   You should go to the themes tab in the settings view. Scroll all the way down until you see 'core themes' and the one dark ui theme. It should have a settings button that takes you to the theme's settings.
 - Remove page rule guide/line: `Disable the Wrap Guide package` `Settings > Packages > Search "wrap guide" > Disable`
 - Recents (Closed Files): `Settings > Packages > Open Recent > List Directories Added to Project`
 
-#### Show closing brace/tag when folding code blocks
+##### Show closing brace/tag when folding code blocks
 
 Add below code to `~/.atom/config.cson`:
 
@@ -311,7 +314,7 @@ Add below code to `~/.atom/config.cson`:
     foldEndPattern: ""
 ```
 
-### Install Packages
+#### Install Packages
 
 - atom-beautify
 - badass-react-snippets
@@ -335,7 +338,7 @@ Add below code to `~/.atom/config.cson`:
 - tabs-to-spaces
 - todo-show
 
-## Sublime Text
+### Sublime Text
 
 - [Install Package Control](https://packagecontrol.io/installation)
 - Install Packages (Command-Shift-P)
@@ -344,14 +347,3 @@ Add below code to `~/.atom/config.cson`:
   - [HTML-CSS-JS Prettify](https://github.com/victorporof/Sublime-HTMLPrettify)
   - [Sass](https://packagecontrol.io/packages/Sass)
 - Load user settings from [`Preferences.sublime-settings`](/sublime-text/Preferences.sublime-settings)
-
-## BBEdit
-
-### Preferences
-
-- `Appearance > List display font > System Font Regular - 12`
-- `Editor Defaults > Soft wrap text to > Page guide`
-- `Editor Defaults > Default font > Consolas for BBEdit - 13`
-- `Editor Defaults > Tab width > 2`
-- `Keyboard > "Home" and "End" key behavior > Move cursor to beginning and end of current line`
-- `Keyboard > Allow Tab key to indent text blocks`
