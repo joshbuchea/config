@@ -273,7 +273,7 @@ defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool
 
 ## Visual Studio Code
 
-- Config user settings (`~/Library/Application Support/Code/User/settings.json`): [`settings.json`](/vs-code/settings.json)
+- Load user settings from: [`settings.json`](/vs-code/settings.json) (`~/Library/Application Support/Code/User/settings.json`)
 - Install Extensions:
   - EditorConfig for VS Code
   - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
