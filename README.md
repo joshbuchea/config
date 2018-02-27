@@ -273,40 +273,16 @@ defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool
 
 ## Visual Studio Code
 
-- Load user settings from: [`settings.json`](/vs-code/settings.json) (`~/Library/Application Support/Code/User/settings.json`)
+- Load user settings from [`settings.json`](/vs-code/settings.json) to `~/Library/Application Support/Code/User/settings.json`
 - Install Extensions:
   - EditorConfig for VS Code
   - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 ## Atom
 
-### Packages
-
-- atom-beautify
-- badass-react-snippets
-- file-icons
-- git-time-machine
-- highlight-selected
-- html-head-snippets
-- language-babel
-- language-javascript-jsx
-- linter
-- linter-eslint
-- linter-jscs
-- merge-conflicts
-- minimap
-- open-recent
-- php-debug
-- pigments
-- prettier-atom
-- split-diff
-- tab-control
-- tabs-to-spaces
-- todo-show
-
 ### Config
 
-- Snippets (`~/.atom/snippets.cson`): [`snippets.cson`](/atom/snippets.cson)
+- Load user snippets from [`snippets.cson`](/atom/snippets.cson) to `~/.atom/snippets.cson`
 
 - Make tabs wider
   You should go to the themes tab in the settings view. Scroll all the way down until you see 'core themes' and the one dark ui theme. It should have a settings button that takes you to the theme's settings.
@@ -334,6 +310,30 @@ Add below code to `~/.atom/config.cson`:
   editor:
     foldEndPattern: ""
 ```
+
+### Install Packages
+
+- atom-beautify
+- badass-react-snippets
+- file-icons
+- git-time-machine
+- highlight-selected
+- html-head-snippets
+- language-babel
+- language-javascript-jsx
+- linter
+- linter-eslint
+- linter-jscs
+- merge-conflicts
+- minimap
+- open-recent
+- php-debug
+- pigments
+- prettier-atom
+- split-diff
+- tab-control
+- tabs-to-spaces
+- todo-show
 
 ## Sublime Text
 
