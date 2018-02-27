@@ -45,16 +45,6 @@ You are encouraged to fork this and modify it to your heart's content to match y
 
 - https://github.com/wesbos/Cobalt2-iterm
 
-### Hyper.app
-
-- Install [Hyper.app](https://hyper.is/) or `brew cask install hyper`
-- Install [hpm-cli](https://www.npmjs.com/package/hpm-cli): `npm install -g hpm-cli`
-- Install extensions by adding extension name to `plugins` list in `~/.hyper.js` (extensions live in `~/.hyper_plugins`):
-  - [hyperterm-material](https://github.com/dperrera/hyperterm-material): `hpm install hyperterm-material`
-  - [hypercwd](https://github.com/hharnisc/hypercwd): `hpm install hypercwd`
-  - [hyperpower](https://www.npmjs.com/package/hyperpower): `hpm install hyperpower`
-  - [hyper-always-on-top](https://www.npmjs.com/package/hyper-always-on-top): `hpm install hyper-always-on-top`
-
 ### RVM
 
 - Install [rvm](https://rvm.io/rvm/install#quick-guided-install) (option #2 - Install RVM stable with ruby)
@@ -135,6 +125,7 @@ The software selected is software that is "tried and true" --- software I need a
   - [Atom](https://atom.io/download/mac) or `brew cask install atom`
   - [Captain](https://getcaptain.co/) or `brew cask install captain`
   - [Docker](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac) or `brew cask install docker`
+  - [Hyper.app](https://hyper.is/) or `brew cask install hyper`
   - [ImageOptim](https://imageoptim.com/ImageOptim.tbz2) or `brew cask install imageoptim`
   - [MAMP](https://www.mamp.info/en/downloads/) or `brew cask install mamp`
   - [Postman](https://www.getpostman.com) or `brew cask install postman`
@@ -258,6 +249,7 @@ defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool
 ## Config Software
 
 - [Config BBEdit](BBEdit.md)
+- [Config Hyper.app](Hyper.md)
 
 ### Dropbox
 
