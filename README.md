@@ -98,11 +98,6 @@ NPM is installed with Node and Bower's dead baby 💀 Optionally install the pac
 
 The software selected is software that is "tried and true" --- software I need after any fresh install. I often install other software not listed here, but is handled in a case-by-case basis.
 
-### Install with Homebrew
-
-- [ImageMagick](https://www.imagemagick.org/script/): `brew install imagemagick`
-- [Wget](https://www.gnu.org/software/wget/): `brew install wget`
-
 ### Install from App Store
 
 - [1Password](https://itunes.apple.com/app/1password-password-manager/id443987910?mt=12) (after Dropbox)
@@ -112,7 +107,7 @@ The software selected is software that is "tried and true" --- software I need a
 - [Slack](https://itunes.apple.com/app/slack/id803453959?mt=12) or `brew cask install slack`
 - [The Unarchiver](https://itunes.apple.com/app/the-unarchiver/id425424353?mt=12) or `brew cask install the-unarchiver`
 
-### Install from Third-Party Websites
+### Install from Third-Party Websites or Homebrew
 
 - Browsers
   - [Chrome](https://www.google.com/chrome/browser/desktop/) or `brew cask install google-chrome`
@@ -126,6 +121,7 @@ The software selected is software that is "tried and true" --- software I need a
   - [Captain](https://getcaptain.co/) or `brew cask install captain`
   - [Docker](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac) or `brew cask install docker`
   - [Hyper.app](https://hyper.is/) or `brew cask install hyper`
+  - [ImageMagick](https://www.imagemagick.org/script/) or `brew install imagemagick` (Prefer Homebrew)
   - [ImageOptim](https://imageoptim.com/ImageOptim.tbz2) or `brew cask install imageoptim`
   - [MAMP](https://www.mamp.info/en/downloads/) or `brew cask install mamp`
   - [Postman](https://www.getpostman.com) or `brew cask install postman`
@@ -136,6 +132,7 @@ The software selected is software that is "tried and true" --- software I need a
   - [Unity](https://unity3d.com/get-unity) or `brew cask install unity`
   - [VirtualBox](https://www.virtualbox.org/wiki/Downloads) or `brew cask install virtualbox`
   - [Visual Studio Code](https://code.visualstudio.com/download) or `brew cask install visual-studio-code`
+  - [Wget](https://www.gnu.org/software/wget/) or `brew install wget` (Prefer Homebrew)
 
 - Utilities
   - [1Clipboard](http://1clipboard.io/) or `brew cask install 1clipboard`
