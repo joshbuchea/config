@@ -152,7 +152,7 @@ The software selected is software that is "tried and true" --- software I need a
   - [Transmission](https://transmissionbt.com/download/) or `brew cask install transmission`
   - [VLC media player](http://www.videolan.org/vlc/download-macosx.html) or `brew cask install vlc`
 
-## OS X Preferences
+## Config macOS
 
 ```bash
 
