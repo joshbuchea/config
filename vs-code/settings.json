@@ -25,7 +25,6 @@
   "window.restoreFullscreen": true,
   "window.restoreWindows": "all",
   "workbench.activityBar.visible": true,
-  "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "vs-seti",
   "workbench.startupEditor": "newUntitledFile"
 }
