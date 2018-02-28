@@ -84,48 +84,51 @@ The software selected is software that is "tried and true" --- software I need a
 
 ### Install from Third-Party Websites or Homebrew
 
-- Browsers
-  - [Chrome](https://www.google.com/chrome/browser/desktop/): `brew cask install google-chrome`
-  - [Chromium](https://download-chromium.appspot.com/): `brew cask install chromium`
-  - [Firefox](http://firefox.com): `brew cask install firefox`
-  - [Opera](http://www.opera.com/)
+#### Browsers
 
-- Development
-  - [Anvil](http://anvilformac.com/)
-  - [Atom](https://atom.io/download/mac): `brew cask install atom`
-  - [Captain](https://getcaptain.co/): `brew cask install captain`
-  - [Docker](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac): `brew cask install docker`
-  - [Hyper.app](https://hyper.is/): `brew cask install hyper`
-  - [ImageMagick](https://www.imagemagick.org/script/): `brew install imagemagick` (Prefer Homebrew)
-  - [ImageOptim](https://imageoptim.com/ImageOptim.tbz2): `brew cask install imageoptim`
-  - [MAMP](https://www.mamp.info/en/downloads/): `brew cask install mamp`
-  - [Postman](https://www.getpostman.com): `brew cask install postman`
-  - [Screaming Frog SEO Spider](https://www.screamingfrog.co.uk/seo-spider/): `brew cask install screaming-frog-seo-spider`
-  - [Sequel Pro](http://www.sequelpro.com/download): `brew cask install sequel-pro`
-  - [SourceTree](https://www.sourcetreeapp.com/download): `brew cask install sourcetree`
-  - [Sublime Text 3](http://www.sublimetext.com/3): `brew cask install sublime-text`
-  - [Unity](https://unity3d.com/get-unity): `brew cask install unity`
-  - [VirtualBox](https://www.virtualbox.org/wiki/Downloads): `brew cask install virtualbox`
-  - [Visual Studio Code](https://code.visualstudio.com/download): `brew cask install visual-studio-code`
-  - [Wget](https://www.gnu.org/software/wget/) or `brew install wget` (Prefer Homebrew)
+- [Chrome](https://www.google.com/chrome/browser/desktop/): `brew cask install google-chrome`
+- [Chromium](https://download-chromium.appspot.com/): `brew cask install chromium`
+- [Firefox](http://firefox.com): `brew cask install firefox`
+- [Opera](http://www.opera.com/)
 
-- Utilities
-  - [1Clipboard](http://1clipboard.io/): `brew cask install 1clipboard`
-  - [Audacity](http://audacityteam.org/)
-  - [Dropbox](https://www.dropbox.com/install2): `brew cask install dropbox`
-  - [FileZilla](https://filezilla-project.org/download.php?type=client): `brew cask install filezilla`
-  - [Franz 4](https://github.com/meetfranz/franz-app-legacy/releases)
-  - [GIMP](https://www.gimp.org/downloads/): `brew cask install gimp`
-  - [Google Backup and Sync](https://www.google.com/drive/download/backup-and-sync/): `brew cask install google-backup-and-sync`
-  - [HandBrake](https://handbrake.fr/downloads.php): `brew cask install handbrake`
-  - [Junecloud Automator Actions](http://junecloud.com/software/mac/junecloud-automator-actions.html)
-  - [Kap](https://getkap.co/): `brew cask install kap`
-  - [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake/releases): `brew cask install keepingyouawake`
-  - [Skype](http://www.skype.com/en/download-skype/skype-for-computer/): `brew cask install skype`
-  - [Spotify](https://www.spotify.com/us/download/mac/): `brew cask install spotify`
-  - [SuperDuper!](http://www.shirt-pocket.com/downloads/SuperDuper!.dmg): `brew cask install superduper`
-  - [Transmission](https://transmissionbt.com/download/): `brew cask install transmission`
-  - [VLC media player](http://www.videolan.org/vlc/download-macosx.html): `brew cask install vlc`
+#### Development
+
+- [Anvil](http://anvilformac.com/)
+- [Atom](https://atom.io/download/mac): `brew cask install atom`
+- [Captain](https://getcaptain.co/): `brew cask install captain`
+- [Docker](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac): `brew cask install docker`
+- [Hyper.app](https://hyper.is/): `brew cask install hyper`
+- [ImageMagick](https://www.imagemagick.org/script/): `brew install imagemagick` (Prefer Homebrew)
+- [ImageOptim](https://imageoptim.com/ImageOptim.tbz2): `brew cask install imageoptim`
+- [MAMP](https://www.mamp.info/en/downloads/): `brew cask install mamp`
+- [Postman](https://www.getpostman.com): `brew cask install postman`
+- [Screaming Frog SEO Spider](https://www.screamingfrog.co.uk/seo-spider/): `brew cask install screaming-frog-seo-spider`
+- [Sequel Pro](http://www.sequelpro.com/download): `brew cask install sequel-pro`
+- [SourceTree](https://www.sourcetreeapp.com/download): `brew cask install sourcetree`
+- [Sublime Text 3](http://www.sublimetext.com/3): `brew cask install sublime-text`
+- [Unity](https://unity3d.com/get-unity): `brew cask install unity`
+- [VirtualBox](https://www.virtualbox.org/wiki/Downloads): `brew cask install virtualbox`
+- [Visual Studio Code](https://code.visualstudio.com/download): `brew cask install visual-studio-code`
+- [Wget](https://www.gnu.org/software/wget/) or `brew install wget` (Prefer Homebrew)
+
+#### Utilities
+
+- [1Clipboard](http://1clipboard.io/): `brew cask install 1clipboard`
+- [Audacity](http://audacityteam.org/)
+- [Dropbox](https://www.dropbox.com/install2): `brew cask install dropbox`
+- [FileZilla](https://filezilla-project.org/download.php?type=client): `brew cask install filezilla`
+- [Franz 4](https://github.com/meetfranz/franz-app-legacy/releases)
+- [GIMP](https://www.gimp.org/downloads/): `brew cask install gimp`
+- [Google Backup and Sync](https://www.google.com/drive/download/backup-and-sync/): `brew cask install google-backup-and-sync`
+- [HandBrake](https://handbrake.fr/downloads.php): `brew cask install handbrake`
+- [Junecloud Automator Actions](http://junecloud.com/software/mac/junecloud-automator-actions.html)
+- [Kap](https://getkap.co/): `brew cask install kap`
+- [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake/releases): `brew cask install keepingyouawake`
+- [Skype](http://www.skype.com/en/download-skype/skype-for-computer/): `brew cask install skype`
+- [Spotify](https://www.spotify.com/us/download/mac/): `brew cask install spotify`
+- [SuperDuper!](http://www.shirt-pocket.com/downloads/SuperDuper!.dmg): `brew cask install superduper`
+- [Transmission](https://transmissionbt.com/download/): `brew cask install transmission`
+- [VLC media player](http://www.videolan.org/vlc/download-macosx.html): `brew cask install vlc`
 
 ## Config macOS
 
