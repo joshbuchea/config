@@ -109,7 +109,7 @@ The software selected is software that is "tried and true" --- software I need a
 - [Unity](https://unity3d.com/get-unity): `brew cask install unity`
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads): `brew cask install virtualbox`
 - [Visual Studio Code](https://code.visualstudio.com/download): `brew cask install visual-studio-code`
-- [Wget](https://www.gnu.org/software/wget/) or `brew install wget` (Prefer Homebrew)
+- [Wget](https://www.gnu.org/software/wget/): `brew install wget` (Prefer Homebrew)
 
 #### Utilities
 
