@@ -98,7 +98,7 @@ The software selected is software that is "tried and true" --- software I need a
 - [Captain](https://getcaptain.co/): `brew cask install captain`
 - [Docker](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac): `brew cask install docker`
 - [Hyper.app](https://hyper.is/): `brew cask install hyper`
-- [ImageMagick](https://www.imagemagick.org/script/): `brew install imagemagick` (Prefer Homebrew)
+- [ImageMagick](https://www.imagemagick.org/script/): `brew install imagemagick` (prefer Homebrew)
 - [ImageOptim](https://imageoptim.com/ImageOptim.tbz2): `brew cask install imageoptim`
 - [MAMP](https://www.mamp.info/en/downloads/): `brew cask install mamp`
 - [Postman](https://www.getpostman.com): `brew cask install postman`
@@ -109,7 +109,7 @@ The software selected is software that is "tried and true" --- software I need a
 - [Unity](https://unity3d.com/get-unity): `brew cask install unity`
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads): `brew cask install virtualbox`
 - [Visual Studio Code](https://code.visualstudio.com/download): `brew cask install visual-studio-code`
-- [Wget](https://www.gnu.org/software/wget/): `brew install wget` (Prefer Homebrew)
+- [Wget](https://www.gnu.org/software/wget/): `brew install wget` (prefer Homebrew)
 
 #### Utilities
 
