@@ -20,8 +20,8 @@
 	},
 	
 	"Log var to the console": {
-		"prefix": "log",
-		"body": "console.log('${1:var}: ', ${1:var});$0",
+		"prefix": "clv",
+		"body": "console.log('${1:var}:', ${1:var});$0",
 		"description": "Log variable to the console"
 	},
 	
@@ -29,5 +29,5 @@
 		"prefix": "strict",
 		"body": "'use strict';$0",
 		"description": "JS Use Strict"
-	}
+	},
 }

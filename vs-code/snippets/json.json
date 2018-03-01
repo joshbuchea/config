@@ -13,7 +13,7 @@
 	// 	"description": "Log output to console"
 	// }
 	
-	"Code User Snippet": {
+	"User Snippet": {
 		"prefix": "snippet",
 		"body": [
 			"\"${1:User Snippet}\": {",
@@ -24,6 +24,6 @@
 			"\t\"description\": \"${3:Description of snippet}\"",
 			"},"
 		],
-		"description": "Code User Snippet"
+		"description": "User Snippet"
 	},
 }
