@@ -21,10 +21,11 @@
   "prettier.trailingComma": "es5",
   "typescript.check.npmIsInstalled": false,
   "window.newWindowDimensions": "maximized",
+  "window.openFoldersInNewWindow": "on",
   "window.reopenFolders": "all",
   "window.restoreFullscreen": true,
   "window.restoreWindows": "all",
   "workbench.activityBar.visible": true,
   "workbench.iconTheme": "vs-seti",
-  "workbench.startupEditor": "newUntitledFile"
+  "workbench.startupEditor": "newUntitledFile",
 }
