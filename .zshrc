@@ -113,7 +113,7 @@ alias dc="docker-compose"
 alias dps="docker ps -a --format 'table {{.Names}}\\t{{.Image}}\\t{{.RunningFor}} ago\\t{{.Status}}'"
 
 # Git
-alias gs="git stash save $(date "+%F_%T")"
+alias gs="git stash push -m $(date "+%F_%T")"
 
 # Gource
 alias gourceit="gource --hide dirnames,filenames --seconds-per-day 0.1 --auto-skip-seconds 1 -1280x720 -o - | ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i - -vcodec libx264 -preset ultrafast -pix_fmt yuv420p -crf 1 -threads 0 -bf 0 gource.mp4"
