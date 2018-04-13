@@ -151,9 +151,9 @@ alias sshgen="echo ssh-keygen -t rsa -b 4096 -C \"your_email@example.com\""
 alias sshagent="echo ssh-add -K ~/.ssh/key_name"
 
 # Work
-alias lmb="mvn clean install && sh .ignore/deploy-wars.sh" # build
-alias lmr="catalina run" # run
-alias lmg="gulp local" # gulp
+alias lmbuild="mvn clean install && sh .ignore/deploy-wars.sh"
+alias lmrun="catalina run"
+alias lmgulp="gulp local"
 
 #
 # Custom Functions
