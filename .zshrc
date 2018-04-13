@@ -150,6 +150,11 @@ alias lintreact="npm install --save-dev babel-eslint eslint eslint-config-airbnb
 alias sshgen="echo ssh-keygen -t rsa -b 4096 -C \"your_email@example.com\""
 alias sshagent="echo ssh-add -K ~/.ssh/key_name"
 
+# Work
+alias lmb="mvn clean install && sh .ignore/deploy-wars.sh" # build
+alias lmr="catalina run" # run
+alias lmg="gulp local" # gulp
+
 #
 # Custom Functions
 #
