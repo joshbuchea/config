@@ -151,7 +151,8 @@ The software selected is software that is "tried and true" --- software I need a
 
 - Enable Dark Theme: `DevTools > Settings > Preferences > Appearance > Theme > Select Dark`
 - Show user agent shadow DOM: `DevTools > Settings > Preferences > Elements > Show user agent shadow DOM`
-- Disable cache (while DevTools is open): `DevTools > Settings > Preferences > Network > Check Disable cache (while DevTools is open)`
+- Disable cache (while DevTools is open): `DevTools > Settings > Preferences > Network > Disable cache (while DevTools is open)`
+- Auto-open DevTools for popups: `DevTools > Settings > Preferences > DevTools > Auto-open DevTools for popups`
 
 ### SourceTree
 
