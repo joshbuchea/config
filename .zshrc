@@ -150,12 +150,6 @@ alias lintreact="npm install --save-dev babel-eslint eslint eslint-config-airbnb
 alias sshgen="echo ssh-keygen -t rsa -b 4096 -C \"your_email@example.com\""
 alias sshagent="echo ssh-add -K ~/.ssh/key_name"
 
-# Work
-alias lm="cd ~/projects/leadmethod-web/"
-alias lmbuild="cd ~/projects/leadmethod-web/ && mvn clean install && sh .ignore/deploy-wars.sh"
-alias lmrun="cd ~/projects/leadmethod-web/ && catalina run"
-alias lmgulp="cd ~/projects/leadmethod-web/leadly-client/ && gulp local"
-
 #
 # Custom Functions
 #
