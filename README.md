@@ -4,6 +4,20 @@
 
 You are encouraged to fork this and modify it to your heart's content to match your own needs. **Please be sure to change your `.gitconfig` name and email address!**
 
+## Clean Up Mac
+
+Important tasks to complete before surrending a Mac:
+
+- Remove Dropbox
+- Disassociate the computer with the iTunes Store
+- Disassociate the computer with the Mac App Store
+- Disassociate the computer with iMessage in Messages.app
+- Turn off Find My Mac
+- Remove the Mac from my [support profile](https://supportprofile.apple.com/)
+- If desired, reinstall macOS as per [Apple’s instructions](https://support.apple.com/en-us/HT201065)
+
+**Note:** Borrowed these steps from Casey Liss's blog post: [Starting Anew on macOS](https://www.caseyliss.com/2016/7/2/new-mac-who-dis)
+
 ## Dev Config
 
 - Install [Xcode](https://itunes.apple.com/app/xcode/id497799835?mt=12) from the App Store
