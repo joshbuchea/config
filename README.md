@@ -168,6 +168,13 @@ The software selected is software that is "tried and true" --- software I need a
 - Disable cache (while DevTools is open): `DevTools > Settings > Preferences > Network > Disable cache (while DevTools is open)`
 - Auto-open DevTools for popups: `DevTools > Settings > Preferences > DevTools > Auto-open DevTools for popups`
 
+### Safari
+
+- Open with all windows from last session: `Preferences > General > Safari opens with: All windows from last session`
+- Show full website address: `Preferences > Advanced > Smart Search Field: Show full website address`
+- Enable Developer menu: `Preferences > Advanced > Show Develop menu in menu bar`
+- Disable swipe between pages: `System Preferences > Trackpad > More Gestures > Swipe between pages`
+
 ### SourceTree
 
 - Enable Dark Theme: `View > Theme > Dark`
