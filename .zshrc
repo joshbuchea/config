@@ -136,7 +136,6 @@ alias mamptailmysql="tail -f /Applications/MAMP/logs/mysql_error_log.err"
 alias mamptailapache="tail -f /Applications/MAMP/logs/apache_error.log"
 
 ## MySQL
-
 alias mysqlimport="/Applications/MAMP/Library/bin/mysql -u root --password=root database_name < ~/Desktop/export.sql"
 alias mysqlexport="/Applications/MAMP/Library/bin/mysqldump -u root --password=root database_name > ~/Desktop/export.sql"
 
