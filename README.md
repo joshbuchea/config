@@ -69,10 +69,6 @@ NPM is installed with Node and Bower's dead baby 💀 Optionally install the pac
 - Install [Create React Native App](https://github.com/react-community/create-react-native-app): `npm install -g create-react-native-app`
 - Install [Expo](https://expo.io/): `npm install -g exp`
 
-### Ionic & Cordova
-
-- Install [Ionic](http://ionicframework.com/getting-started/) & [Cordova](https://cordova.apache.org/#getstarted) `npm install -g cordova ionic`
-
 ### Jekyll
 
 - Check whether you have Ruby `2.1.0` or higher installed:
