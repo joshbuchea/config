@@ -191,3 +191,8 @@ The software selected is software that is "tried and true" --- software I need a
   - [HTML-CSS-JS Prettify](https://github.com/victorporof/Sublime-HTMLPrettify)
   - [Sass](https://packagecontrol.io/packages/Sass)
 - Load user settings from [`Preferences.sublime-settings`](/sublime-text/Preferences.sublime-settings)
+
+### Adobe Creative Cloud
+
+- Disable auto-launch on login: `launchctl unload -w /Library/LaunchAgents/com.adobe.AdobeCreativeCloud.plist`
+- Enable auto-launch on login: `launchctl load -w /Library/LaunchAgents/com.adobe.AdobeCreativeCloud.plist`
