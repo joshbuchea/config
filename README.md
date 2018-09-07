@@ -56,7 +56,7 @@ Important tasks to complete before surrending a Mac:
 NPM is installed with Node and Bower's dead baby 💀 Optionally install the package managers below:
 
 - Install [Yarn](https://yarnpkg.com/lang/en/docs/install/#mac-tab) (without Node.js): `brew install yarn --without-node`
-- Install [Composer](https://getcomposer.org/doc/00-intro.md#globally): `brew install homebrew/php/composer`
+- Install [Composer](https://getcomposer.org/doc/00-intro.md#globally): `brew install composer`
 
 ### Task Runners / Build Tools
 
