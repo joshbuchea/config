@@ -1,7 +1,6 @@
 # Config macOS
 
 ```bash
-
 ###############################################################################
 # Screen                                                                      #
 ###############################################################################
@@ -87,4 +86,8 @@ defaults write org.videolan.vlc.LSSharedFileList RecentDocuments -dict-add MaxAm
 
 # Chrome: Disable swipe navigation
 defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool FALSE
+
+# Adobe Creative Cloud: Disable/Enable Auto-Start
+launchctl unload -w /Library/LaunchAgents/com.adobe.AdobeCreativeCloud.plist # disable
+launchctl load -w /Library/LaunchAgents/com.adobe.AdobeCreativeCloud.plist # enable
 ```
