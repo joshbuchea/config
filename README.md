@@ -150,9 +150,10 @@ The software selected is software that is "tried and true" --- software I need a
 - [Config BBEdit](BBEdit.md)
 - [Config Hyper.app](Hyper.md)
 
-### Dropbox
+### Adobe Creative Cloud
 
-- `Preferences > Network > Bandwidth: Change Settings... > Upload rate > Don't limit`
+- Disable auto-launch on login: `launchctl unload -w /Library/LaunchAgents/com.adobe.AdobeCreativeCloud.plist`
+- Enable auto-launch on login: `launchctl load -w /Library/LaunchAgents/com.adobe.AdobeCreativeCloud.plist`
 
 ### Chrome
 
@@ -162,6 +163,10 @@ The software selected is software that is "tried and true" --- software I need a
 - Show user agent shadow DOM: `DevTools > Settings > Preferences > Elements > Show user agent shadow DOM`
 - Disable cache (while DevTools is open): `DevTools > Settings > Preferences > Network > Disable cache (while DevTools is open)`
 - Auto-open DevTools for popups: `DevTools > Settings > Preferences > DevTools > Auto-open DevTools for popups`
+
+### Dropbox
+
+- `Preferences > Network > Bandwidth: Change Settings... > Upload rate > Don't limit`
 
 ### Safari
 
@@ -174,13 +179,6 @@ The software selected is software that is "tried and true" --- software I need a
 
 - Enable Dark Theme: `View > Theme > Dark`
 
-### Visual Studio Code
-
-- Load user settings from [`settings.json`](/vs-code/settings.json) to `~/Library/Application Support/Code/User/settings.json`
-- Install Extensions:
-  - EditorConfig for VS Code
-  - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-
 ### Sublime Text
 
 - [Install Package Control](https://packagecontrol.io/installation)
@@ -191,7 +189,9 @@ The software selected is software that is "tried and true" --- software I need a
   - [Sass](https://packagecontrol.io/packages/Sass)
 - Load user settings from [`Preferences.sublime-settings`](/sublime-text/Preferences.sublime-settings)
 
-### Adobe Creative Cloud
+### Visual Studio Code
 
-- Disable auto-launch on login: `launchctl unload -w /Library/LaunchAgents/com.adobe.AdobeCreativeCloud.plist`
-- Enable auto-launch on login: `launchctl load -w /Library/LaunchAgents/com.adobe.AdobeCreativeCloud.plist`
+- Load user settings from [`settings.json`](/vs-code/settings.json) to `~/Library/Application Support/Code/User/settings.json`
+- Install Extensions:
+  - EditorConfig for VS Code
+  - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
