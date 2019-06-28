@@ -99,7 +99,6 @@ The software selected is software that is "tried and true" --- software I need a
 - [Chrome](https://www.google.com/chrome/browser/desktop/): `brew cask install google-chrome`
 - [Chromium](https://download-chromium.appspot.com/): `brew cask install chromium`
 - [Firefox](http://firefox.com): `brew cask install firefox`
-- [Opera](http://www.opera.com/)
 
 #### Development
 
