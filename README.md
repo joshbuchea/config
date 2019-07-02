@@ -111,6 +111,7 @@ The software selected is software that is "tried and true" --- software I need a
 - [ImageOptim](https://imageoptim.com/ImageOptim.tbz2): `brew cask install imageoptim`
 - [MAMP](https://www.mamp.info/en/downloads/): `brew cask install mamp`
 - [Postman](https://www.getpostman.com): `brew cask install postman`
+- [Reactotron](https://github.com/infinitered/reactotron/releases)
 - [Screaming Frog SEO Spider](https://www.screamingfrog.co.uk/seo-spider/): `brew cask install screaming-frog-seo-spider`
 - [Sequel Pro](http://www.sequelpro.com/download): `brew cask install sequel-pro`
 - [SourceTree](https://www.sourcetreeapp.com/download): `brew cask install sourcetree`
@@ -124,6 +125,8 @@ The software selected is software that is "tried and true" --- software I need a
 
 - [1Clipboard](http://1clipboard.io/): `brew cask install 1clipboard`
 - [Audacity](http://audacityteam.org/)
+- [Caprine](https://sindresorhus.com/caprine/) `brew cask install caprine`
+- [Discord](https://discordapp.com/download) `brew cask install discord`
 - [Dropbox](https://www.dropbox.com/install2): `brew cask install dropbox`
 - [FileZilla](https://filezilla-project.org/download.php?type=client): `brew cask install filezilla`
 - [Franz 4](https://github.com/meetfranz/franz-app-legacy/releases)
@@ -133,11 +136,13 @@ The software selected is software that is "tried and true" --- software I need a
 - [Junecloud Automator Actions](http://junecloud.com/software/mac/junecloud-automator-actions.html)
 - [Kap](https://getkap.co/): `brew cask install kap`
 - [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake/releases): `brew cask install keepingyouawake`
+- [OBS](https://obsproject.com/) `brew cask install obs`
 - [Skype](http://www.skype.com/en/download-skype/skype-for-computer/): `brew cask install skype`
 - [Spotify](https://www.spotify.com/us/download/mac/): `brew cask install spotify`
 - [SuperDuper!](http://www.shirt-pocket.com/downloads/SuperDuper!.dmg): `brew cask install superduper`
 - [Transmission](https://transmissionbt.com/download/): `brew cask install transmission`
 - [VLC media player](http://www.videolan.org/vlc/download-macosx.html): `brew cask install vlc`
+- [Zoom.us](https://zoom.us/) `brew cask install zoomus`
 
 ## Config
 
