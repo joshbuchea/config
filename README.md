@@ -53,9 +53,9 @@ Important tasks to complete before surrending a Mac:
 
 ### Package Managers
 
-NPM is installed with Node and Bower's dead baby 💀 Optionally install the package managers below:
+_NPM is installed with Node and Bower's dead baby 💀_
 
-- Install [Yarn](https://yarnpkg.com/en/docs/install#alternatives-stable) (without Node.js): `curl -o- -L https://yarnpkg.com/install.sh | bash` (_used to install this with `brew install yarn --ignore-dependencies` until homebrew stopped supporting the installation of packages without their dependencies_)
+- Install [Yarn](https://yarnpkg.com/en/docs/install#alternatives-stable) (without Node.js): `curl -o- -L https://yarnpkg.com/install.sh | bash` (_previously installed Yarn with `brew install yarn --ignore-dependencies` until homebrew stopped supporting the installation of packages without their dependencies_)
 - Install [Composer](https://getcomposer.org/doc/00-intro.md#globally): `brew install composer`
 
 ### Task Runners / Build Tools
