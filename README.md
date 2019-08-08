@@ -23,7 +23,7 @@ Important tasks to complete before surrending a Mac:
 - Install [Xcode](https://itunes.apple.com/app/xcode/id497799835?mt=12) from the App Store
   - Install Command Line Tools: `xcode-select --install`
 - Install [Homebrew](http://brew.sh/): `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-  - Install [Homebrew-Cask](https://caskroom.github.io/): `brew tap caskroom/cask`
+  <!-- - Install [Homebrew-Cask](https://caskroom.github.io/): `brew tap caskroom/cask` -->
 
 ### Oh My Zsh
 
