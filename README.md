@@ -110,6 +110,7 @@ The software selected is software that is "tried and true" --- software I need a
 - [ImageMagick](https://www.imagemagick.org/script/): `brew install imagemagick` (prefer Homebrew)
 - [ImageOptim](https://imageoptim.com/ImageOptim.tbz2): `brew cask install imageoptim`
 - [MAMP](https://www.mamp.info/en/downloads/): `brew cask install mamp`
+- [Postico](https://eggerapps.at/postico/): `brew cask install postico`
 - [Postman](https://www.getpostman.com): `brew cask install postman`
 - [Reactotron](https://github.com/infinitered/reactotron/releases)
 - [Screaming Frog SEO Spider](https://www.screamingfrog.co.uk/seo-spider/): `brew cask install screaming-frog-seo-spider`
@@ -132,12 +133,14 @@ The software selected is software that is "tried and true" --- software I need a
 - [Dropbox](https://www.dropbox.com/install2): `brew cask install dropbox`
 - [FileZilla](https://filezilla-project.org/download.php?type=client): `brew cask install filezilla`
 - [Franz 4](https://github.com/meetfranz/franz-app-legacy/releases)
+- [Flycut](https://github.com/TermiT/Flycut/releases)
 - [GIMP](https://www.gimp.org/downloads/): `brew cask install gimp`
 - [Google Backup and Sync](https://www.google.com/drive/download/backup-and-sync/): `brew cask install google-backup-and-sync`
 - [HandBrake](https://handbrake.fr/downloads.php): `brew cask install handbrake`
 - [Junecloud Automator Actions](http://junecloud.com/software/mac/junecloud-automator-actions.html)
 - [Kap](https://getkap.co/): `brew cask install kap`
 - [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake/releases): `brew cask install keepingyouawake`
+- [LICEcap](https://www.cockos.com/licecap/): `brew cask install licecap`
 - [OBS](https://obsproject.com/): `brew cask install obs`
 - [Skype](http://www.skype.com/en/download-skype/skype-for-computer/): `brew cask install skype`
 - [Spotify](https://www.spotify.com/us/download/mac/): `brew cask install spotify`
