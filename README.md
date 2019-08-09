@@ -78,6 +78,13 @@ _NPM is installed with Node and Bower's dead baby 💀_
 - Install Bundler: `gem install bundler`
 - Install Jekyll: `gem install jekyll`
 
+### Git
+
+- Verify git is installed: `git --version`
+- Set username (global): `git config --global user.name "Josh Buchea"`
+- Set commit email address (global): `git config --global user.email "verctrl@joshbuchea.com"`
+- Generate or copy SSH key(s) `~/.ssh/id_rsa`, `~/.ssh/id_rsa.pub`
+
 ## Install Software
 
 The software selected is software that is "tried and true" --- software I need after any fresh install. I often install other software not listed here, but is handled in a case-by-case basis.
