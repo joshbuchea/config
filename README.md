@@ -179,7 +179,6 @@ The software selected is software that is "tried and true" --- software I need a
 
 ### Safari
 
-- Open with all windows from last session: `Preferences > General > Safari opens with: All windows from last session`
 - Show full website address: `Preferences > Advanced > Smart Search Field: Show full website address`
 - Enable Developer menu: `Preferences > Advanced > Show Develop menu in menu bar`
 - Disable swipe between pages: `System Preferences > Trackpad > More Gestures > Swipe between pages`
