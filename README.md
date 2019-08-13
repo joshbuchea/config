@@ -148,6 +148,7 @@ The software selected is software that is "tried and true" --- software I need a
 - [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake/releases): `brew cask install keepingyouawake`
 - [LICEcap](https://www.cockos.com/licecap/): `brew cask install licecap`
 - [OBS](https://obsproject.com/): `brew cask install obs`
+- [Rocket](https://matthewpalmer.net/rocket/): `brew cask install rocket`
 - [Skype](http://www.skype.com/en/download-skype/skype-for-computer/): `brew cask install skype`
 - [Spotify](https://www.spotify.com/us/download/mac/): `brew cask install spotify`
 - [SuperDuper!](http://www.shirt-pocket.com/downloads/SuperDuper!.dmg): `brew cask install superduper`
