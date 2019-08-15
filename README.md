@@ -119,6 +119,7 @@ The software selected is software that is "tried and true" --- software I need a
 - [MAMP](https://www.mamp.info/en/downloads/): `brew cask install mamp`
 - [Postico](https://eggerapps.at/postico/): `brew cask install postico`
 - [Postman](https://www.getpostman.com): `brew cask install postman`
+- [React Native Debugger](https://github.com/jhen0409/react-native-debugger): `brew cask install react-native-debugger`
 - [Reactotron](https://github.com/infinitered/reactotron/releases)
 - [Screaming Frog SEO Spider](https://www.screamingfrog.co.uk/seo-spider/): `brew cask install screaming-frog-seo-spider`
 - [Sequel Pro](http://www.sequelpro.com/download): `brew cask install sequel-pro`
