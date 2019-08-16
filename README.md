@@ -134,7 +134,7 @@ The software selected is software that is "tried and true" --- software I need a
 
 - [1Clipboard](http://1clipboard.io/): `brew cask install 1clipboard`
 - [Alfred](https://www.alfredapp.com/): `brew cask install alfred`
-- [Audacity](http://audacityteam.org/)
+- [Audacity](http://audacityteam.org/): `brew cask install audacity`
 - [Backblaze](https://secure.backblaze.com/download.htm): `brew cask install backblaze`
 - [Caprine](https://sindresorhus.com/caprine/): `brew cask install caprine`
 - [Discord](https://discordapp.com/download): `brew cask install discord`
