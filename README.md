@@ -141,7 +141,7 @@ The software selected is software that is "tried and true" --- software I need a
 - [Dropbox](https://www.dropbox.com/install2): `brew cask install dropbox`
 - [FileZilla](https://filezilla-project.org/download.php?type=client): `brew cask install filezilla`
 - [Franz 4](https://github.com/meetfranz/franz-app-legacy/releases)
-- [Flycut](https://github.com/TermiT/Flycut/releases)
+- [Flycut](https://github.com/TermiT/Flycut/releases): `brew cask install flycut`
 - [GIMP](https://www.gimp.org/downloads/): `brew cask install gimp`
 - [Google Backup and Sync](https://www.google.com/drive/download/backup-and-sync/): `brew cask install google-backup-and-sync`
 - [HandBrake](https://handbrake.fr/downloads.php): `brew cask install handbrake`
