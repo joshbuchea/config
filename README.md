@@ -145,6 +145,7 @@ The software selected is software that is "tried and true" --- software I need a
 - [GIMP](https://www.gimp.org/downloads/): `brew cask install gimp`
 - [Google Backup and Sync](https://www.google.com/drive/download/backup-and-sync/): `brew cask install google-backup-and-sync`
 - [HandBrake](https://handbrake.fr/downloads.php): `brew cask install handbrake`
+- [ItsyCal](https://www.mowglii.com/itsycal/): `brew cask install itsycal`
 - [Junecloud Automator Actions](http://junecloud.com/software/mac/junecloud-automator-actions.html)
 - [Kap](https://getkap.co/): `brew cask install kap`
 - [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake/releases): `brew cask install keepingyouawake`
