@@ -212,5 +212,13 @@ The software selected is software that is "tried and true" --- software I need a
 
 - Load user settings from [`settings.json`](/vs-code/settings.json) to `~/Library/Application Support/Code/User/settings.json`
 - Install Extensions:
-  - EditorConfig for VS Code
-  - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+  - [Atom Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)
+  - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+  - [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
+  - [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
+  - [Formatting Toggle](https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle)
+  - [GraphQL for VSCode](https://marketplace.visualstudio.com/items?itemName=kumar-harsh.graphql-for-vscode)
+  - [MDX](https://marketplace.visualstudio.com/items?itemName=silvenon.mdx)
+  - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+  - [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
+  <!-- - EditorConfig for VS Code? -->
