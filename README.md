@@ -9,8 +9,8 @@ You are encouraged to fork this and modify it to your heart's content to match y
 Important tasks to complete before surrending a Mac:
 
 - Remove Dropbox
-- Disassociate the computer with the iTunes Store `Account > Authorizations > Deauthorize This Computer...`
-- Disassociate the computer with the Mac App Store `Store > Sign Out`
+- Disassociate the computer with the iTunes Store: `Account > Authorizations > Deauthorize This Computer...`
+- Disassociate the computer with the Mac App Store: `Store > Sign Out`
 - Disassociate the computer with iMessage in Messages.app: `Preferences... > iMessage > Settings > Sign Out`
 - Turn off Find My Mac
 - Remove the Mac from my [support profile](https://supportprofile.apple.com/)
