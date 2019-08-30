@@ -96,8 +96,6 @@ The software selected is software that is "tried and true" --- software I need a
 - [Amphetamine](https://itunes.apple.com/app/amphetamine/id937984704?mt=12)
 - [Fantastical](https://flexibits.com/fantastical) (from [Purchased tab](macappstore://showPurchasesPage))
 - [Sip](https://itunes.apple.com/us/app/sip/id507257563?mt=12) (from [Purchased tab](macappstore://showPurchasesPage))
-- [Slack](https://itunes.apple.com/app/slack/id803453959?mt=12): `brew cask install slack`
-- [The Unarchiver](https://itunes.apple.com/app/the-unarchiver/id425424353?mt=12): `brew cask install the-unarchiver`
 
 ### Install from Third-Party Websites or Homebrew
 
@@ -153,8 +151,10 @@ The software selected is software that is "tried and true" --- software I need a
 - [OBS](https://obsproject.com/): `brew cask install obs`
 - [Rocket](https://matthewpalmer.net/rocket/): `brew cask install rocket`
 - [Skype](http://www.skype.com/en/download-skype/skype-for-computer/): `brew cask install skype`
+- [Slack](https://slack.com/downloads/mac): `brew cask install slack` ([App Store](https://itunes.apple.com/app/slack/id803453959?mt=12))
 - [Spotify](https://www.spotify.com/us/download/mac/): `brew cask install spotify`
 - [SuperDuper!](http://www.shirt-pocket.com/downloads/SuperDuper!.dmg): `brew cask install superduper`
+- [The Unarchiver](https://theunarchiver.com/): `brew cask install the-unarchiver` ([App Store](https://itunes.apple.com/app/the-unarchiver/id425424353?mt=12))
 - [Transmission](https://transmissionbt.com/download/): `brew cask install transmission`
 - [VLC media player](http://www.videolan.org/vlc/download-macosx.html): `brew cask install vlc`
 - [Zoom.us](https://zoom.us/): `brew cask install zoomus`
