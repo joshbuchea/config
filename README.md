@@ -58,11 +58,6 @@ _NPM is installed with Node and Bower's dead baby 💀_
 - Install [Yarn](https://yarnpkg.com/en/docs/install#alternatives-stable) (without Node.js): `curl -o- -L https://yarnpkg.com/install.sh | bash` (_previously installed Yarn with `brew install yarn --ignore-dependencies` until homebrew stopped supporting the installation of packages without their dependencies_)
 - Install [Composer](https://getcomposer.org/doc/00-intro.md#globally): `brew install composer`
 
-### Task Runners / Build Tools
-
-- Install [Gulp](http://gulpjs.com/): `npm install -g gulp-cli`
-- Install [Grunt](http://gruntjs.com/): `npm install -g grunt-cli`
-
 ### React Native
 
 - Install [React Native](https://facebook.github.io/react-native/docs/getting-started.html): `npm install -g react-native-cli`
