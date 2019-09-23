@@ -154,6 +154,7 @@ alias rna="react-native run-android"
 alias rni="react-native run-ios"
 alias rnreset="watchman watch-del-all && rm -rf node_modules && npm install && npm start -- --reset-cache"
 alias rns="react-native start --reset-cache"
+alias rnv="react-native --version"
 alias lintreact="npm install --save-dev babel-eslint eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react && echo '{ "extends": ["airbnb"], "plugins": ["jsx-a11y"], }' > .eslintrc"
 
 # SSH
