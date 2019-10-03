@@ -146,6 +146,7 @@ The software selected is software that is "tried and true" --- software I need a
 - [SuperDuper!](http://www.shirt-pocket.com/downloads/SuperDuper!.dmg): `brew cask install superduper`
 - [The Unarchiver](https://theunarchiver.com/): `brew cask install the-unarchiver` ([App Store](https://itunes.apple.com/app/the-unarchiver/id425424353?mt=12))
 - [Transmission](https://transmissionbt.com/download/): `brew cask install transmission`
+- Tree: `brew install tree`
 - [VLC media player](http://www.videolan.org/vlc/download-macosx.html): `brew cask install vlc`
 - [Zoom.us](https://zoom.us/): `brew cask install zoomus`
 
