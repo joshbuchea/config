@@ -1,24 +1,39 @@
-# Path to your oh-my-zsh installation.
-export ZSH=/Users/joshbuchea/.oh-my-zsh
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
+# Path to your oh-my-zsh installation.
+export ZSH="/Users/josh/.oh-my-zsh"
+
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time oh-my-zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="robbyrussell"
+
+# Set list of themes to pick from when loading at random
+# Setting this variable when ZSH_THEME=random will cause zsh to load
+# a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
+# If set to an empty array, this variable will have no effect.
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
-# Uncomment the following line to use hyphen-insensitive completion. Case
-# sensitive completion must be off. _ and - will be interchangeable.
+# Uncomment the following line to use hyphen-insensitive completion.
+# Case-sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
 
+# Uncomment the following line to automatically update without prompting.
+# DISABLE_UPDATE_PROMPT="true"
+
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
+
+# Uncomment the following line if pasting URLs and other text is messed up.
+# DISABLE_MAGIC_FUNCTIONS=true
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
@@ -39,13 +54,17 @@ ZSH_THEME="robbyrussell"
 
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
-# The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# You can set one of the optional three formats:
+# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# or set a custom format using the strftime function format specifications,
+# see 'man strftime' for details.
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Which plugins would you like to load?
+# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
@@ -56,8 +75,9 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # nvm
+# export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 # yarn
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
@@ -68,6 +88,9 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -83,9 +106,6 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
-
-# ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -124,6 +144,7 @@ alias dps="docker ps -a --format 'table {{.Names}}\\t{{.Image}}\\t{{.RunningFor}
 
 # Git
 alias gs='git stash push -m $(date +%F_%T)' # single quotes necessary to interpolate date during execution
+alias push="git push"
 
 # Gource
 alias gourceit="gource --hide dirnames,filenames --seconds-per-day 0.1 --auto-skip-seconds 1 -1280x720 -o - | ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i - -vcodec libx264 -preset ultrafast -pix_fmt yuv420p -crf 1 -threads 0 -bf 0 gource.mp4"
@@ -149,6 +170,10 @@ alias mamptailapache="tail -f /Applications/MAMP/logs/apache_error.log"
 alias mysqlimport="/Applications/MAMP/Library/bin/mysql -u root --password=root database_name < ~/Desktop/export.sql"
 alias mysqlexport="/Applications/MAMP/Library/bin/mysqldump -u root --password=root database_name > ~/Desktop/export.sql"
 
+# NPM
+alias fnpm="find . -name 'node_modules' -type d -prune"
+alias rnpm="find . -name 'node_modules' -type d -prune -print -exec rm -rf '{}' +"
+
 # React
 alias rna="react-native run-android"
 alias rni="react-native run-ios"
@@ -161,9 +186,36 @@ alias lintreact="npm install --save-dev babel-eslint eslint eslint-config-airbnb
 alias sshgen="echo ssh-keygen -t rsa -b 4096 -C \"your_email@example.com\""
 alias sshagent="echo ssh-add -K ~/.ssh/key_name"
 
+# ZSH
+alias zource="source ~/.zshrc"
+
 #
 # Custom Functions
 #
+
+# Tree
+#
+# Displays current directory structure with a given
+#
+# Other potential directories to ignore: bin, docs, lib, test*, test_*, ?
+function t() {
+  tree -I "node_modules|cache"
+}
+
+# Git Add & Commit
+#
+# Adds all modified files to staging and commits with a given description or
+# falls back to a default message when no description is provided
+function gitac() {
+  git add .
+  if [ "$1" != "" ] # or better, if [ -n "$1" ]
+  then
+    git commit -m "$1"
+  else
+    git commit -m update
+  fi
+  # git push
+}
 
 function mov2gif() {
   local width=${2:-320}
