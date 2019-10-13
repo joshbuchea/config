@@ -136,15 +136,15 @@ The software selected is software that is "tried and true" --- software I need a
 
 ## Config
 
-- [Config Cobalt2 theme for iTerm2 and Zsh](cobalt2.md)
-- [Config macOS](macos.md)
+- [Config Cobalt2 theme for iTerm2 and Zsh](apps/cobalt2.md)
+- [Config macOS](macOS.md)
 
 ### Config Software
 
-- [Config Atom](atom.md)
-- [Config BBEdit](bbedit.md)
-- [Config Hyper.app](hyper.md)
-- [Config Sublime Text](sublime-text.md)
+- [Config Atom](apps/atom.md)
+- [Config BBEdit](apps/bbedit.md)
+- [Config Hyper.app](apps/hyper.md)
+- [Config Sublime Text](apps/sublime-text.md)
 
 ### Adobe Creative Cloud
 
@@ -187,7 +187,7 @@ Install Extensions:
 
 ### Visual Studio Code
 
-- Load user settings from [`settings.json`](/vs-code/settings.json) to `~/Library/Application Support/Code/User/settings.json`
+- Load user settings from [`settings.json`](/apps/vs-code/settings.json) to `~/Library/Application Support/Code/User/settings.json`
 
 Install Extensions:
 

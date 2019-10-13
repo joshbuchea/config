@@ -1,6 +1,6 @@
 # Sublime Text
 
-- Load user settings from [`Preferences.sublime-settings`](/sublime-text/Preferences.sublime-settings)
+- Load user settings from [`Preferences.sublime-settings`](sublime-text/Preferences.sublime-settings)
 - [Install Package Control](https://packagecontrol.io/installation)
 
 Install Packages (`Command-Shift-P`):
