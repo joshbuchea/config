@@ -62,6 +62,7 @@ _NPM is installed with Node and Bower's dead baby 💀_
 
 - Install [React Native](https://facebook.github.io/react-native/docs/getting-started.html): `npm install -g react-native-cli`
 - Install [Expo](https://expo.io/) (and [CRNA](https://github.com/react-community/create-react-native-app)): `npm install -g expo-cli`
+- Install [CocoaPods](https://cocoapods.org/): `brew install cocoapods`
 
 ### Jekyll
 
