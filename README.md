@@ -139,37 +139,19 @@ The software selected is software that is "tried and true" --- software I need a
 - [Config Cobalt2 theme for iTerm2 and Zsh](apps/cobalt2.md)
 - [Config macOS](macOS.md)
 
-### Config Software
+### Config Apps
 
 - [Config Atom](apps/atom.md)
 - [Config BBEdit](apps/bbedit.md)
+- [Config Chrome](apps/chrome.md)
 - [Config Hyper.app](apps/hyper.md)
 - [Config Sublime Text](apps/sublime-text.md)
+- [Config VS Code](apps/vs-code.md)
 
 ### Adobe Creative Cloud
 
 - Disable auto-launch on login: `launchctl unload -w /Library/LaunchAgents/com.adobe.AdobeCreativeCloud.plist`
 - Enable auto-launch on login: `launchctl load -w /Library/LaunchAgents/com.adobe.AdobeCreativeCloud.plist`
-
-### Chrome
-
-DevTools:
-
-- Enable Dark Theme: `DevTools > Settings > Preferences > Appearance > Theme > Select Dark`
-- Show user agent shadow DOM: `DevTools > Settings > Preferences > Elements > Show user agent shadow DOM`
-- Disable cache (while DevTools is open): `DevTools > Settings > Preferences > Network > Disable cache (while DevTools is open)`
-- Auto-open DevTools for popups: `DevTools > Settings > Preferences > DevTools > Auto-open DevTools for popups`
-
-Install Extensions:
-
-- [1Password](https://chrome.google.com/webstore/detail/1password-extension-deskt/aomjjhallfgjeglblehebfpbcfeobpgk)
-- [Apollo Client Developer Tools](https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm)
-- [GitHub Tweet Button](https://chrome.google.com/webstore/detail/github-tweet-button/dflkpnfiniaimnlhkbpmdamhlimaomge)
-- [Merge Windows](https://chrome.google.com/webstore/detail/merge-windows/mmpokgfcmbkfdeibafoafkiijdbfblfg)
-- [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
-- [SwiftTab](https://chrome.google.com/webstore/detail/swifttab/poikmgendcdljfoaelblkdjehmpedjif)
-- [Tab Organizer](https://chrome.google.com/webstore/detail/tab-organizer/kkcbifggchajpkagcpagenpfghbplghc)
-- [Quick Tab](https://chrome.google.com/webstore/detail/quick-tab/bdeifmcaonlafkglbdpbbhkeecjnkipo)
 
 ### Dropbox
 
@@ -184,29 +166,6 @@ Install Extensions:
 ### SourceTree
 
 - Enable Dark Theme: `View > Theme > Dark`
-
-### Visual Studio Code
-
-- Load user settings from [`settings.json`](apps/vs-code/settings.json) to `~/Library/Application Support/Code/User/settings.json`
-
-Install Extensions:
-
-- [Atom Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)
-- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
-- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
-- [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
-- [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
-- [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
-- [Formatting Toggle](https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle)
-- [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
-- [GraphQL for VSCode](https://marketplace.visualstudio.com/items?itemName=kumar-harsh.graphql-for-vscode)
-- [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
-- [MDX](https://marketplace.visualstudio.com/items?itemName=silvenon.mdx)
-- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-- [Unique Lines](https://marketplace.visualstudio.com/items?itemName=bibhasdn.unique-lines)
-- [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
-- [Wrap Console Log Simple](https://marketplace.visualstudio.com/items?itemName=WooodHead.vscode-wrap-console-log-simple)
-<!-- - EditorConfig for VS Code? -->
 
 ## Clean Up Mac
 
