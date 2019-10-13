@@ -187,7 +187,7 @@ Install Extensions:
 
 ### Visual Studio Code
 
-- Load user settings from [`settings.json`](/apps/vs-code/settings.json) to `~/Library/Application Support/Code/User/settings.json`
+- Load user settings from [`settings.json`](apps/vs-code/settings.json) to `~/Library/Application Support/Code/User/settings.json`
 
 Install Extensions:
 
