@@ -6,7 +6,7 @@ You are encouraged to fork this and modify it to your heart's content to match y
 
 ## Clean Up Mac
 
-Important tasks to complete before surrending a Mac:
+Important tasks to complete before surrendering a Mac:
 
 - Remove Dropbox
 - Disassociate the computer with the iTunes Store: `Account > Authorizations > Deauthorize This Computer...`
@@ -16,7 +16,7 @@ Important tasks to complete before surrending a Mac:
 - Remove the Mac from my [support profile](https://supportprofile.apple.com/)
 - If desired, reinstall macOS as per [Apple’s instructions](https://support.apple.com/en-us/HT201065)
 
-**Note:** Borrowed these steps from Casey Liss's blog post: [Starting Anew on macOS](https://www.caseyliss.com/2016/7/2/new-mac-who-dis)
+**Note:** Borrowed these clean up steps from a blog post by Casey Liss: [Starting Anew on macOS](https://www.caseyliss.com/2016/7/2/new-mac-who-dis)
 
 ## Dev Config
 
@@ -66,8 +66,8 @@ _NPM is installed with Node and Bower's dead baby 💀_
 
 ### Jekyll
 
-- Install Bundler: `gem install bundler`
-- Install Jekyll: `gem install jekyll`
+- Install [Bundler](https://bundler.io/): `gem install bundler`
+- Install [Jekyll](https://jekyllrb.com/): `gem install jekyll`
 
 ### Git
 
@@ -96,6 +96,8 @@ The software selected is software that is "tried and true" --- software I need a
 - [Reactotron](https://github.com/infinitered/reactotron/releases)
 
 ### Install with Homebrew
+
+<!-- Create brewfile? -->
 
 - [1Clipboard](http://1clipboard.io/): `brew cask install 1clipboard`
 - [Alfred](https://www.alfredapp.com/): `brew cask install alfred`
@@ -143,7 +145,7 @@ The software selected is software that is "tried and true" --- software I need a
 - [VLC media player](http://www.videolan.org/vlc/download-macosx.html): `brew cask install vlc`
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads): `brew cask install virtualbox`
 - [Visual Studio Code](https://code.visualstudio.com/download): `brew cask install visual-studio-code`
-- [Wget](https://www.gnu.org/software/wget/): `brew install wget`
+- [Wget](https://www.gnu.org/software/wget/): `brew install wget` (prefer Homebrew)
 - [Zoom.us](https://zoom.us/): `brew cask install zoomus`
 
 ## Config
@@ -156,6 +158,7 @@ The software selected is software that is "tried and true" --- software I need a
 - [Config Atom](Atom.md)
 - [Config BBEdit](BBEdit.md)
 - [Config Hyper.app](Hyper.md)
+- [Config Sublime Text](SublimeText.md)
 
 ### Adobe Creative Cloud
 
@@ -171,7 +174,7 @@ DevTools:
 - Disable cache (while DevTools is open): `DevTools > Settings > Preferences > Network > Disable cache (while DevTools is open)`
 - Auto-open DevTools for popups: `DevTools > Settings > Preferences > DevTools > Auto-open DevTools for popups`
 
-Extensions:
+Install Extensions:
 
 - [1Password](https://chrome.google.com/webstore/detail/1password-extension-deskt/aomjjhallfgjeglblehebfpbcfeobpgk)
 - [Apollo Client Developer Tools](https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm)
@@ -200,7 +203,7 @@ Extensions:
 
 - Load user settings from [`settings.json`](/vs-code/settings.json) to `~/Library/Application Support/Code/User/settings.json`
 
-Extensions:
+Install Extensions:
 
 - [Atom Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
