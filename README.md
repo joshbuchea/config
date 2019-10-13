@@ -4,20 +4,6 @@
 
 You are encouraged to fork this and modify it to your heart's content to match your own needs. **Please be sure to change your `.gitconfig` name and email address!**
 
-## Clean Up Mac
-
-Important tasks to complete before surrendering a Mac:
-
-- Remove Dropbox
-- Disassociate the computer with the iTunes Store: `Account > Authorizations > Deauthorize This Computer...`
-- Disassociate the computer with the Mac App Store: `Store > Sign Out`
-- Disassociate the computer with iMessage in Messages.app: `Preferences... > iMessage > Settings > Sign Out`
-- Turn off Find My Mac
-- Remove the Mac from my [support profile](https://supportprofile.apple.com/)
-- If desired, reinstall macOS as per [Apple’s instructions](https://support.apple.com/en-us/HT201065)
-
-**Note:** Borrowed these clean up steps from a blog post by Casey Liss: [Starting Anew on macOS](https://www.caseyliss.com/2016/7/2/new-mac-who-dis)
-
 ## Dev Config
 
 - Install [Xcode](https://itunes.apple.com/app/xcode/id497799835?mt=12) from the App Store
@@ -221,3 +207,17 @@ Install Extensions:
 - [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
 - [Wrap Console Log Simple](https://marketplace.visualstudio.com/items?itemName=WooodHead.vscode-wrap-console-log-simple)
 <!-- - EditorConfig for VS Code? -->
+
+## Clean Up Mac
+
+Important tasks to complete before surrendering a Mac:
+
+- Remove Dropbox
+- Disassociate the computer with the iTunes Store: `Account > Authorizations > Deauthorize This Computer...`
+- Disassociate the computer with the Mac App Store: `Store > Sign Out`
+- Disassociate the computer with iMessage in Messages.app: `Preferences... > iMessage > Settings > Sign Out`
+- Turn off Find My Mac
+- Remove the Mac from my [support profile](https://supportprofile.apple.com/)
+- If desired, reinstall macOS as per [Apple’s instructions](https://support.apple.com/en-us/HT201065)
+
+**Note:** Borrowed these clean up steps from a blog post by Casey Liss: [Starting Anew on macOS](https://www.caseyliss.com/2016/7/2/new-mac-who-dis)
