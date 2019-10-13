@@ -136,15 +136,15 @@ The software selected is software that is "tried and true" --- software I need a
 
 ## Config
 
-- [Config Cobalt2 theme for iTerm2 and Zsh](Cobalt2.md)
-- [Config macOS](macOS.md)
+- [Config Cobalt2 theme for iTerm2 and Zsh](cobalt2.md)
+- [Config macOS](macos.md)
 
 ### Config Software
 
-- [Config Atom](Atom.md)
-- [Config BBEdit](BBEdit.md)
-- [Config Hyper.app](Hyper.md)
-- [Config Sublime Text](SublimeText.md)
+- [Config Atom](atom.md)
+- [Config BBEdit](bbedit.md)
+- [Config Hyper.app](hyper.md)
+- [Config Sublime Text](sublime-text.md)
 
 ### Adobe Creative Cloud
 
