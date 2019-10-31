@@ -74,6 +74,11 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+# NOTE: Unsure why, but needed to move this above other PATH changes to correctly
+# use rvm ruby rather than system ruby ¯\_(ツ)_/¯
+
 # nvm
 # export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
 export NVM_DIR="$HOME/.nvm"
@@ -88,9 +93,6 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -201,7 +203,7 @@ alias zource="source ~/.zshrc"
 #
 # Other potential directories to ignore: bin, docs, lib, test*, test_*, ?
 function t() {
-  tree -I "node_modules|cache"
+  tree -I "node_modules|cache" -L "${1:-3}"
 }
 
 # Git Add & Commit
@@ -210,12 +212,7 @@ function t() {
 # falls back to a default message when no description is provided
 function gitac() {
   git add .
-  if [ "$1" != "" ] # or better, if [ -n "$1" ]
-  then
-    git commit -m "$1"
-  else
-    git commit -m update
-  fi
+  git commit -m "${1:-update}"
   # git push
 }
 
