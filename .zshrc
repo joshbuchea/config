@@ -219,6 +219,13 @@ function gitac() {
   # git push
 }
 
+# Git Undo
+#
+# Reverts the last N commits locally
+function gitundo() {
+  git reset --soft HEAD~"${1:-1}"
+}
+
 function mov2gif() {
   local width=${2:-320}
   ffmpeg -i "$1" -vf scale=${width}:-1 -r 10 -f image2pipe -vcodec ppm - |\
