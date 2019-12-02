@@ -121,6 +121,7 @@ The software selected is software that is "tried and true" --- software I need a
 - [Skype](http://www.skype.com/en/download-skype/skype-for-computer/): `brew cask install skype`
 - [Slack](https://slack.com/downloads/mac): `brew cask install slack` ([App Store](https://itunes.apple.com/app/slack/id803453959?mt=12))
 - [SourceTree](https://www.sourcetreeapp.com/download): `brew cask install sourcetree`
+- [Spectacle](https://www.spectacleapp.com/): `brew cask install spectacle`
 - [Spotify](https://www.spotify.com/us/download/mac/): `brew cask install spotify`
 - [Sublime Text 3](http://www.sublimetext.com/3): `brew cask install sublime-text`
 - [SuperDuper!](http://www.shirt-pocket.com/downloads/SuperDuper!.dmg): `brew cask install superduper`
