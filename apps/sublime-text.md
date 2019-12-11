@@ -1,6 +1,7 @@
 # Sublime Text
 
 - Load user settings from [`Preferences.sublime-settings`](sublime-text/Preferences.sublime-settings)
+- Load keyboard bindings from [`Default (OSX).sublime-keymap`](sublime-text/Default (OSX).sublime-keymap)
 - [Install Package Control](https://packagecontrol.io/installation)
 
 Install Packages (`Command-Shift-P`):
