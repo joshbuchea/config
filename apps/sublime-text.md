@@ -10,3 +10,7 @@ Install Packages (`Command-Shift-P`):
 - [GitGutter](https://github.com/jisaacks/GitGutter)
 - [HTML-CSS-JS Prettify](https://github.com/victorporof/Sublime-HTMLPrettify)
 - [Sass](https://packagecontrol.io/packages/Sass)
+
+## Resources
+
+- [vscode-keybindings-for-sublime](https://github.com/jennynz/vscode-keybindings-for-sublime)
