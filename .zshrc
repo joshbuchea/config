@@ -183,6 +183,7 @@ alias rni="react-native run-ios"
 alias rninstall="yarn && rnpods"
 alias rnp="rnpods"
 alias rnpods="cd ios && pod install && cd .."
+alias rnstart="yarn react-native start --reset-cache"
 alias rnreset="watchman watch-del-all && rm -rf node_modules && npm install && npm start -- --reset-cache"
 alias rns="react-native start --reset-cache"
 alias rnv="react-native --version"
@@ -217,6 +218,17 @@ function gitac() {
   git add .
   git commit -m "${1:-update}"
   # git push
+}
+
+# Git Update
+#
+# Stash any work-in-progress, checkout master, pull latest, checkout previous branch, restore stash
+function gitupdate() {
+  git stash
+  git checkout master
+  git pull
+  git checkout -
+  git stash pop
 }
 
 # Git Undo
