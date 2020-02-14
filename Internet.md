@@ -2,7 +2,7 @@
 
 Config for various internet accounts:
 
-## Google
+## Gmail
 
 ### Settings
 
