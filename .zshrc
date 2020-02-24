@@ -194,6 +194,9 @@ alias yi="yarn ios"
 alias sshgen="echo ssh-keygen -t rsa -b 4096 -C \"your_email@example.com\""
 alias sshagent="echo ssh-add -K ~/.ssh/key_name"
 
+# Work
+alias axios="cd ~/projects/echobind/axios/axios-app && yi"
+
 # ZSH
 alias zource="source ~/.zshrc"
 
