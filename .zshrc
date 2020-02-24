@@ -241,6 +241,16 @@ function gitundo() {
   git reset --soft HEAD~"${1:-1}"
 }
 
+# In iTerm2, run command in new tab
+#
+# Usage: newtabi single-command
+# Advanced: newtabi 'git checkout master'
+function newtabi(){  
+  osascript \
+    -e 'tell application "iTerm2" to tell current window to set newWindow to (create tab with default profile)'\
+    -e "tell application \"iTerm2\" to tell current session of newWindow to write text \"${@}\""
+}
+
 # Mov2Gif
 #
 # Converts mov to gif
