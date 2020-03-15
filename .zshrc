@@ -8,7 +8,9 @@ export ZSH="/Users/josh/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+# ZSH_THEME="robbyrussell"
+# ZSH_THEME="simple"
+ZSH_THEME="joshbuchea"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -145,8 +147,9 @@ alias dc="docker-compose"
 alias dps="docker ps -a --format 'table {{.Names}}\\t{{.Image}}\\t{{.RunningFor}} ago\\t{{.Status}}'"
 
 # Git
-alias gs='git stash push -m $(date +%F_%T)' # single quotes necessary to interpolate date during execution
+alias gs="git status"
 alias push="git push"
+alias stash='git stash push -m $(date +%F_%T)' # single quotes necessary to interpolate date during execution
 
 # Gource
 alias gourceit="gource --hide dirnames,filenames --seconds-per-day 0.1 --auto-skip-seconds 1 -1280x720 -o - | ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i - -vcodec libx264 -preset ultrafast -pix_fmt yuv420p -crf 1 -threads 0 -bf 0 gource.mp4"
@@ -178,6 +181,8 @@ alias rnpm="find . -name 'node_modules' -type d -prune -print -exec rm -rf '{}' 
 
 # React
 alias lintreact="npm install --save-dev babel-eslint eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react && echo '{ "extends": ["airbnb"], "plugins": ["jsx-a11y"], }' > .eslintrc"
+
+# React Native
 alias rna="react-native run-android"
 alias rni="react-native run-ios"
 alias rninstall="yarn && rnpods"
@@ -196,6 +201,9 @@ alias sshagent="echo ssh-add -K ~/.ssh/key_name"
 
 # Work
 alias axios="cd ~/projects/echobind/axios/axios-app && yi"
+
+# Yarn
+alias yt="yarn test"
 
 # ZSH
 alias zource="source ~/.zshrc"
