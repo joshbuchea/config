@@ -8,7 +8,7 @@ You are encouraged to fork this and modify it to your heart's content to match y
 
 - Install [Xcode](https://itunes.apple.com/app/xcode/id497799835?mt=12) from the App Store
   - Install Command Line Tools: `xcode-select --install`
-- Install [Homebrew](http://brew.sh/): `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- Install [Homebrew](http://brew.sh/): `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
   <!-- - Install [Homebrew-Cask](https://caskroom.github.io/): `brew tap caskroom/cask` -->
 
 ### Oh My Zsh
