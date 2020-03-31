@@ -46,7 +46,15 @@ _NPM is installed with Node and Bower's dead baby 💀_
 
 ### React Native
 
-- Install [React Native](https://facebook.github.io/react-native/docs/getting-started.html): `npm install -g react-native-cli`
+Prerequisites:
+
+- [Node](https://nodejs.org/en/) (should have been installed in previous step)
+- Install [Watchman](https://github.com/facebook/watchman)
+- [Xcode](https://nodejs.org/en/) (should have been installed in previous step
+- [Xcode Command Line Tools](https://developer.apple.com/download/more/) (should have been installed in previous step)
+
+React Native:
+
 - Install [Expo](https://expo.io/) (and [CRNA](https://github.com/react-community/create-react-native-app)): `npm install -g expo-cli`
 - Install [CocoaPods](https://cocoapods.org/): `brew install cocoapods`
 
