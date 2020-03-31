@@ -56,7 +56,7 @@ Prerequisites:
 React Native:
 
 - Install [Expo](https://expo.io/) (and [CRNA](https://github.com/react-community/create-react-native-app)): `npm install -g expo-cli`
-- Install [CocoaPods](https://cocoapods.org/): `brew install cocoapods`
+- Install [CocoaPods](https://cocoapods.org/): `gem install cocoapods` (previously used `brew install cocoapods`)
 
 ### Jekyll
 
