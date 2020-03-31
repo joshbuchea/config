@@ -77,7 +77,7 @@ The software selected is software that is "tried and true" --- software I need a
 
 ### Install from App Store
 
-- [1Password](https://itunes.apple.com/app/1password-password-manager/id443987910?mt=12) (after Dropbox)
+- [1Password](https://1password.com/downloads/mac/) (after Dropbox)
 - [Amphetamine](https://itunes.apple.com/app/amphetamine/id937984704?mt=12)
 - [Fantastical](https://flexibits.com/fantastical) (from [Purchased tab](macappstore://showPurchasesPage))
 - [Sip](https://itunes.apple.com/us/app/sip/id507257563?mt=12) (from [Purchased tab](macappstore://showPurchasesPage))
