@@ -98,7 +98,7 @@ The software selected is software that is "tried and true" --- software I need a
 - [Atom](https://atom.io/download/mac): `brew cask install atom`
 - [Audacity](http://audacityteam.org/): `brew cask install audacity`
 - [Backblaze](https://secure.backblaze.com/download.htm): `brew cask install backblaze`
-- [Brave](https://laptop-updates.brave.com/latest/osx): `brew cask install brave`
+- [Brave](https://laptop-updates.brave.com/latest/osx): `brew cask install brave-browser`
 - [Caprine](https://sindresorhus.com/caprine/): `brew cask install caprine`
 - [Captain](https://getcaptain.co/): `brew cask install captain`
 - [Chrome](https://www.google.com/chrome/browser/desktop/): `brew cask install google-chrome`
