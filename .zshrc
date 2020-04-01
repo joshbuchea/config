@@ -133,6 +133,9 @@ alias dt="cd ~/Desktop"
 #alias j="jobs"
 alias p="cd ~/projects"
 
+# Print available colors
+# alias colors="for i in {1..256}; do print -P \"%F{$i}Color : $i\"; done;"
+
 # Recursively delete `.DS_Store` files
 alias cleanup="find . -name '*.DS_Store' -type f -ls -delete"
 
@@ -298,4 +301,11 @@ function vid2gif() {
 
   # remove palette image file
   rm palette.png
+}
+
+# Print available colors
+function colors() {
+  for i in {1..256}
+  do print -P "%F{$i}Color : $i"
+  done
 }
