@@ -8,7 +8,7 @@ You are encouraged to fork this and modify it to your heart's content to match y
 
 - Install [Xcode](https://itunes.apple.com/app/xcode/id497799835?mt=12) from the App Store
   - Install Command Line Tools: `xcode-select --install`
-- Install [Homebrew](http://brew.sh/): `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- Install [Homebrew](http://brew.sh/): `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
   <!-- - Install [Homebrew-Cask](https://caskroom.github.io/): `brew tap caskroom/cask` -->
 
 ### Oh My Zsh
@@ -24,7 +24,7 @@ You are encouraged to fork this and modify it to your heart's content to match y
 
 - Install [rvm](https://rvm.io/rvm/install#quick-guided-install) (option #2 - Install RVM stable with ruby)
   - Install [GnuPG](https://www.gnupg.org/) `brew install gnupg gnupg2`
-  - Install [GPG keys](https://rvm.io/rvm/install#install-gpg-keys): `gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB`
+  - Install [GPG keys](https://rvm.io/rvm/install#install-gpg-keys): `gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB`
   - Install [rvm](https://rvm.io/rvm/install#quick-guided-install) stable with ruby: `\curl -sSL https://get.rvm.io | bash -s stable --ruby`
 
 ### NVM & Node.js
@@ -32,8 +32,8 @@ You are encouraged to fork this and modify it to your heart's content to match y
 - Install [nvm](https://github.com/creationix/nvm#user-content-install-script)
 - Add nvm export entry to `.zshrc` file:
   ```sh
-  export NVM_DIR="$HOME/.nvm"
-  [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+  export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
   ```
 - Install latest stable version of Node.js: `nvm install stable`
 
@@ -46,9 +46,25 @@ _NPM is installed with Node and Bower's dead baby 💀_
 
 ### React Native
 
-- Install [React Native](https://facebook.github.io/react-native/docs/getting-started.html): `npm install -g react-native-cli`
+Prerequisites:
+
+- Install [Node](https://nodejs.org/en/) (should have been installed in previous step)
+- Install [Watchman](https://github.com/facebook/watchman)
+
+Expo:
+
 - Install [Expo](https://expo.io/) (and [CRNA](https://github.com/react-community/create-react-native-app)): `npm install -g expo-cli`
-- Install [CocoaPods](https://cocoapods.org/): `brew install cocoapods`
+
+iOS:
+
+- Install [Xcode](https://nodejs.org/en/) (should have been installed in previous step
+- Install [Xcode Command Line Tools](https://developer.apple.com/download/more/) (should have been installed in previous step)
+- Install [CocoaPods](https://cocoapods.org/): `gem install cocoapods` (previously used `brew install cocoapods`)
+
+Android:
+
+- Install [Android Studio](https://developer.android.com/studio/index.html)
+- Follow remaining steps for Android [RN Docs: Setting up the development environment](https://reactnative.dev/docs/environment-setup )
 
 ### Jekyll
 
@@ -69,7 +85,7 @@ The software selected is software that is "tried and true" --- software I need a
 
 ### Install from App Store
 
-- [1Password](https://itunes.apple.com/app/1password-password-manager/id443987910?mt=12) (after Dropbox)
+- [1Password](https://1password.com/downloads/mac/) (after Dropbox)
 - [Amphetamine](https://itunes.apple.com/app/amphetamine/id937984704?mt=12)
 - [Fantastical](https://flexibits.com/fantastical) (from [Purchased tab](macappstore://showPurchasesPage))
 - [Sip](https://itunes.apple.com/us/app/sip/id507257563?mt=12) (from [Purchased tab](macappstore://showPurchasesPage))
@@ -90,6 +106,7 @@ The software selected is software that is "tried and true" --- software I need a
 - [Atom](https://atom.io/download/mac): `brew cask install atom`
 - [Audacity](http://audacityteam.org/): `brew cask install audacity`
 - [Backblaze](https://secure.backblaze.com/download.htm): `brew cask install backblaze`
+- [Brave](https://laptop-updates.brave.com/latest/osx): `brew cask install brave-browser`
 - [Caprine](https://sindresorhus.com/caprine/): `brew cask install caprine`
 - [Captain](https://getcaptain.co/): `brew cask install captain`
 - [Chrome](https://www.google.com/chrome/browser/desktop/): `brew cask install google-chrome`
@@ -103,6 +120,7 @@ The software selected is software that is "tried and true" --- software I need a
 - [GIMP](https://www.gimp.org/downloads/): `brew cask install gimp`
 - [Google Backup and Sync](https://www.google.com/drive/download/backup-and-sync/): `brew cask install google-backup-and-sync`
 - [HandBrake](https://handbrake.fr/downloads.php): `brew cask install handbrake`
+- [Hidden Bar](https://github.com/dwarvesf/hidden): `brew cask install hiddenbar`
 - [Hyper.app](https://hyper.is/): `brew cask install hyper`
 - [ImageMagick](https://www.imagemagick.org/script/): `brew install imagemagick` (prefer Homebrew)
 - [ImageOptim](https://imageoptim.com/ImageOptim.tbz2): `brew cask install imageoptim`
