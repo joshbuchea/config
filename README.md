@@ -48,15 +48,23 @@ _NPM is installed with Node and Bower's dead baby 💀_
 
 Prerequisites:
 
-- [Node](https://nodejs.org/en/) (should have been installed in previous step)
+- Install [Node](https://nodejs.org/en/) (should have been installed in previous step)
 - Install [Watchman](https://github.com/facebook/watchman)
-- [Xcode](https://nodejs.org/en/) (should have been installed in previous step
-- [Xcode Command Line Tools](https://developer.apple.com/download/more/) (should have been installed in previous step)
 
-React Native:
+Expo:
 
 - Install [Expo](https://expo.io/) (and [CRNA](https://github.com/react-community/create-react-native-app)): `npm install -g expo-cli`
+
+iOS:
+
+- Install [Xcode](https://nodejs.org/en/) (should have been installed in previous step
+- Install [Xcode Command Line Tools](https://developer.apple.com/download/more/) (should have been installed in previous step)
 - Install [CocoaPods](https://cocoapods.org/): `gem install cocoapods` (previously used `brew install cocoapods`)
+
+Android:
+
+- Install [Android Studio](https://developer.android.com/studio/index.html)
+- Follow remaining steps for Android [RN Docs: Setting up the development environment](https://reactnative.dev/docs/environment-setup )
 
 ### Jekyll
 
