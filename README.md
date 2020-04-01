@@ -120,6 +120,7 @@ The software selected is software that is "tried and true" --- software I need a
 - [GIMP](https://www.gimp.org/downloads/): `brew cask install gimp`
 - [Google Backup and Sync](https://www.google.com/drive/download/backup-and-sync/): `brew cask install google-backup-and-sync`
 - [HandBrake](https://handbrake.fr/downloads.php): `brew cask install handbrake`
+- [Hidden Bar](https://github.com/dwarvesf/hidden): `brew cask install hiddenbar`
 - [Hyper.app](https://hyper.is/): `brew cask install hyper`
 - [ImageMagick](https://www.imagemagick.org/script/): `brew install imagemagick` (prefer Homebrew)
 - [ImageOptim](https://imageoptim.com/ImageOptim.tbz2): `brew cask install imageoptim`
