@@ -192,11 +192,15 @@ The software selected is software that is "tried and true" --- software I need a
 Important tasks to complete before surrendering a Mac:
 
 - Remove Dropbox
-- Disassociate the computer with the iTunes Store: `Account > Authorizations > Deauthorize This Computer...`
 - Disassociate the computer with the Mac App Store: `Store > Sign Out`
 - Disassociate the computer with iMessage in Messages.app: `Preferences... > iMessage > Settings > Sign Out`
-- Turn off Find My Mac
+- Disassociate the computer with the Apple Music: `Account > Authorizations > Deauthorize This Computer...`
+- Sign out of Apple Music: `Account > Sign Out`
+- Sign out of iCloud: `System Preferences > Apple ID > Overview > Sign Out`
+- Turn off Find My Mac: `System Preferences > Internet Accounts > iCloud > Uncheck Find My Mac`
+- Deauthorize any other apps (Adobe Creative Suite, ?)
 - Remove the Mac from my [support profile](https://supportprofile.apple.com/)
+- Disable FileVault Drive Encryption: `System Preferences > Security & Privacy > FileVault > Turn Off FileVault...` (speeds up the disk erase process)
 - If desired, reinstall macOS as per [Apple’s instructions](https://support.apple.com/en-us/HT201065)
 
 **Note:** Borrowed these clean up steps from a blog post by Casey Liss: [Starting Anew on macOS](https://www.caseyliss.com/2016/7/2/new-mac-who-dis)
