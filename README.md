@@ -64,7 +64,11 @@ iOS:
 Android:
 
 - Install [Android Studio](https://developer.android.com/studio/index.html)
-- Follow remaining steps for Android [RN Docs: Setting up the development environment](https://reactnative.dev/docs/environment-setup )
+- Follow remaining steps for Android [RN Docs: Setting up the development environment](https://reactnative.dev/docs/environment-setup)
+
+Fastlane:
+
+- Install [Fastlane](https://docs.fastlane.tools/getting-started/ios/setup/): `gem install fastlane -NV`
 
 ### Jekyll
 
