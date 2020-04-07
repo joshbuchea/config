@@ -113,6 +113,7 @@ The software selected is software that is "tried and true" --- software I need a
 - [Brave](https://laptop-updates.brave.com/latest/osx): `brew cask install brave-browser`
 - [Caprine](https://sindresorhus.com/caprine/): `brew cask install caprine`
 - [Captain](https://getcaptain.co/): `brew cask install captain`
+- [Choosy](https://www.choosyosx.com/): `brew cask install choosy`
 - [Chrome](https://www.google.com/chrome/browser/desktop/): `brew cask install google-chrome`
 - [Chromium](https://download-chromium.appspot.com/): `brew cask install chromium`
 - [Discord](https://discordapp.com/download): `brew cask install discord`
