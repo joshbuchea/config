@@ -51,10 +51,6 @@ Prerequisites:
 - Install [Node](https://nodejs.org/en/) (should have been installed in previous step)
 - Install [Watchman](https://github.com/facebook/watchman)
 
-Expo:
-
-- Install [Expo](https://expo.io/) (and [CRNA](https://github.com/react-community/create-react-native-app)): `npm install -g expo-cli`
-
 iOS:
 
 - Install [Xcode](https://nodejs.org/en/) (should have been installed in previous step
@@ -66,9 +62,18 @@ Android:
 - Install [Android Studio](https://developer.android.com/studio/index.html)
 - Follow remaining steps for Android [RN Docs: Setting up the development environment](https://reactnative.dev/docs/environment-setup)
 
-Fastlane:
+Expo:
+
+- Install [Expo](https://expo.io/) (and [CRNA](https://github.com/react-community/create-react-native-app)): `npm install -g expo-cli`
+
+### Mobile Dev Tools
 
 - Install [Fastlane](https://docs.fastlane.tools/getting-started/ios/setup/): `gem install fastlane -NV`
+- Install [AppleSimulatorUtils](https://github.com/wix/AppleSimulatorUtils):
+    ```
+    brew tap wix/brew
+    brew install applesimutils
+    ```
 
 ### Jekyll
 
