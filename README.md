@@ -199,6 +199,8 @@ The software selected is software that is "tried and true" --- software I need a
 
 ## Clean Up Mac
 
+[What to do before you sell, give away, or trade in your Mac](https://support.apple.com/en-us/HT201065)
+
 Important tasks to complete before surrendering a Mac:
 
 - Remove Dropbox
