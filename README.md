@@ -69,6 +69,7 @@ Expo:
 ### Mobile Dev Tools
 
 - Install [Fastlane](https://docs.fastlane.tools/getting-started/ios/setup/): `gem install fastlane -NV`
+- Install [Flipper](https://fbflipper.com/): `brew cask install flipper`
 - Install [AppleSimulatorUtils](https://github.com/wix/AppleSimulatorUtils):
     ```
     brew tap wix/brew
