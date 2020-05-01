@@ -66,6 +66,17 @@ Expo:
 
 - Install [Expo](https://expo.io/) (and [CRNA](https://github.com/react-community/create-react-native-app)): `npm install -g expo-cli`
 
+Always Open Packager with iTerm:
+
+We'll do this by Associating `.command` files with iTerm.
+
+- Open `Finder.app`
+- Find any `.command` file
+- Right-click to bring up the context menu
+- Choose Get Info
+- Change Open with to `iterm.app`
+- Click Change All...
+
 ### Mobile Dev Tools
 
 - Install [Fastlane](https://docs.fastlane.tools/getting-started/ios/setup/): `gem install fastlane -NV`
