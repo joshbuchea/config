@@ -65,6 +65,28 @@ Android:
 
 - Install [Android Studio](https://developer.android.com/studio/index.html): `brew install --cask android-studio`
 - Follow remaining steps for Android [RN Docs: Setting up the development environment](https://reactnative.dev/docs/environment-setup)
+  - Configure SDK
+    - SDK Platforms
+      - Show Package Details: Check
+      - Android 10 (Q) SDK
+        - Android SDK Platform 29: Check
+        - `Intel x86 Atom_64 System Image` or `Google APIs Intel x86 Atom System Image`: Check
+    - SDK Tools
+      - Show Package Details: Check
+      - Android SDK Build-Tools
+        - `29.0.2`: Check
+        - Android SDK Command-line Tools (latest)
+          - Android SDK Command-line Tools (latest): Check
+    - Press Apply Button
+    - Accept license agreements
+    - Press Done Button once installation is complete
+  - Add `ANDROID_HOME` environment variable to `~/.zshrc` (below rvm and nvm)
+  - [Create a new AVD](https://developer.android.com/studio/run/managing-avds.html)
+    - Select "Create Virtual Device..."
+    - Pick any Phone from the list and click "Next"
+    - Select the Q API Level 29 image
+    - Click "Next" then "Finish" to create your AVD
+    - At this point you should be able to click on the green triangle button next to your AVD to launch it
 
 Expo:
 
