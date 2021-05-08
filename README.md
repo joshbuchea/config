@@ -139,7 +139,6 @@ The software selected is software that is "tried and true" --- software I need a
 ### Install from Third-Party Websites
 
 - [Anvil](http://anvilformac.com/)
-- [Franz 4](https://github.com/meetfranz/franz-app-legacy/releases)
 - [Junecloud Automator Actions](http://junecloud.com/software/mac/junecloud-automator-actions.html)
 - [Reactotron](https://github.com/infinitered/reactotron/releases)
 
