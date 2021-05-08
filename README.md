@@ -178,7 +178,7 @@ The software selected is software that is "tried and true" --- software I need a
 - [Screaming Frog SEO Spider](https://www.screamingfrog.co.uk/seo-spider/): `brew install --cask screaming-frog-seo-spider`
 - [Sequel Pro](http://www.sequelpro.com/download): `brew install --cask sequel-pro`
 - [Skype](http://www.skype.com/en/download-skype/skype-for-computer/): `brew install --cask skype`
-- [Slack](https://slack.com/downloads/mac): `brew install --cask slack` ([App Store](https://itunes.apple.com/app/slack/id803453959?mt=12))
+- [Slack](https://slack.com/downloads/mac): `brew install --cask slack`
 - [SourceTree](https://www.sourcetreeapp.com/download): `brew install --cask sourcetree`
 - [Spectacle](https://www.spectacleapp.com/): `brew install --cask spectacle`
 - [Spotify](https://www.spotify.com/us/download/mac/): `brew install --cask spotify`
