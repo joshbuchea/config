@@ -189,6 +189,7 @@ The software selected is software that is "tried and true" --- software I need a
 - [VLC media player](http://www.videolan.org/vlc/download-macosx.html): `brew install --cask vlc`
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads): `brew install --cask virtualbox`
 - [Visual Studio Code](https://code.visualstudio.com/download): `brew install --cask visual-studio-code`
+- [Visual Studio Code Insiders](https://code.visualstudio.com/insiders/)
 - [Wget](https://www.gnu.org/software/wget/): `brew install wget` (prefer Homebrew)
 - [Zoom.us](https://zoom.us/): `brew install --cask zoomus`
 
