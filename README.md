@@ -17,7 +17,7 @@ You are encouraged to fork this and modify it to your heart's content to match y
 
 ### iTerm2
 
-- Install [iTerm2](https://www.iterm2.com/downloads.html): `brew cask install iterm2`
+- Install [iTerm2](https://www.iterm2.com/downloads.html): `brew install --cask iterm2`
 
 ### RVM
 
@@ -81,7 +81,7 @@ We'll do this by Associating `.command` files with iTerm.
 ### Mobile Dev Tools
 
 - Install [Fastlane](https://docs.fastlane.tools/getting-started/ios/setup/): `gem install fastlane -NV`
-- Install [Flipper](https://fbflipper.com/): `brew cask install flipper`
+- Install [Flipper](https://fbflipper.com/): `brew install --cask flipper`
 - Install [AppleSimulatorUtils](https://github.com/wix/AppleSimulatorUtils):
     ```
     brew tap wix/brew
@@ -123,59 +123,59 @@ The software selected is software that is "tried and true" --- software I need a
 
 <!-- Create brewfile? -->
 
-- [1Clipboard](http://1clipboard.io/): `brew cask install 1clipboard`
-- [Alfred](https://www.alfredapp.com/): `brew cask install alfred`
-- [Atom](https://atom.io/download/mac): `brew cask install atom`
-- [Audacity](http://audacityteam.org/): `brew cask install audacity`
-- [Backblaze](https://secure.backblaze.com/download.htm): `brew cask install backblaze`
-- [Brave](https://laptop-updates.brave.com/latest/osx): `brew cask install brave-browser`
-- [Caprine](https://sindresorhus.com/caprine/): `brew cask install caprine`
-- [Captain](https://getcaptain.co/): `brew cask install captain`
-- [Choosy](https://www.choosyosx.com/): `brew cask install choosy`
-- [Chrome](https://www.google.com/chrome/browser/desktop/): `brew cask install google-chrome`
-- [Chromium](https://download-chromium.appspot.com/): `brew cask install chromium`
-- [Discord](https://discordapp.com/download): `brew cask install discord`
-- [Docker](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac): `brew cask install docker`
-- [Dropbox](https://www.dropbox.com/install2): `brew cask install dropbox`
-- [FileZilla](https://filezilla-project.org/download.php?type=client): `brew cask install filezilla`
-- [Firefox](http://firefox.com): `brew cask install firefox`
-- [Flycut](https://github.com/TermiT/Flycut/releases): `brew cask install flycut`
-- [GIMP](https://www.gimp.org/downloads/): `brew cask install gimp`
-- [Google Backup and Sync](https://www.google.com/drive/download/backup-and-sync/): `brew cask install google-backup-and-sync`
-- [HandBrake](https://handbrake.fr/downloads.php): `brew cask install handbrake`
-- [Hidden Bar](https://github.com/dwarvesf/hidden): `brew cask install hiddenbar`
-- [Hyper.app](https://hyper.is/): `brew cask install hyper`
+- [1Clipboard](http://1clipboard.io/): `brew install --cask 1clipboard`
+- [Alfred](https://www.alfredapp.com/): `brew install --cask alfred`
+- [Atom](https://atom.io/download/mac): `brew install --cask atom`
+- [Audacity](http://audacityteam.org/): `brew install --cask audacity`
+- [Backblaze](https://secure.backblaze.com/download.htm): `brew install --cask backblaze`
+- [Brave](https://laptop-updates.brave.com/latest/osx): `brew install --cask brave-browser`
+- [Caprine](https://sindresorhus.com/caprine/): `brew install --cask caprine`
+- [Captain](https://getcaptain.co/): `brew install --cask captain`
+- [Choosy](https://www.choosyosx.com/): `brew install --cask choosy`
+- [Chrome](https://www.google.com/chrome/browser/desktop/): `brew install --cask google-chrome`
+- [Chromium](https://download-chromium.appspot.com/): `brew install --cask chromium`
+- [Discord](https://discordapp.com/download): `brew install --cask discord`
+- [Docker](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac): `brew install --cask docker`
+- [Dropbox](https://www.dropbox.com/install2): `brew install --cask dropbox`
+- [FileZilla](https://filezilla-project.org/download.php?type=client): `brew install --cask filezilla`
+- [Firefox](http://firefox.com): `brew install --cask firefox`
+- [Flycut](https://github.com/TermiT/Flycut/releases): `brew install --cask flycut`
+- [GIMP](https://www.gimp.org/downloads/): `brew install --cask gimp`
+- [Google Backup and Sync](https://www.google.com/drive/download/backup-and-sync/): `brew install --cask google-backup-and-sync`
+- [HandBrake](https://handbrake.fr/downloads.php): `brew install --cask handbrake`
+- [Hidden Bar](https://github.com/dwarvesf/hidden): `brew install --cask hiddenbar`
+- [Hyper.app](https://hyper.is/): `brew install --cask hyper`
 - [ImageMagick](https://www.imagemagick.org/script/): `brew install imagemagick` (prefer Homebrew)
-- [ImageOptim](https://imageoptim.com/ImageOptim.tbz2): `brew cask install imageoptim`
-- [ItsyCal](https://www.mowglii.com/itsycal/): `brew cask install itsycal`
-- [Kap](https://getkap.co/): `brew cask install kap`
-- [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake/releases): `brew cask install keepingyouawake`
-- [LICEcap](https://www.cockos.com/licecap/): `brew cask install licecap`
-- [MAMP](https://www.mamp.info/en/downloads/): `brew cask install mamp`
-- [OBS](https://obsproject.com/): `brew cask install obs`
-- [Overkill](https://github.com/KrauseFx/overkill-for-mac): `brew cask install overkill`
-- [Postico](https://eggerapps.at/postico/): `brew cask install postico`
-- [Postman](https://www.getpostman.com): `brew cask install postman`
-- [React Native Debugger](https://github.com/jhen0409/react-native-debugger): `brew cask install react-native-debugger`
-- [Rocket](https://matthewpalmer.net/rocket/): `brew cask install rocket`
-- [Screaming Frog SEO Spider](https://www.screamingfrog.co.uk/seo-spider/): `brew cask install screaming-frog-seo-spider`
-- [Sequel Pro](http://www.sequelpro.com/download): `brew cask install sequel-pro`
-- [Skype](http://www.skype.com/en/download-skype/skype-for-computer/): `brew cask install skype`
-- [Slack](https://slack.com/downloads/mac): `brew cask install slack` ([App Store](https://itunes.apple.com/app/slack/id803453959?mt=12))
-- [SourceTree](https://www.sourcetreeapp.com/download): `brew cask install sourcetree`
-- [Spectacle](https://www.spectacleapp.com/): `brew cask install spectacle`
-- [Spotify](https://www.spotify.com/us/download/mac/): `brew cask install spotify`
-- [Sublime Text 3](http://www.sublimetext.com/3): `brew cask install sublime-text`
-- [SuperDuper!](http://www.shirt-pocket.com/downloads/SuperDuper!.dmg): `brew cask install superduper`
-- [The Unarchiver](https://theunarchiver.com/): `brew cask install the-unarchiver` ([App Store](https://itunes.apple.com/app/the-unarchiver/id425424353?mt=12))
-- [Transmission](https://transmissionbt.com/download/): `brew cask install transmission`
+- [ImageOptim](https://imageoptim.com/ImageOptim.tbz2): `brew install --cask imageoptim`
+- [ItsyCal](https://www.mowglii.com/itsycal/): `brew install --cask itsycal`
+- [Kap](https://getkap.co/): `brew install --cask kap`
+- [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake/releases): `brew install --cask keepingyouawake`
+- [LICEcap](https://www.cockos.com/licecap/): `brew install --cask licecap`
+- [MAMP](https://www.mamp.info/en/downloads/): `brew install --cask mamp`
+- [OBS](https://obsproject.com/): `brew install --cask obs`
+- [Overkill](https://github.com/KrauseFx/overkill-for-mac): `brew install --cask overkill`
+- [Postico](https://eggerapps.at/postico/): `brew install --cask postico`
+- [Postman](https://www.getpostman.com): `brew install --cask postman`
+- [React Native Debugger](https://github.com/jhen0409/react-native-debugger): `brew install --cask react-native-debugger`
+- [Rocket](https://matthewpalmer.net/rocket/): `brew install --cask rocket`
+- [Screaming Frog SEO Spider](https://www.screamingfrog.co.uk/seo-spider/): `brew install --cask screaming-frog-seo-spider`
+- [Sequel Pro](http://www.sequelpro.com/download): `brew install --cask sequel-pro`
+- [Skype](http://www.skype.com/en/download-skype/skype-for-computer/): `brew install --cask skype`
+- [Slack](https://slack.com/downloads/mac): `brew install --cask slack` ([App Store](https://itunes.apple.com/app/slack/id803453959?mt=12))
+- [SourceTree](https://www.sourcetreeapp.com/download): `brew install --cask sourcetree`
+- [Spectacle](https://www.spectacleapp.com/): `brew install --cask spectacle`
+- [Spotify](https://www.spotify.com/us/download/mac/): `brew install --cask spotify`
+- [Sublime Text 3](http://www.sublimetext.com/3): `brew install --cask sublime-text`
+- [SuperDuper!](http://www.shirt-pocket.com/downloads/SuperDuper!.dmg): `brew install --cask superduper`
+- [The Unarchiver](https://theunarchiver.com/): `brew install --cask the-unarchiver` ([App Store](https://itunes.apple.com/app/the-unarchiver/id425424353?mt=12))
+- [Transmission](https://transmissionbt.com/download/): `brew install --cask transmission`
 - Tree: `brew install tree`
-- [Unity](https://unity3d.com/get-unity): `brew cask install unity`
-- [VLC media player](http://www.videolan.org/vlc/download-macosx.html): `brew cask install vlc`
-- [VirtualBox](https://www.virtualbox.org/wiki/Downloads): `brew cask install virtualbox`
-- [Visual Studio Code](https://code.visualstudio.com/download): `brew cask install visual-studio-code`
+- [Unity](https://unity3d.com/get-unity): `brew install --cask unity`
+- [VLC media player](http://www.videolan.org/vlc/download-macosx.html): `brew install --cask vlc`
+- [VirtualBox](https://www.virtualbox.org/wiki/Downloads): `brew install --cask virtualbox`
+- [Visual Studio Code](https://code.visualstudio.com/download): `brew install --cask visual-studio-code`
 - [Wget](https://www.gnu.org/software/wget/): `brew install wget` (prefer Homebrew)
-- [Zoom.us](https://zoom.us/): `brew cask install zoomus`
+- [Zoom.us](https://zoom.us/): `brew install --cask zoomus`
 
 ## Config
 
