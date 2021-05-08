@@ -56,7 +56,10 @@ iOS:
 
 - Install [Xcode](https://nodejs.org/en/) (should have been installed in previous step
 - Install [Xcode Command Line Tools](https://developer.apple.com/download/more/) (should have been installed in previous step)
-- Install [CocoaPods](https://cocoapods.org/): `gem install cocoapods` (use this same command to update cocoapods, previously used `brew install cocoapods` to install)
+- Install [CocoaPods](https://cocoapods.org/): `gem install cocoapods`
+  - don't preface command with `sudo` since we use `rvm`
+  - use this same command to update `cocoapods`
+  - previously used `brew install cocoapods` to install
 
 Android:
 
