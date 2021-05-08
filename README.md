@@ -107,7 +107,6 @@ The software selected is software that is "tried and true" --- software I need a
 
 ### Install from App Store
 
-- [1Password](https://1password.com/downloads/mac/) (after Dropbox)
 - [Amphetamine](https://itunes.apple.com/app/amphetamine/id937984704?mt=12)
 - [Fantastical](https://flexibits.com/fantastical) (from [Purchased tab](macappstore://showPurchasesPage))
 - [Sip](https://itunes.apple.com/us/app/sip/id507257563?mt=12) (from [Purchased tab](macappstore://showPurchasesPage))
@@ -124,6 +123,9 @@ The software selected is software that is "tried and true" --- software I need a
 <!-- Create brewfile? -->
 
 - [1Clipboard](http://1clipboard.io/): `brew install --cask 1clipboard`
+- [1Password](https://1password.com/downloads/mac/): `brew install --cask 1password`
+  - Installer said install failed, but app was installed correctly: https://1password.community/discussion/comment/577531/#Comment_577531
+  - Data is synced to 1password.com — no need to install Dropbox first
 - [Alfred](https://www.alfredapp.com/): `brew install --cask alfred`
 - [Atom](https://atom.io/download/mac): `brew install --cask atom`
 - [Audacity](http://audacityteam.org/): `brew install --cask audacity`
