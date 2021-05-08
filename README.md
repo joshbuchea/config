@@ -10,21 +10,22 @@ You are encouraged to fork this and modify it to your heart's content to match y
   - Homebrew will install Xcode Command Line Tools (manually install with `xcode-select --install`)
 - Install [Xcode](https://itunes.apple.com/app/xcode/id497799835?mt=12) from the App Store
 
+### iTerm2
+
+- Install [iTerm2](https://www.iterm2.com/downloads.html): `brew install --cask iterm2`
+
 ### Oh My Zsh
 
 - Install: `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 - Plugins (add to `~/.zshrc`): `plugins=(git docker extract z)`
 
-### iTerm2
-
-- Install [iTerm2](https://www.iterm2.com/downloads.html): `brew install --cask iterm2`
-
 ### RVM
 
-- Install [rvm](https://rvm.io/rvm/install#quick-guided-install) (option #2 - Install RVM stable with ruby)
-  - Install [GnuPG](https://www.gnupg.org/) `brew install gnupg gnupg2`
-  - Install [GPG keys](https://rvm.io/rvm/install#install-gpg-keys): `gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB`
-  - Install [rvm](https://rvm.io/rvm/install#quick-guided-install) stable with ruby: `\curl -sSL https://get.rvm.io | bash -s stable --ruby`
+Install [RVM stable with ruby](https://rvm.io/rvm/install#any-other-system):
+
+- Install [GnuPG](https://www.gnupg.org/) `brew install gnupg gnupg2`
+- Install [GPG keys](https://rvm.io/rvm/install#install-gpg-keys) to verify installation package: `gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB`
+- Install [rvm](https://rvm.io/rvm/install#quick-guided-install) stable with ruby: `\curl -sSL https://get.rvm.io | bash -s stable --ruby`
 
 ### NVM & Node.js
 
