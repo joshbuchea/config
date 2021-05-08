@@ -60,7 +60,7 @@ iOS:
 
 Android:
 
-- Install [Android Studio](https://developer.android.com/studio/index.html)
+- Install [Android Studio](https://developer.android.com/studio/index.html): `brew install --cask android-studio`
 - Follow remaining steps for Android [RN Docs: Setting up the development environment](https://reactnative.dev/docs/environment-setup)
 
 Expo:
