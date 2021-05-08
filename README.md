@@ -147,20 +147,16 @@ The software selected is software that is "tried and true" --- software I need a
 
 <!-- Create brewfile? -->
 
-- [1Clipboard](http://1clipboard.io/): `brew install --cask 1clipboard`
 - [1Password](https://1password.com/downloads/mac/): `brew install --cask 1password`
   - Installer said install failed, but app was installed correctly: https://1password.community/discussion/comment/577531/#Comment_577531
   - Data is synced to 1password.com — no need to install Dropbox first
 - [Alfred](https://www.alfredapp.com/): `brew install --cask alfred`
-- [Atom](https://atom.io/download/mac): `brew install --cask atom`
 - [Audacity](http://audacityteam.org/): `brew install --cask audacity`
 - [Backblaze](https://secure.backblaze.com/download.htm): `brew install --cask backblaze`
 - [Brave](https://laptop-updates.brave.com/latest/osx): `brew install --cask brave-browser`
 - [Caprine](https://sindresorhus.com/caprine/): `brew install --cask caprine`
 - [Captain](https://getcaptain.co/): `brew install --cask captain`
-- [Choosy](https://www.choosyosx.com/): `brew install --cask choosy`
 - [Chrome](https://www.google.com/chrome/browser/desktop/): `brew install --cask google-chrome`
-- [Chromium](https://download-chromium.appspot.com/): `brew install --cask chromium`
 - [Discord](https://discordapp.com/download): `brew install --cask discord`
 - [Docker](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac): `brew install --cask docker`
 - [Dropbox](https://www.dropbox.com/install2): `brew install --cask dropbox`
@@ -168,17 +164,11 @@ The software selected is software that is "tried and true" --- software I need a
 - [Firefox](http://firefox.com): `brew install --cask firefox`
 - [Flycut](https://github.com/TermiT/Flycut/releases): `brew install --cask flycut`
 - [GIMP](https://www.gimp.org/downloads/): `brew install --cask gimp`
-- [Google Backup and Sync](https://www.google.com/drive/download/backup-and-sync/): `brew install --cask google-backup-and-sync`
-- [HandBrake](https://handbrake.fr/downloads.php): `brew install --cask handbrake`
 - [Hidden Bar](https://github.com/dwarvesf/hidden): `brew install --cask hiddenbar`
-- [Hyper.app](https://hyper.is/): `brew install --cask hyper`
 - [ImageMagick](https://www.imagemagick.org/script/): `brew install imagemagick` (prefer Homebrew)
 - [ImageOptim](https://imageoptim.com/ImageOptim.tbz2): `brew install --cask imageoptim`
 - [ItsyCal](https://www.mowglii.com/itsycal/): `brew install --cask itsycal`
-- [Kap](https://getkap.co/): `brew install --cask kap`
 - [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake/releases): `brew install --cask keepingyouawake`
-- [LICEcap](https://www.cockos.com/licecap/): `brew install --cask licecap`
-- [MAMP](https://www.mamp.info/en/downloads/): `brew install --cask mamp`
 - [OBS](https://obsproject.com/): `brew install --cask obs`
 - [Overkill](https://github.com/KrauseFx/overkill-for-mac): `brew install --cask overkill`
 - [Postico](https://eggerapps.at/postico/): `brew install --cask postico`
@@ -197,7 +187,6 @@ The software selected is software that is "tried and true" --- software I need a
 - [The Unarchiver](https://theunarchiver.com/): `brew install --cask the-unarchiver` ([App Store](https://itunes.apple.com/app/the-unarchiver/id425424353?mt=12))
 - [Transmission](https://transmissionbt.com/download/): `brew install --cask transmission`
 - Tree: `brew install tree`
-- [Unity](https://unity3d.com/get-unity): `brew install --cask unity`
 - [VLC media player](http://www.videolan.org/vlc/download-macosx.html): `brew install --cask vlc`
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads): `brew install --cask virtualbox`
 - [Visual Studio Code](https://code.visualstudio.com/download): `brew install --cask visual-studio-code`
