@@ -41,9 +41,8 @@ Install [RVM stable with ruby](https://rvm.io/rvm/install#any-other-system):
 
 _NPM is installed with Node and Bower's dead baby 💀_
 
-- Install [Yarn](https://yarnpkg.com/en/docs/install#alternatives-stable) (without Node.js): `curl -o- -L https://yarnpkg.com/install.sh | bash`
-  - _previously installed Yarn with `brew install yarn --ignore-dependencies` until homebrew stopped supporting the installation of packages without their dependencies_
-  - _it's safe to upgrade using the command provided in the terminal after running yarn_
+- Install [Yarn](https://yarnpkg.com/getting-started/install): `npm install -g yarn`
+  - _it's safe to upgrade using the command provided in the terminal after running yarn_ (TODO: verify this is still accurate after updating yarn install command)
 - Install [Composer](https://getcomposer.org/doc/00-intro.md#globally): `brew install composer`
 
 ### React Native
