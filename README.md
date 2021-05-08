@@ -200,17 +200,13 @@ The software selected is software that is "tried and true" --- software I need a
 
 ### Config Apps
 
+- [Config Adobe Creative Cloud](apps/adobe-creative-cloud.md)
 - [Config Atom](apps/atom.md)
 - [Config BBEdit](apps/bbedit.md)
 - [Config Chrome](apps/chrome.md)
 - [Config Hyper.app](apps/hyper.md)
 - [Config Sublime Text](apps/sublime-text.md)
 - [Config VS Code](apps/vs-code.md)
-
-### Adobe Creative Cloud
-
-- Disable auto-launch on login: `launchctl unload -w /Library/LaunchAgents/com.adobe.AdobeCreativeCloud.plist`
-- Enable auto-launch on login: `launchctl load -w /Library/LaunchAgents/com.adobe.AdobeCreativeCloud.plist`
 
 ### Dropbox
 
