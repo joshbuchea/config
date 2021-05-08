@@ -108,7 +108,7 @@ We'll do this by Associating `.command` files with iTerm.
 - Install [Fastlane](https://docs.fastlane.tools/getting-started/ios/setup/): `gem install fastlane -NV`
 - Install [Flipper](https://fbflipper.com/): `brew install --cask flipper`
 - Install [AppleSimulatorUtils](https://github.com/wix/AppleSimulatorUtils):
-    ```
+    ```shell
     brew tap wix/brew
     brew install applesimutils
     ```
