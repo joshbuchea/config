@@ -149,17 +149,22 @@ The software selected is software that is "tried and true" --- software I need a
 - [Alfred](https://www.alfredapp.com/): `brew install --cask alfred`
 - [Audacity](http://audacityteam.org/): `brew install --cask audacity`
 - [Backblaze](https://secure.backblaze.com/download.htm): `brew install --cask backblaze`
+- [Bartender](https://www.macbartender.com/): `brew install --cask bartender`
 - [Brave](https://laptop-updates.brave.com/latest/osx): `brew install --cask brave-browser`
 - [Chrome](https://www.google.com/chrome/browser/desktop/): `brew install --cask google-chrome`
+- [CleanShot](https://cleanshot.com/): `brew install --cask cleanshot`
 - [Discord](https://discordapp.com/download): `brew install --cask discord`
 - [Dropbox](https://www.dropbox.com/install2): `brew install --cask dropbox`
 - [Firefox](http://firefox.com): `brew install --cask firefox`
 - [Flycut](https://github.com/TermiT/Flycut/releases): `brew install --cask flycut`
 - [GIMP](https://www.gimp.org/downloads/): `brew install --cask gimp`
+- [Hazel](https://www.noodlesoft.com/): `brew install --cask hazel`
 - [ImageMagick](https://www.imagemagick.org/script/): `brew install imagemagick` (prefer Homebrew)
 - [ImageOptim](https://imageoptim.com/ImageOptim.tbz2): `brew install --cask imageoptim`
+- [iStat Menus](https://bjango.com/mac/istatmenus/): `brew install --cask istat-menus`
 - [ItsyCal](https://www.mowglii.com/itsycal/): `brew install --cask itsycal`
 - [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake/releases): `brew install --cask keepingyouawake`
+- [Keyboard Maestro](https://www.keyboardmaestro.com/main/): `brew install --cask keyboard-maestro`
 - [Overkill](https://github.com/KrauseFx/overkill-for-mac): `brew install --cask overkill`
 - [Skype](http://www.skype.com/en/download-skype/skype-for-computer/): `brew install --cask skype`
 - [Slack](https://slack.com/downloads/mac): `brew install --cask slack`
