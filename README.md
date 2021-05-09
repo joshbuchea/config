@@ -161,6 +161,7 @@ The software selected is software that is "tried and true" --- software I need a
 - [Hazel](https://www.noodlesoft.com/): `brew install --cask hazel`
 - [ImageMagick](https://www.imagemagick.org/script/): `brew install imagemagick` (prefer Homebrew)
 - [ImageOptim](https://imageoptim.com/ImageOptim.tbz2): `brew install --cask imageoptim`
+- [Insomnia](https://insomnia.rest/download): `brew install --cask insomnia`
 - [iStat Menus](https://bjango.com/mac/istatmenus/): `brew install --cask istat-menus`
 - [ItsyCal](https://www.mowglii.com/itsycal/): `brew install --cask itsycal`
 - [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake/releases): `brew install --cask keepingyouawake`
