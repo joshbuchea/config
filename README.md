@@ -132,15 +132,12 @@ The software selected is software that is "tried and true" --- software I need a
 
 ### Install from App Store
 
-- [Amphetamine](https://itunes.apple.com/app/amphetamine/id937984704?mt=12)
 - [Fantastical](https://flexibits.com/fantastical) (from [Purchased tab](macappstore://showPurchasesPage))
 - [Sip](https://itunes.apple.com/us/app/sip/id507257563?mt=12) (from [Purchased tab](macappstore://showPurchasesPage))
 
 ### Install from Third-Party Websites
 
-- [Anvil](http://anvilformac.com/)
 - [Junecloud Automator Actions](http://junecloud.com/software/mac/junecloud-automator-actions.html)
-- [Reactotron](https://github.com/infinitered/reactotron/releases)
 
 ### Install with Homebrew
 
@@ -153,29 +150,18 @@ The software selected is software that is "tried and true" --- software I need a
 - [Audacity](http://audacityteam.org/): `brew install --cask audacity`
 - [Backblaze](https://secure.backblaze.com/download.htm): `brew install --cask backblaze`
 - [Brave](https://laptop-updates.brave.com/latest/osx): `brew install --cask brave-browser`
-- [Caprine](https://sindresorhus.com/caprine/): `brew install --cask caprine`
-- [Captain](https://getcaptain.co/): `brew install --cask captain`
 - [Chrome](https://www.google.com/chrome/browser/desktop/): `brew install --cask google-chrome`
 - [Discord](https://discordapp.com/download): `brew install --cask discord`
-- [Docker](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac): `brew install --cask docker`
 - [Dropbox](https://www.dropbox.com/install2): `brew install --cask dropbox`
-- [FileZilla](https://filezilla-project.org/download.php?type=client): `brew install --cask filezilla`
 - [Firefox](http://firefox.com): `brew install --cask firefox`
 - [Flycut](https://github.com/TermiT/Flycut/releases): `brew install --cask flycut`
 - [GIMP](https://www.gimp.org/downloads/): `brew install --cask gimp`
-- [Hidden Bar](https://github.com/dwarvesf/hidden): `brew install --cask hiddenbar`
 - [ImageMagick](https://www.imagemagick.org/script/): `brew install imagemagick` (prefer Homebrew)
 - [ImageOptim](https://imageoptim.com/ImageOptim.tbz2): `brew install --cask imageoptim`
 - [ItsyCal](https://www.mowglii.com/itsycal/): `brew install --cask itsycal`
 - [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake/releases): `brew install --cask keepingyouawake`
 - [OBS](https://obsproject.com/): `brew install --cask obs`
 - [Overkill](https://github.com/KrauseFx/overkill-for-mac): `brew install --cask overkill`
-- [Postico](https://eggerapps.at/postico/): `brew install --cask postico`
-- [Postman](https://www.getpostman.com): `brew install --cask postman`
-- [React Native Debugger](https://github.com/jhen0409/react-native-debugger): `brew install --cask react-native-debugger`
-- [Rocket](https://matthewpalmer.net/rocket/): `brew install --cask rocket`
-- [Screaming Frog SEO Spider](https://www.screamingfrog.co.uk/seo-spider/): `brew install --cask screaming-frog-seo-spider`
-- [Sequel Pro](http://www.sequelpro.com/download): `brew install --cask sequel-pro`
 - [Skype](http://www.skype.com/en/download-skype/skype-for-computer/): `brew install --cask skype`
 - [Slack](https://slack.com/downloads/mac): `brew install --cask slack`
 - [SourceTree](https://www.sourcetreeapp.com/download): `brew install --cask sourcetree`
@@ -184,10 +170,8 @@ The software selected is software that is "tried and true" --- software I need a
 - [Sublime Text 3](http://www.sublimetext.com/3): `brew install --cask sublime-text`
 - [SuperDuper!](http://www.shirt-pocket.com/downloads/SuperDuper!.dmg): `brew install --cask superduper`
 - [The Unarchiver](https://theunarchiver.com/): `brew install --cask the-unarchiver` ([App Store](https://itunes.apple.com/app/the-unarchiver/id425424353?mt=12))
-- [Transmission](https://transmissionbt.com/download/): `brew install --cask transmission`
 - Tree: `brew install tree`
 - [VLC media player](http://www.videolan.org/vlc/download-macosx.html): `brew install --cask vlc`
-- [VirtualBox](https://www.virtualbox.org/wiki/Downloads): `brew install --cask virtualbox`
 - [Visual Studio Code](https://code.visualstudio.com/download): `brew install --cask visual-studio-code`
 - [Visual Studio Code Insiders](https://code.visualstudio.com/insiders/)
 - [Wget](https://www.gnu.org/software/wget/): `brew install wget` (prefer Homebrew)
