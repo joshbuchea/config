@@ -160,7 +160,6 @@ The software selected is software that is "tried and true" --- software I need a
 - [ImageOptim](https://imageoptim.com/ImageOptim.tbz2): `brew install --cask imageoptim`
 - [ItsyCal](https://www.mowglii.com/itsycal/): `brew install --cask itsycal`
 - [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake/releases): `brew install --cask keepingyouawake`
-- [OBS](https://obsproject.com/): `brew install --cask obs`
 - [Overkill](https://github.com/KrauseFx/overkill-for-mac): `brew install --cask overkill`
 - [Skype](http://www.skype.com/en/download-skype/skype-for-computer/): `brew install --cask skype`
 - [Slack](https://slack.com/downloads/mac): `brew install --cask slack`
@@ -171,7 +170,6 @@ The software selected is software that is "tried and true" --- software I need a
 - [SuperDuper!](http://www.shirt-pocket.com/downloads/SuperDuper!.dmg): `brew install --cask superduper`
 - [The Unarchiver](https://theunarchiver.com/): `brew install --cask the-unarchiver` ([App Store](https://itunes.apple.com/app/the-unarchiver/id425424353?mt=12))
 - Tree: `brew install tree`
-- [VLC media player](http://www.videolan.org/vlc/download-macosx.html): `brew install --cask vlc`
 - [Visual Studio Code](https://code.visualstudio.com/download): `brew install --cask visual-studio-code`
 - [Visual Studio Code Insiders](https://code.visualstudio.com/insiders/)
 - [Wget](https://www.gnu.org/software/wget/): `brew install wget` (prefer Homebrew)
@@ -179,16 +177,12 @@ The software selected is software that is "tried and true" --- software I need a
 
 ## Config
 
-- [Config Cobalt2 theme for iTerm2 and Zsh](apps/cobalt2.md)
 - [Config macOS](macOS.md)
 
 ### Config Apps
 
 - [Config Adobe Creative Cloud](apps/adobe-creative-cloud.md)
-- [Config Atom](apps/atom.md)
-- [Config BBEdit](apps/bbedit.md)
 - [Config Chrome](apps/chrome.md)
-- [Config Hyper.app](apps/hyper.md)
 - [Config Sublime Text](apps/sublime-text.md)
 - [Config VS Code](apps/vs-code.md)
 
