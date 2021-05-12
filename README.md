@@ -82,12 +82,6 @@ Android:
     - Accept license agreements
     - Press Done Button once installation is complete
   - Add `ANDROID_HOME` environment variable to `~/.zshrc` (below rvm and nvm)
-  - [Create a new AVD](https://developer.android.com/studio/run/managing-avds.html)
-    - Select "Create Virtual Device..."
-    - Pick any Phone from the list and click "Next"
-    - Select the Q API Level 29 image
-    - Click "Next" then "Finish" to create your AVD
-    - At this point you should be able to click on the green triangle button next to your AVD to launch it
 
 Expo:
 
