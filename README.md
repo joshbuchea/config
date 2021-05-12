@@ -64,6 +64,7 @@ iOS:
 Android:
 
 - Install [Android Studio](https://developer.android.com/studio/index.html): `brew install --cask android-studio`
+- Install JDK: `brew install --cask adoptopenjdk/openjdk/adoptopenjdk8`
 - Follow remaining steps for Android [RN Docs: Setting up the development environment](https://reactnative.dev/docs/environment-setup)
   - Configure SDK
     - SDK Platforms
