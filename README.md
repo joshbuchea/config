@@ -164,6 +164,7 @@ The software selected is software that is "tried and true" --- software I need a
 - [Insomnia](https://insomnia.rest/download): `brew install --cask insomnia`
 - [iStat Menus](https://bjango.com/mac/istatmenus/): `brew install --cask istat-menus`
 - [ItsyCal](https://www.mowglii.com/itsycal/): `brew install --cask itsycal`
+- [Keybase](https://keybase.io/docs/the_app/install_macos): `brew install --cask keybase`
 - [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake/releases): `brew install --cask keepingyouawake`
 - [Keyboard Maestro](https://www.keyboardmaestro.com/main/): `brew install --cask keyboard-maestro`
 - [Overkill](https://github.com/KrauseFx/overkill-for-mac): `brew install --cask overkill`
