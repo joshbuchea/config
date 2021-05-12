@@ -39,7 +39,7 @@ Install [RVM stable with ruby](https://rvm.io/rvm/install#any-other-system):
 
 ### Package Managers
 
-_NPM is installed with Node and Bower's dead baby 💀_
+NPM is installed with Node and Bower's dead baby 💀
 
 - Install [Yarn](https://yarnpkg.com/getting-started/install): `npm install -g yarn`
   - _it's safe to upgrade using the command provided in the terminal after running yarn_ (TODO: verify this is still accurate after updating yarn install command)
