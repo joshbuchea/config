@@ -1,6 +1,16 @@
 # Visual Studio Code
 
-- Load user settings from [`settings.json`](vs-code/settings.json) to `~/Library/Application Support/Code/User/settings.json`
+Install Custom Fonts:
+
+- Find custom font files
+- Open each custom font file with **Font Book.app** (should be the default)
+- Press **Install Font**
+- Repeat for each custom font file
+
+Import/Sync Settings:
+
+- ~Load user settings from [`settings.json`](vs-code/settings.json) to `~/Library/Application Support/Code/User/settings.json`~
+- Enable Settings Sync instead
 
 Install Extensions:
 
