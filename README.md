@@ -118,7 +118,7 @@ We'll do this by Associating `.command` files with iTerm.
 - Verify git is installed: `git --version`
 - Set username (global): `git config --global user.name "Josh Buchea"`
 - Set commit email address (global): `git config --global user.email "verctrl@joshbuchea.com"`
-- Set credential helper to OSX Keychain (global): `git config --global credential.helper osxkeychain` (_prevents sourcetree from continuously prompting for github password_)
+- Set credential helper to OSX Keychain (global): `git config --global credential.helper osxkeychain` (_prevents SourceTree from continuously prompting for GitHub password_)
 - Generate or copy SSH key(s) `~/.ssh/id_rsa`, `~/.ssh/id_rsa.pub`
 
 ## Install Software
