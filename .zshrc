@@ -125,6 +125,7 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 #
 
 # Shortcuts
+alias c="clear"
 alias db="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
@@ -132,6 +133,7 @@ alias dt="cd ~/Desktop"
 #alias h="history"
 #alias j="jobs"
 alias p="cd ~/projects"
+alias pp="cd ~/projects/personal"
 
 # Print available colors
 # alias colors="for i in {1..256}; do print -P \"%F{$i}Color : $i\"; done;"
@@ -192,20 +194,26 @@ alias rninstall="yarn && rnpods"
 alias rnp="rnpods"
 alias rnpods="cd ios && pod install && cd .."
 alias rnstart="yarn react-native start --reset-cache"
-alias rnreset="watchman watch-del-all && rm -rf node_modules && npm install && npm start -- --reset-cache"
+alias rncc="watchman watch-del-all && rm -rf node_modules && rm -rf $TMPDIR/react-; rm -rf $TMPDIR/haste-; rm -rf $TMPDIR/metro-*; && yarn cache clean"
+# alias rnreset="watchman watch-del-all && rm -rf node_modules && npm install && npm start -- --reset-cache"
 alias rns="react-native start --reset-cache"
 alias rnv="react-native --version"
 alias ya="yarn android"
 alias yi="yarn ios"
+alias emus="emulator -list-avds"
+alias sims="xcrun simctl list devices"
+alias rnipad="npx react-native run-ios --simulator='iPad (8th generation)'"
+alias adbreverse="adb reverse tcp:8081 tcp:8081"
 
 # SSH
 alias sshgen="echo ssh-keygen -t rsa -b 4096 -C \"your_email@example.com\""
 alias sshagent="echo ssh-add -K ~/.ssh/key_name"
 
 # Work
-alias axios="cd ~/projects/echobind/axios/axios-app && yi"
+alias axios="cd ~/projects/axios/axios-app && yi"
 
 # Yarn
+alias ys="yarn start"
 alias yt="yarn test"
 
 # ZSH
@@ -214,6 +222,41 @@ alias zource="source ~/.zshrc"
 #
 # Custom Functions
 #
+
+# React Native - Clear Cache
+#
+# - maybe clear /dist folders?
+function rncc2() {
+  print "Clearing watchman watches..."
+  watchman watch-del-all
+  print ""
+
+  # RN <0.50 only?
+  print "Clearing the Haste Module Map..."
+  rm -rf ${TMPDIR}haste-map-react-native-packager-*
+  print ""
+
+  # RN <0.50 only?
+  print "Clearing react-* directory..."
+  rm -rf ${TMPDIR}react-*
+  print ""
+
+  print "Clearing the React Native Packager Cache..."
+  rm -rf ${TMPDIR}react-native-packager-cache-*
+  print ""
+
+  print "Clearing the Metro Bundler Cache..."
+  rm -rf ${TMPDIR}metro-bundler-cache-*
+  print ""
+
+  print "Removing node_modules..."
+  rm -rf node_modules
+  print ""
+
+  print "Clearing yarn cache..."
+  yarn cache clean
+  print ""
+}
 
 # Tree
 #
@@ -309,3 +352,33 @@ function colors() {
   do print -P "%F{$i}Color : $i"
   done
 }
+
+# TODO: Maybe lazy load node stuff in shell to improve loading time?
+# nvm() {
+#     unset -f nvm
+#     export NVM_DIR=~/.nvm
+#     [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+#     [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+#     nvm "$@"
+# }
+# node() {
+#     unset -f node
+#     export NVM_DIR=~/.nvm
+#     [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+#     [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+#     node "$@"
+# }
+# npm() {
+#     unset -f npm
+#     export NVM_DIR=~/.nvm
+#     [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+#     [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+#     npm "$@"
+# }
+# yarn() {
+#     unset -f yarn
+#     export NVM_DIR=~/.nvm
+#     [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+#     [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+#     yarn "$@"
+# }
