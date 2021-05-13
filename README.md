@@ -162,6 +162,7 @@ The software selected is software that is "tried and true" --- software I need a
 - [Keybase](https://keybase.io/docs/the_app/install_macos): `brew install --cask keybase`
 - [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake/releases): `brew install --cask keepingyouawake`
 - [Keyboard Maestro](https://www.keyboardmaestro.com/main/): `brew install --cask keyboard-maestro`
+- [Obsidian](https://github.com/obsidianmd/obsidian-releases/releases/): `brew install --cask obsidian`
 - [Overkill](https://github.com/KrauseFx/overkill-for-mac): `brew install --cask overkill`
 - [Skype](http://www.skype.com/en/download-skype/skype-for-computer/): `brew install --cask skype`
 - [Slack](https://slack.com/downloads/mac): `brew install --cask slack`
