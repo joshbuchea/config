@@ -107,6 +107,7 @@ We'll do this by Associating `.command` files with iTerm.
     brew tap wix/brew
     brew install applesimutils
     ```
+- Install [scrcpy](https://github.com/Genymobile/scrcpy): `brew install scrcpy`
 
 ### Jekyll
 
