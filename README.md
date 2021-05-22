@@ -217,6 +217,8 @@ Important tasks to complete before surrendering a Mac:
 - Sign out of Apple Music: `Account > Sign Out`
 - Sign out of iCloud: `System Preferences > Apple ID > Overview > Sign Out`
 - Turn off Find My Mac: `System Preferences > Internet Accounts > iCloud > Uncheck Find My Mac`
+- Remove iCloud Drive (Archive) folder: `~/iCloud Drive (Archive)`
+- Remove Photos Library: `~/Pictures/Photos Library.photoslibrary`
 - Deauthorize any other apps (Adobe Creative Suite, ?)
 - Remove the Mac from my [support profile](https://supportprofile.apple.com/)
 - Disable FileVault Drive Encryption: `System Preferences > Security & Privacy > FileVault > Turn Off FileVault...` (speeds up the disk erase process)
