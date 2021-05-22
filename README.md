@@ -224,4 +224,4 @@ Important tasks to complete before surrendering a Mac:
 - Disable FileVault Drive Encryption: `System Preferences > Security & Privacy > FileVault > Turn Off FileVault...` (speeds up the disk erase process)
 - If desired, reinstall macOS as per [Apple’s instructions](https://support.apple.com/en-us/HT201065)
 
-**Note:** Borrowed these clean up steps from a blog post by Casey Liss: [Starting Anew on macOS](https://www.caseyliss.com/2016/7/2/new-mac-who-dis)
+**Note:** Borrowed some steps from this blog post by Casey Liss: [Starting Anew on macOS](https://www.caseyliss.com/2016/7/2/new-mac-who-dis)
