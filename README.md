@@ -16,8 +16,12 @@ You are encouraged to fork this and modify it to your heart's content to match y
 
 ### Oh My Zsh
 
-- Install: `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
-- Plugins (add to `~/.zshrc`): `plugins=(git docker extract z)`
+- Install Oh My Zsh: `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+- Install Custom Plugins:
+  - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh): `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+  - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh): `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+- Add Installed Custom Plugins to `~/.zshrc`: `plugins=(git z zsh-autosuggestions zsh-syntax-highlighting)`
+- Copy Personal Custom Theme `joshbuchea.zsh-theme` to: `~/.oh-my-zsh/custom/themes`
 
 ### RVM
 
