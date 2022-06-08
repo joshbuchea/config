@@ -95,6 +95,8 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+# JAVA_HOME path was found in Android Studio 4.2 > File > Project Structure > SDK Location > JDK
+export JAVA_HOME="/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
