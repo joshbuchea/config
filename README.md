@@ -90,6 +90,7 @@ Android:
 Expo:
 
 - Install [Expo](https://expo.io/) (and [CRNA](https://github.com/react-community/create-react-native-app)): `npm install -g expo-cli`
+  - Upgrade using the same command
 
 Always Open Packager with iTerm:
 
