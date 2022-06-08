@@ -40,6 +40,8 @@ Install [RVM stable with ruby](https://rvm.io/rvm/install#any-other-system):
   [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
   ```
 - Install latest stable version of Node.js: `nvm install stable`
+- Upgrading to specific version of Node.js: `nvm install v10.15.3`
+- Upgrading npm to latest version: `nvm use stable && npm install npm@latest -g`
 
 ### Package Managers
 
