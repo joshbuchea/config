@@ -1,17 +1,19 @@
+[user]
+	name = Josh Buchea
+	email = verctrl@joshbuchea.com
+[credential]
+	helper = osxkeychain
 [core]
 	excludesfile = /Users/josh/.gitignore_global
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path =
+	path = 
 [mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
-[user]
-	name = Josh Buchea
-	email = verctrl@joshbuchea.com
-[filter "lfs"]
-	clean = git lfs clean %f
-	smudge = git lfs smudge %f
-	required = true
 [commit]
-	template = /Users/josh/.gitmessage
+	template = /Users/josh/.stCommitMsg
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main
