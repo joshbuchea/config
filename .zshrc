@@ -98,6 +98,8 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 # JAVA_HOME path was found in Android Studio 4.2 > File > Project Structure > SDK Location > JDK
 export JAVA_HOME="/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home"
 
+# User configuration
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -136,6 +138,7 @@ alias dt="cd ~/Desktop"
 #alias j="jobs"
 alias p="cd ~/projects"
 alias pp="cd ~/projects/personal"
+alias work="cd ~/projects/axios/axios-app"
 
 # Print available colors
 # alias colors="for i in {1..256}; do print -P \"%F{$i}Color : $i\"; done;"
@@ -212,7 +215,7 @@ alias sshgen="echo ssh-keygen -t rsa -b 4096 -C \"your_email@example.com\""
 alias sshagent="echo ssh-add -K ~/.ssh/key_name"
 
 # Work
-alias axios="cd ~/projects/axios/axios-app && yi"
+alias axios="cd ~/projects/axios/axios-app"
 
 # Yarn
 alias ys="yarn start"
