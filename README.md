@@ -40,8 +40,12 @@ Install [RVM stable with ruby](https://rvm.io/rvm/install#any-other-system):
   [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
   ```
 - Install latest stable version of Node.js: `nvm install stable`
+- Install latest LTS version of Node.js: `nvm install --lts`
+- Upgrading to latest release of major version of Node.js: `nvm install 16`
 - Upgrading to specific version of Node.js: `nvm install v10.15.3`
 - Upgrading npm to latest version: `nvm use stable && npm install npm@latest -g`
+- Using latest release of major version of Node.js: `nvm use 16`
+- Set or change default version of Node.js: `nvm alias default 16.15.1`
 
 ### Package Managers
 
