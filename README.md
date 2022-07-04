@@ -13,6 +13,8 @@ You are encouraged to fork this and modify it to your heart's content to match y
 ### iTerm2
 
 - Install [iTerm2](https://www.iterm2.com/downloads.html): `brew install --cask iterm2`
+- Load Custom Profile from `iterm2/Josh Custom iTerm2 Profile.json`
+- Set Theme: Preferences > Appearance > General > Theme: Choose **Minimal**
 
 ### Oh My Zsh
 
