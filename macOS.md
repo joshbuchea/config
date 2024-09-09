@@ -1,5 +1,16 @@
 # Config macOS
 
+## System Settings
+
+- Desktop & Dock
+  - Hot Corners... (button in bottom right)
+    - Bottom left + ⌘: Lock screen
+- ?
+
+## Terminal
+
+NOTE: Many of these settings were added to this document years ago and may no longer be relevant.
+
 ```bash
 ###############################################################################
 # Screen                                                                      #
