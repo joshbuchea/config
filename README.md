@@ -15,6 +15,13 @@ You are encouraged to fork this and modify it to your heart's content to match y
 - Install [iTerm2](https://www.iterm2.com/downloads.html): `brew install --cask iterm2`
 - Load Custom Profile from `iterm2/Josh Custom iTerm2 Profile.json`
 - Set Theme: Preferences > Appearance > General > Theme: Choose **Minimal**
+- Always open the React Native packager with iTerm, associate `.command` files with iTerm:
+  - Open Finder
+  - Find any file with the `.command` extension (`$PROJECT/node_modules/react-native/scripts/launchPackager.command`)
+  - Right-click on `.command` file to bring up context menu
+  - Choose **Get Info**
+  - Change **Open with** to **iterm.app**
+  - Click **Change All...**
 
 ### Oh My Zsh
 
