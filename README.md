@@ -215,6 +215,10 @@ The software selected is software that is "tried and true" --- software I need a
 
 - `Preferences > Network > Bandwidth: Change Settings... > Upload rate > Don't limit`
 
+### Firefox
+
+- Restore previous session on start: `Preferences > General > Startup > Open previous windows and tabs`
+
 ### Safari
 
 - Show full website address: `Preferences > Advanced > Smart Search Field: Show full website address`
