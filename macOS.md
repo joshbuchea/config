@@ -3,6 +3,8 @@
 ## System Settings
 
 - Desktop & Dock
+  - Dock
+    - Show suggested and recent apps in Dock: Toggle Off
   - Hot Corners... (button in bottom right)
     - Bottom left + ⌘: Lock screen
 - ?
